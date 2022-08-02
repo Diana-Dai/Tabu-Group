@@ -185,6 +185,23 @@
         "divider": false
       }
     },
+    "16594173996e3dca2d": {
+      "type": "text-and-image_custom",
+      "settings": {
+        "background": "#fcf4eb",
+        "image": "shopify:\/\/shop_images\/Group_1348.jpg",
+        "image_width": 30,
+        "subtitle": "",
+        "title": "take the quiz",
+        "text": "<p>We know this isn’t always an easy conversation, so we’re here to help make this a positive and supportive experience. Take a short quiz and let us help you find the best products to get started.  <\/p>",
+        "button_label": "take the quiz",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "16584166431bea2af4": {
       "type": "promo-grid",
       "disabled": true,
@@ -265,6 +282,7 @@
     "1659412062f0948068",
     "1659411266280d2d23",
     "16584165774c3521d8",
+    "16594173996e3dca2d",
     "16584166431bea2af4",
     "1659413417a118998b"
   ]
