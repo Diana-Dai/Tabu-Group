@@ -113,6 +113,63 @@
         "divider": false
       }
     },
+    "1659412062f0948068": {
+      "type": "text-columns_custom",
+      "blocks": {
+        "1659412061c36a5740-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Science-Backed",
+            "text": "<p>Developed with experts, clinicians, therapists, and (most importantly) women like you. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1659412061c36a5740-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Health First",
+            "text": "<p>Supported as a safe and natural way to address dryness, atrophy, low libido, and much more.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1659412061c36a5740-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Never Crude",
+            "text": "<p>Thoughtfully designed and easy to use for optimal sexual health at any age.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659412061c36a5740-0",
+        "1659412061c36a5740-1",
+        "1659412061c36a5740-2"
+      ],
+      "settings": {
+        "background": "#e5eae7",
+        "title": "<p>a new <\/p><p>approach to <\/p><p>sexual Wellness<\/p>",
+        "mobile_title": "<p>a new approach to <\/p><p>sexual Wellness<\/p>",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "1659411266280d2d23": {
+      "type": "marquee",
+      "settings": {
+        "background": "#e5eae7",
+        "marquee": "Our lubricant is:glycerin free • Paraben free • Hormone Free • Fragrance Free • Hypoallergenic • pH Balanced • FDA Cleared • Made in the USA      Our lubricant is:glycerin free • Paraben free • Hormone Free • Fragrance Free • Hypoallergenic • pH Balanced • FDA Cleared • Made in the USA"
+      }
+    },
     "16584165774c3521d8": {
       "type": "text-and-image",
       "settings": {
@@ -185,12 +242,30 @@
         "space_above": true,
         "space_below": true
       }
+    },
+    "1659413417a118998b": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
     "promo-grid2",
     "16584163921fd90b0e",
+    "1659412062f0948068",
+    "1659411266280d2d23",
     "16584165774c3521d8",
-    "16584166431bea2af4"
+    "16584166431bea2af4",
+    "1659413417a118998b"
   ]
 }

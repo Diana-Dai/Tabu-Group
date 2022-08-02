@@ -1,0 +1,33 @@
+<div class="marquee-container">
+  <div class="marquee">
+    <div class="marquee-words"><p style="letter-spacing: 0.1em;text-transform: uppercase;margin:15px 0;">{{ section.settings.marquee }}&nbsp;</p></div>
+  </div>
+</div>
+<style>
+  #shopify-section-{{section.id}}{
+    background:{{section.settings.background}};
+  }
+</style>
+{% schema %}
+{
+  "name": "Marquee",
+  "settings": [
+  {
+    "type": "color",
+    "id": "background",
+    "label": "Background Color"
+  },
+    {
+      "type": "textarea",
+      "id": "marquee",
+      "label": "Marquee text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Marquee",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

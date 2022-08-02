@@ -11702,3 +11702,51 @@ html[dir=rtl] .product-single__meta .rte{
     color:#58686f;
   }
 }
+
+
+.marquee-container {
+  overflow: hidden;
+  }
+  .marquee {
+  margin: 0;
+  display: inline-block;
+  }
+  .marquee-words {
+  white-space: nowrap;
+  animation: marquee-keywords 10s linear infinite;
+  letter-spacing: 0.2em;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  }
+  @keyframes marquee-keywords {
+  0% {
+  transform: translateX(0%);
+  }
+  100% {
+  transform: translateX(-50%);
+  }
+}
+.custom-text-column_container .section-header{
+  margin-bottom: 30px;
+}
+.wellness-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 768px){
+  .wellness-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+.custom-text-column_container{
+  display: flex;
+}
+.custom-text-column_container .section-header{
+  flex: 0 0 400px;
+  margin-bottom: 0;
+}
+.custom-text-column_container .grid__item{
+  padding-left: 60px;
+}
+}
+
