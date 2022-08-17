@@ -42,8 +42,10 @@
     </div>
   {%- endif -%}
 
+{%- comment -%}
   <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
 
+{%- endcomment -%}
   <select name="id" data-product-select class="product-single__variants no-js">
     {%- for variant in product.variants -%}
       {%- if variant.available -%}

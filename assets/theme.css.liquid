@@ -220,6 +220,7 @@
   position:relative;
   transition:height 0.35s;
   height:100%;
+  margin-bottom: 20px;
 }
 
 .flickity-slider{
@@ -321,13 +322,14 @@
 .flickity-page-dots{
   position:absolute;
   width:100%;
-  bottom:-25px;
+  bottom: 6px;
   padding:0;
   margin:0;
   list-style:none;
   text-align:center;
   line-height:1;
-  color:currentColor
+  color:currentColor;
+  /* margin-bottom: 15px; */
 }
 
 .hero .flickity-page-dots{
@@ -340,13 +342,14 @@
 .flickity-page-dots .dot{
   display:inline-block;
   vertical-align:middle;
-  width:6px;
-  height:6px;
+  width:16px;
+  height:16px;
   margin:0 5px;
+  border: 1px solid;
   border-radius:100%;
   cursor:pointer;
-  background-color:currentColor;
-  opacity:0.4
+  /* background-color:currentColor; */
+  /* opacity:0.4 */
 }
 
 .flickity-page-dots .dot:hover{
@@ -356,8 +359,6 @@
 .flickity-page-dots .dot.is-selected{
   opacity:1;
   background-color:currentColor;
-  width:9px;
-  height:9px;
 }
 
 .flickity-enabled.is-fade .flickity-slider>*{
@@ -1107,7 +1108,7 @@ html[dir=rtl] .grid__item{
 
 .grid--flush-bottom{
   margin-bottom:-22px;
-  overflow:auto
+  /* overflow:auto */
 }
 
 .grid--flush-bottom>.grid__item{
@@ -2394,9 +2395,9 @@ button[disabled],html input[disabled]{
   text-align:left
 }
 
-[data-center-text=true] .collapsible-trigger-btn{
+/* [data-center-text=true] .collapsible-trigger-btn{
     text-align:center
-}
+} */
 
 .collapsible-trigger-btn{
   text-transform:uppercase;
@@ -2412,11 +2413,12 @@ button[disabled],html input[disabled]{
 }
 
 .collapsible-trigger-btn--borders{
-  border:1px solid;
-  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-  border-color:var(--colorBorder);
-  border-bottom:0;
-  padding:12px
+  border-bottom:1px solid;
+  /* border-color:{{ settings.color_borders | default: "#1c1d1d" }}; */
+  /* border-color:var(--colorBorder); */
+  /* border-bottom:0; */
+  padding:12px;
+
 }
 
 .collapsible-trigger-btn--borders .collapsible-trigger__icon{
@@ -2439,11 +2441,11 @@ button[disabled],html input[disabled]{
 }
 
 .collapsible-trigger-btn--borders+.collapsible-content .collapsible-content__inner{
-    border:1px solid;
-    border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-    border-color:var(--colorBorder);
-    border-top:0;
-    padding:0 20px 20px;
+    /* border:1px solid; */
+    /* border-color:{{ settings.color_borders | default: "#1c1d1d" }}; */
+    /* border-color:var(--colorBorder); */
+    /* border-top:0; */
+    padding:15px 20px 20px;
     font-size:calc(var(--typeBaseSize)*0.92);
   }
 
@@ -5871,11 +5873,11 @@ form+.footer__social{
   }
 }
 
-.collapsibles-wrapper--border-bottom{
+/* .collapsibles-wrapper--border-bottom{
   border-bottom:1px solid;
   border-bottom-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-bottom-color:var(--colorBorder);
-}
+} */
 
 .collapsibles-wrapper--border-bottom+.collapsibles-wrapper--border-bottom .collapsible-trigger-btn--borders{
   border-top:0;
@@ -10645,7 +10647,8 @@ iframe.zoid-component-frame{
 }
 
 .product-single__meta{
-  padding-left:45px
+  padding-left:100px;
+  padding-right: 50px;
 }
 
 @media only screen and (max-width:768px){
@@ -10653,6 +10656,7 @@ iframe.zoid-component-frame{
 .product-single__meta{
     text-align:center;
     padding-left:0;
+    padding-right: 0;
     margin-top:15px
 }
   }
@@ -10924,7 +10928,8 @@ html[dir=rtl] .product-single__meta .rte{
 .product__thumbs--scroller{
   scrollbar-width:none;
   scroll-behavior:smooth;
-  -ms-overflow-style:-ms-autohiding-scrollbar
+  -ms-overflow-style:-ms-autohiding-scrollbar;
+  display: flex;
 }
 
 .product__thumbs--scroller::-webkit-scrollbar{
@@ -10991,7 +10996,8 @@ html[dir=rtl] .product-single__meta .rte{
     display:inline-block;
     vertical-align:middle;
     margin-right:8.5px;
-    max-width:80px
+    /* max-width:80px; */
+    flex: 1 1 0;
 }
 
 @media only screen and (min-width:769px){
@@ -11706,6 +11712,8 @@ html[dir=rtl] .product-single__meta .rte{
 
 .marquee-container {
   overflow: hidden;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   }
   .marquee {
   margin: 0;
@@ -11715,8 +11723,6 @@ html[dir=rtl] .product-single__meta .rte{
   white-space: nowrap;
   animation: marquee-keywords 10s linear infinite;
   letter-spacing: 0.2em;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
   }
   @keyframes marquee-keywords {
   0% {
@@ -11754,4 +11760,8 @@ html[dir=rtl] .product-single__meta .rte{
 .type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after, .type-simple .promo-grid__content:not(.promo-grid__content--boxed):not(.promo-grid__content--sale):after
 {
   background: none !important;
+}
+
+.collapsible-content__inner p{
+  margin-bottom: 5px;
 }
