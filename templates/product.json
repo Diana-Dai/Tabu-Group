@@ -43,6 +43,14 @@
             "page": ""
           }
         },
+        "a04579d3-07f9-42a3-a917-4cacd9f921d8": {
+          "type": "tab",
+          "settings": {
+            "title": "Inside The Kit",
+            "content": "<p>Nuri Massager<\/p><p>This soft-touch wand massager is ergonomically designed with three speeds, making it comfortable and easy to use. Waterproof and made with 100% medical grade silicone, our favorite feature is the Nuri’s optional warming system. The device heats up to around 97 degrees Fahrenheit (just about body temperature) to increase comfort and stimulate blood flow, which helps to maintain vaginal health. Using the wand internally can also help to maintain vaginal width, length, and tone. <\/p><p>Aureum Lubricant<\/p><p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant based antioxidants to soothe and calm your most sensitive areas. <\/p>",
+            "page": ""
+          }
+        },
         "8aac8d8f-8838-44ac-a3fb-d9c4969b1db5": {
           "type": "tab",
           "settings": {
@@ -67,6 +75,7 @@
         "buy_buttons",
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88",
         "tab",
+        "a04579d3-07f9-42a3-a917-4cacd9f921d8",
         "8aac8d8f-8838-44ac-a3fb-d9c4969b1db5",
         "f86dbcc7-35c3-4872-9b4b-a499a488b02c"
       ],
@@ -77,7 +86,7 @@
         "product_zoom_enable": true,
         "thumbnail_position": "below",
         "thumbnail_arrows": false,
-        "mobile_layout": "partial",
+        "mobile_layout": "full",
         "enable_video_looping": true,
         "product_video_style": "muted"
       }
@@ -254,7 +263,7 @@
       ],
       "settings": {
         "background": "#fcf4eb",
-        "title": "Clean ingredients",
+        "title": "Clean Ingredients",
         "sub-title": "Made with powerful plant extracts to heal and nourish.",
         "align_text": "left",
         "divider": false
@@ -266,24 +275,65 @@
         "1660703516dd6c1e1c-0": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "How often should I use this?",
+            "text": "<p>While everyone is different, our medical advisors recommend using the Tabu Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
           }
         },
         "1660703516dd6c1e1c-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "How to charge",
+            "text": "<p>To charge you Nuri, plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p>"
+          }
+        },
+        "f33ea504-28ba-461c-a018-f0645536aa74": {
+          "type": "question",
+          "settings": {
+            "title": "How big is the massager?",
+            "text": "<p>Our massager is 8in long and 1.2in wide at its widest point.<\/p>"
+          }
+        },
+        "abd51d1a-3d6b-41d3-aaad-f158a52f9a38": {
+          "type": "question",
+          "settings": {
+            "title": "Can I insert both ends?",
+            "text": "<p>The end of the massager that has the power and heat function buttons, as well as the charging port, is not meant to be inserted.<\/p>"
+          }
+        },
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59": {
+          "type": "question",
+          "settings": {
+            "title": "Can the lubricant be used as a moisturizer?",
+            "text": "<p>Our organic lubricant is designed to be applied both in and around your vulva \/ vagina for partnered or solo sexual activity. While some members do use it as a moisturizer, it is designed to be a lubricant.<\/p><p> <\/p><p>If you're specifically looking for a vaginal moisturizer, Kindra is a fantastic option.<\/p>"
+          }
+        },
+        "82ebf93b-50d7-4815-aa7d-2a45e8d09383": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe to ingest or use orally?",
+            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E),<\/p><p>Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol,<\/p><p>Potassium sorbate<\/p>"
+          }
+        },
+        "8402c6cf-2172-464b-ae71-0698869fa72a": {
+          "type": "question",
+          "settings": {
+            "title": "Why are there sweeteners in your lubricant?",
+            "text": "<p>The organic stevia is rich in antibacterial and antioxidant properties, and sorbitol is a natural humectant that’s great for hydration.<\/p>"
           }
         }
       },
       "block_order": [
         "1660703516dd6c1e1c-0",
-        "1660703516dd6c1e1c-1"
+        "1660703516dd6c1e1c-1",
+        "f33ea504-28ba-461c-a018-f0645536aa74",
+        "abd51d1a-3d6b-41d3-aaad-f158a52f9a38",
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
+        "82ebf93b-50d7-4815-aa7d-2a45e8d09383",
+        "8402c6cf-2172-464b-ae71-0698869fa72a"
       ],
       "settings": {
         "title": "<p>frequently <\/p><p>Asked <\/p><p>Questions<\/p>",
+        "mobile-title": "<p>frequently Asked <\/p><p>Questions<\/p>",
         "view_all_text": "see all faq’s",
         "view_all_text_url": "shopify:\/\/pages\/faqs"
       }
@@ -297,6 +347,7 @@
     },
     "testimonials": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -343,6 +394,7 @@
     },
     "16607033794ea6bc0e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Complete Your Routine",
         "sub-title": "Your health is in your hand.",
@@ -356,10 +408,10 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "You may also like",
+        "product_recommendations_heading": "Complete Your Routine",
+        "sub-title": "Your health is in your hand",
         "related_count": 5
       }
     },
@@ -372,6 +424,37 @@
     "collection-return": {
       "type": "collection-return",
       "settings": {
+      }
+    },
+    "16607125322da0714e": {
+      "type": "newsletter",
+      "blocks": {
+        "16607125325f3bed55-0": {
+          "type": "title",
+          "settings": {
+            "title": "Join Our Movement"
+          }
+        },
+        "16607125325f3bed55-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re building Tabu in partnership with you. Sign up to stay informed and help us challenge the idea that female sexuality has an expiration date.  <\/p>"
+          }
+        },
+        "16607125325f3bed55-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16607125325f3bed55-0",
+        "16607125325f3bed55-1",
+        "16607125325f3bed55-2"
+      ],
+      "settings": {
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -387,6 +470,7 @@
     "16607033794ea6bc0e",
     "product-recommendations",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "16607125322da0714e"
   ]
 }

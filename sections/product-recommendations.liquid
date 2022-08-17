@@ -40,6 +40,12 @@
           <h3 class="section-header__title">
             {{ section.settings.product_recommendations_heading }}
           </h3>
+          {% if section.settings.sub-title != blank %}
+          <p>
+            {{ section.settings.sub-title }}
+          </p>
+          {% endif %}
+  
         </header>
       </div>
 
@@ -81,6 +87,7 @@
 {
   "name": "t:sections.product-recommendations.name",
   "settings": [
+  
     {
       "type": "checkbox",
       "id": "show_product_recommendations",
@@ -93,6 +100,11 @@
       "id": "product_recommendations_heading",
       "label": "t:sections.product-recommendations.settings.product_recommendations_heading.label",
       "default": "You may also like"
+    },
+    {
+      "type": "text",
+      "id": "sub-title",
+      "label": "Sub Heading"
     },
     {
       "type": "range",

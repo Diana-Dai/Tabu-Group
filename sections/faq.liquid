@@ -4,11 +4,14 @@
 
   {%- if section.settings.title != blank -%}
     <header class="section-header ">
-      <h2 class="section-header__title">
+      <h2 class="small--hide section-header__title">
         {{ section.settings.title }}
       </h2>
+      <h2 class="hide small--show section-header__title">
+        {{ section.settings.mobile-title }}
+      </h2>
 
-      <a href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+      <a class="small--hide" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
     </header>
   {%- endif -%}
 
@@ -78,6 +81,9 @@
   {%- endfor -%}
 {%- endif -%}
 </div>
+<div class="section-header">
+<a class="hide small--show" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+</div>
 
   {%- if section.blocks.size == 0 -%}
     <div class="placeholder-noblocks">
@@ -91,6 +97,12 @@
 <style>
   #shopify-section-{{section.id}} .section-header{
     text-align: left;
+    flex: none !important;
+  }
+  @media only screen and (min-width:769px){
+    #shopify-section-{{section.id}} .section-header{
+      margin: 0 30px;
+    }
   }
   #shopify-section-{{section.id}} .section-header a {
     text-decoration: underline;
@@ -125,6 +137,11 @@
       "type": "richtext",
       "id": "title",
       "label": "t:sections.faq.settings.title.label"
+    },
+    {
+      "type": "richtext",
+      "id": "mobile-title",
+      "label": "Title - Mobile"
     },
     {
      "type": "text",

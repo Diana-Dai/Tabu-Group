@@ -49,6 +49,7 @@
       padding:50px 0;
       background:{{section.settings.background}};
   }
+
 @media only screen and (min-width:769px){
   #shopify-section-{{section.id}}{
     padding:100px 0;
@@ -70,10 +71,15 @@
   /* margin-bottom: 20px; */
 }
 @media only screen and (min-width:769px){
-
+  #shopify-section-{{section.id}} .inner-wrapper h3{
+  font-size: 1.2vw;
+}
+#shopify-section-{{section.id}} .inner-wrapper p{
+  font-size: 1vw;
+}
 #shopify-section-{{section.id}} .image-wrapper{
   width: 40%;
-  min-width: 400px;
+  /* min-width: 530px; */
   margin: 0 auto;
 }
 #shopify-section-{{section.id}}  .page-width{
@@ -82,7 +88,7 @@
 #shopify-section-{{section.id}} .grid{
   border: none;
   position: absolute;
-  top: 200px;
+  top: 16vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -105,19 +111,27 @@
   width: 10vw;
   border-bottom: 1px solid;
   position: absolute;
-  top: 10px;
+  top: 0.5vw;
 }
 #shopify-section-{{section.id}} .grid__item .inner-wrapper{
   width: 15vw;
 }
 #shopify-section-{{section.id}} .grid__item:nth-child(n) .inner-wrapper::before{
-  right: 10vw;
+  left: 13vw;
 }
-#shopify-section-{{section.id}} .grid__item:nth-child(2n) .inner-wrapper{
+#shopify-section-{{section.id}} .grid__item .inner-wrapper{
   margin-left: auto;
+  position: relative;
+}
+#shopify-section-{{section.id}} .grid__item:nth-child(n) .inner-wrapper{
+  margin-right: 17vw;
+}
+#shopify-section-{{section.id}} .grid__item:nth-child(2n) .inner-wrapper{ 
+  margin-right: 0;
 }
 #shopify-section-{{section.id}} .grid__item:nth-child(2n) .inner-wrapper::before{
   right: 17vw;
+  left: auto;
 }
 }
 #shopify-section-{{section.id}} .grid--flush-bottom{
@@ -128,6 +142,34 @@
 }
 #shopify-section-{{section.id}} #key_features_carousel .flickity-page-dots{
   bottom: -47px;
+}
+@media only screen and (min-width:1700px){
+  #shopify-section-{{section.id}} .image-wrapper{
+    width: 600px;
+  }
+  #shopify-section-{{section.id}} .grid{
+    top: 200px;
+  }
+  #shopify-section-{{section.id}} .grid__item .inner-wrapper{
+    width: 300px;
+  }
+   #shopify-section-{{section.id}} .inner-wrapper h3{
+     font-size:calc(var(--typeHeaderSize)*.65)
+   }
+   #shopify-section-{{section.id}} .inner-wrapper p{
+    font-size: 1rem;
+   }
+   #shopify-section-{{section.id}} .grid__item .inner-wrapper::before{
+    width: 140px;
+
+   }
+#shopify-section-{{section.id}} .grid__item:nth-child(n) .inner-wrapper::before{
+  left: 350px;
+}
+#shopify-section-{{section.id}} .grid__item:nth-child(2n) .inner-wrapper::before{
+  right: 308px;
+  left: auto ;
+}
 }
 </style>
 
