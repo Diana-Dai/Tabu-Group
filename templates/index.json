@@ -13,7 +13,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-21_at_5.10.53_pm.png",
+            "image": "shopify:\/\/shop_images\/Layered_Header_Photo.jpg",
             "video_url": "",
             "width": "50",
             "height": 720,
@@ -29,8 +29,8 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Unlock<br>Long-Term<br>Wellness",
-            "textarea": "Finally, a sexual wellness routine that honors our bodies as they change.",
+            "heading": "<span style=\"color:black;\">Unlock<br>Long-Term<br>Wellness<\/span>",
+            "textarea": "<span style=\"color:black;\">Because your sexual health doesn’t have an expiration date.<\/span>",
             "cta_text1": "Shop Now",
             "cta_link1": "",
             "cta_text2": "",
@@ -42,7 +42,7 @@
             "text_size": 120,
             "text_align": "vertical-center horizontal-left",
             "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#111111",
             "boxed": false,
             "framed": false
           }
@@ -65,36 +65,42 @@
         "16584163928f381437-0": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/goop.png",
             "link": ""
           }
         },
         "16584163928f381437-1": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/anthropologie.png",
             "link": ""
           }
         },
         "16584163928f381437-2": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/byrdie.png",
             "link": ""
           }
         },
         "16584163928f381437-3": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/well_and_good.png",
             "link": ""
           }
         },
         "48ab122a-2fb4-4a05-92f3-79651fcaba5f": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/elle.png",
             "link": ""
           }
         },
         "7d879739-64ab-4978-931c-ff8acffc34b3": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fast_company.png",
             "link": ""
           }
         }
@@ -108,8 +114,8 @@
         "7d879739-64ab-4978-931c-ff8acffc34b3"
       ],
       "settings": {
-        "title": "",
-        "logo_opacity": 76,
+        "title": "As Seen In",
+        "logo_opacity": 100,
         "divider": false
       }
     },
@@ -122,7 +128,7 @@
             "enable_image": false,
             "image_width": 650,
             "title": "Science-Backed",
-            "text": "<p>Developed with experts, clinicians, therapists, and (most importantly) women like you. <\/p>",
+            "text": "<p>Developed in partnership with clinicians, therapists, and (most importantly) women like you.  <\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -133,7 +139,7 @@
             "enable_image": false,
             "image_width": 650,
             "title": "Health First",
-            "text": "<p>Supported as a safe and natural way to address dryness, atrophy, low libido, and much more.<\/p>",
+            "text": "<p>Supported as a safe and natural way to address dryness, atrophy, low libido, and so much more.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -144,7 +150,7 @@
             "enable_image": false,
             "image_width": 650,
             "title": "Never Crude",
-            "text": "<p>Thoughtfully designed and easy to use for optimal sexual health at any age.<\/p>",
+            "text": "<p>And not a toy. This is not your daughter’s sexual wellness brand.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -167,16 +173,18 @@
       "type": "marquee",
       "settings": {
         "background": "#e5eae7",
-        "marquee": "Our lubricant is:glycerin free • Paraben free • Hormone Free • Fragrance Free • Hypoallergenic • pH Balanced • FDA Cleared • Made in the USA      Our lubricant is:glycerin free • Paraben free • Hormone Free • Fragrance Free • Hypoallergenic • pH Balanced • FDA Cleared • Made in the USA"
+        "marquee": "Our lubricant is: Glycerin free • Paraben Free • Hormone Free • Fragrance Free • Hypoallergenic • pH Balanced • FDA Cleared • Made in the USA • Vegan Friendly"
       }
     },
     "16584165774c3521d8": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Homepage_Middle.jpg",
+        "image2": "shopify:\/\/shop_images\/Background_-_Homepage_Middle.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Make Sexual Health Routine",
-        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routien as your nutrition, movement, and even your skincare. Learn more about our missiong and why addressing your sexual health now, can help you feel like your (new) self later. <\/p>",
+        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routine as your nutrition, movement, and even your skincare. Learn more about our mission and why addressing your sexual health now, can help you feel like your (new) self later. <\/p>",
         "button_label": "Learn More",
         "button_link": "",
         "button_style": "primary",
@@ -192,9 +200,9 @@
         "image": "shopify:\/\/shop_images\/Group_1348.jpg",
         "image_width": 30,
         "subtitle": "",
-        "title": "take the quiz",
-        "text": "<p>We know this isn’t always an easy conversation, so we’re here to help make this a positive and supportive experience. Take a short quiz and let us help you find the best products to get started.  <\/p>",
-        "button_label": "take the quiz",
+        "title": "Survey says…",
+        "text": "<p>We’re building Tabu in partnership with you. To us, that means always listening and learning from our community. Take our short survey to help us build sexual wellness products that truly meet your needs. <\/p>",
+        "button_label": "TAKE THE SURVEY",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
@@ -204,20 +212,20 @@
     },
     "16584166431bea2af4": {
       "type": "promo-grid",
-      "disabled": true,
       "blocks": {
         "1658416643ef8b13bc-0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/CTA_B_W_photo.jpg",
             "video_url": "",
-            "width": "33",
+            "width": "50",
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
@@ -230,20 +238,21 @@
         "1658416643ef8b13bc-1": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "",
+            "heading": "<span style=\"color:black;\">Dignified Sexual Wellness<\/span>",
+            "textarea": "<span style='color:black;\"'>A complete kit with everything you need to start and maintain your sexual wellness routine.<\/span>",
+            "cta_text1": "Shop The Kit",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-16_at_12.11.08_pm.png",
             "video_url": "",
             "width": "50",
             "height": 500,
             "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-center horizontal-left",
             "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#111111",
             "boxed": false,
             "framed": false
           }
@@ -254,24 +263,21 @@
         "1658416643ef8b13bc-1"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
         "space_below": true
       }
     },
-    "1659413417a118998b": {
-      "type": "text-and-image",
+    "1660644766ca7d6b7b": {
+      "type": "featured-collection",
       "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
+        "title": "Find Your Routine",
+        "home_featured_products": "all-products",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
         "divider": false
       }
     }
@@ -284,6 +290,6 @@
     "16584165774c3521d8",
     "16594173996e3dca2d",
     "16584166431bea2af4",
-    "1659413417a118998b"
+    "1660644766ca7d6b7b"
   ]
 }
