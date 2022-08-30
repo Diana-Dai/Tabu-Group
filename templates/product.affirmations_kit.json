@@ -47,7 +47,7 @@
           "type": "tab",
           "settings": {
             "title": "Inside The Affirmations Kit",
-            "content": "<p><strong>The Golden Hour Kit<\/strong><\/p><p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t <em>lose <\/em>it). <\/p><p><strong>Mirror Affirmation Decals<\/strong><\/p><p>Inspired by some sweet sticky notes our founder Natalie found on her mom’s bathroom mirror, The Affirmations Kit includes two mirror decals with some loving reminders to start and end your day. They say, “today, love yourself first” and “prioritizing myself is a pleasure”.<\/p><p><strong>Gua Sha<\/strong><\/p><p>Every woman should have the opportunity to indulge in simple, luxurious healing practices. Self massage with gua sha is a beautiful way to relieve tension, improve circulation, and even help address hot flashes, sleep issues, and mood changes, according to a recent study by Chinese researchers.<\/p>",
+            "content": "<p><strong>The Golden Hour Kit<\/strong><\/p><p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t <em>lose <\/em>it). <\/p><p> <\/p><p><strong>Mirror Affirmation Decals<\/strong><\/p><p>Inspired by some sweet sticky notes our founder Natalie found on her mom’s bathroom mirror, The Affirmations Kit includes two mirror decals with some loving reminders to start and end your day. They say, “today, love yourself first” and “prioritizing myself is a pleasure”.<\/p><p> <\/p><p><strong>Gua Sha<\/strong><\/p><p>Every woman should have the opportunity to indulge in simple, luxurious healing practices. Self massage with gua sha is a beautiful way to relieve tension, improve circulation, and even help address hot flashes, sleep issues, and mood changes, according to a recent study by Chinese researchers.<\/p>",
             "page": ""
           }
         },
@@ -55,7 +55,7 @@
           "type": "tab",
           "settings": {
             "title": "How To Use",
-            "content": "<p><strong>Your Nuri Massager<\/strong><\/p><p> <\/p><p>To charge your Nuri,  plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p><p><br\/>To activate the heating feature, press the power button again. The button will blink as it heats up to 97 degrees Fahrenheit. <\/p><p> <\/p><p>Hit the vibration button to cycle through your three different speeds and vibration patterns. Once you’re done, hold down the power button again for two seconds to turn your device off. <\/p><p> <\/p><p><strong>Your Aureum Lubricant<\/strong><\/p><p> <\/p><p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
+            "content": "<p><strong>Your Nuri Massager<\/strong><\/p><p> To charge your Nuri,  plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p><p><br\/>To activate the heating feature, press the power button again. The button will blink as it heats up to 97 degrees Fahrenheit. <\/p><p> <\/p><p>Hit the vibration button to cycle through your three different speeds and vibration patterns. Once you’re done, hold down the power button again for two seconds to turn your device off. <\/p><p> <\/p><p><strong>Your Aureum Lubricant<\/strong><\/p><p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
             "page": ""
           }
         },
@@ -361,6 +361,7 @@
         "testimonials-0": {
           "type": "testimonial",
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -371,6 +372,7 @@
           "type": "testimonial",
           "disabled": true,
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -381,6 +383,7 @@
           "type": "testimonial",
           "disabled": true,
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
