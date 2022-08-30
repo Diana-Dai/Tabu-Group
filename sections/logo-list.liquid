@@ -2,14 +2,15 @@
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
 }
+
 {%- endstyle -%}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width" data-aos="logo__animation">
+<div class="page-width logo-list" data-aos="logo__animation">
   {%- if section.settings.title != blank -%}
     <div class="section-header">
-      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      <p>{{ section.settings.title | escape }}</p>
     </div>
   {%- endif -%}
 

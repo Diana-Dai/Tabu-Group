@@ -67,14 +67,14 @@
           <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+          <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
           <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
-            <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+            <a href="{{ section.settings.button_link }}" class="btn btn--secondary{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
               {{ section.settings.button_label }}
             </a>
           </div>

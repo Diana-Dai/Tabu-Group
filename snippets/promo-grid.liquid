@@ -129,6 +129,11 @@
             font-size: {{ block.settings.text_size | default: 100.0 | divided_by: 100.0 }}em;
           }
 
+          @media only screen and (max-width:768px){
+            .flex-grid__item--{{ block.id }}.flex-grid__item--50 .promo-grid__text {
+              font-size: {{ block.settings.text_size | default: 100.0 | divided_by: 100.0 | minus: 0.1 }}em;
+            }
+          }
           @media only screen and (min-width: 769px) {
             .flex-grid__item--{{ block.id }} .promo-grid__text {
               font-size: {{ block.settings.text_size | default: 100.0 | divided_by: 100.0 }}em;
@@ -189,7 +194,7 @@
                       </div>
                     {%- endif -%}
                     {%- if block.settings.heading != blank -%}
-                      <div class="rte--block rte--strong">
+                      <div class="h0 rte--block rte--strong">
                         {{ block.settings.heading }}
                       </div>
                     {%- endif -%}

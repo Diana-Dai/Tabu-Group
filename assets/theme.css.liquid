@@ -6,17 +6,55 @@
 */
 
 @font-face {
-  font-family: 'Boogy_Brut_Poster_WEB-White';
-  src:     url("{{ 'BoogyBrutPoster-White.otf' | asset_url }}");
-  font-weight: 400;
+  font-family: 'Boogy_Brut_Poster';
+  src:     url("{{ 'BoogyBrutPoster-White.otf' | asset_url }}"),
+  url("{{ 'Boogy_Brut_Poster_WEB-White.eot' | asset_url }}"),
+  url("{{ 'Boogy_Brut_Poster_WEB-White.woff' | asset_url }}"),
+  url("{{ 'Boogy_Brut_Poster_WEB-White.woff2' | asset_url }}");
+  font-weight: normal;
   font-style: normal;
   }
 @font-face {
   font-family: 'Red Hat Mono';
-  src:     url("{{ 'RedHatMono-Regular.ttf' | asset_url }}");
-  font-weight: 400;
+  src:     url("{{ 'RedHatMono-Regular.ttf' | asset_url }}"),
+  url("{{ 'RedHatMono-Regular.eot' | asset_url }}"),
+  url("{{ 'RedHatMono-Regular.woff' | asset_url }}"),
+  url("{{ 'RedHatMono-Regular.woff2' | asset_url }}");
+  font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Red Hat Mono';
+  src:     url("{{ 'RedHatMono-Medium.ttf' | asset_url }}"),
+  url("{{ 'RedHatMono-Medium.eot' | asset_url }}"),
+  url("{{ 'RedHatMono-Medium.woff' | asset_url }}"),
+  url("{{ 'RedHatMono-Medium.woff2' | asset_url }}");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src:     url("{{ 'FoundersGrotesk-Medium.otf' | asset_url }}"),
+  url("{{ 'FoundersGrotesk-Medium.eot' | asset_url }}"),
+  url("{{ 'FoundersGrotesk-Medium.woff' | asset_url }}"),
+  url("{{ 'FoundersGrotesk-Medium.woff2' | asset_url }}");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signifier';
+  src:     url("{{ 'Signifier-LightItalic.otf' | asset_url }}"),
+  url("{{ 'Signifier-LightItalic.eot' | asset_url }}"),
+  url("{{ 'Signifier-LightItalic.woff' | asset_url }}"),
+  url("{{ 'Signifier-LightItalic.woff2' | asset_url }}");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root{
   --colorBtnPrimary:{{ settings.color_button | default: "#000" }};
   --colorBtnPrimaryLight:{{ settings.color_button | default: "#000" | color_lighten: 10 }};
@@ -1661,6 +1699,7 @@ label{
   font-weight:var(--typeHeaderWeight);
   letter-spacing:var(--typeHeaderSpacing);
   line-height:var(--typeHeaderLineHeight);
+  text-transform: capitalize;
 }
 
 [data-type_header_capitalize=true] .h1,[data-type_header_capitalize=true] .h2,[data-type_header_capitalize=true] .h3,[data-type_header_capitalize=true] h1,[data-type_header_capitalize=true] h2,[data-type_header_capitalize=true] h3{
@@ -1672,20 +1711,30 @@ label{
 }
 
 .h2,h2{
-  font-size:calc(var(--typeHeaderSize)*0.73);
+  font-size:calc(var(--typeHeaderSize)*0.67);
 }
 
 .h3,h3{
   font-size:calc(var(--typeHeaderSize)*0.62);
 }
+.h6, h6{
+  font-size:22px;
+}
+.text-small{
+  font-size:calc(var(--typeBaseSize) - 4px);
 
+}
+.text-xsmall{
+  font-size:calc(var(--typeBaseSize) - 5px);
+
+}
 @media only screen and (min-width:769px){
   .h1,h1{
     font-size:var(--typeHeaderSize);
   }
 
   .h2,h2{
-    font-size:calc(var(--typeHeaderSize)*0.85);
+    font-size:calc(var(--typeHeaderSize)*0.92);
   }
 
   .h3,h3{
@@ -1699,7 +1748,7 @@ label{
   font-size:0.8em;
 }
 
-.h5,.h6,h5,h6{
+.h5,h5{
   text-transform:uppercase;
   letter-spacing:0.3em;
   font-size:0.8em;
@@ -1708,7 +1757,7 @@ label{
 
 @media only screen and (max-width:768px){
 
-.h5,.h6,h5,h6{
+.h5,h5{
     margin-bottom:5px
 }
   }
@@ -1908,16 +1957,16 @@ button[disabled],html input[disabled]{
 }
 
 .btn,.rte .btn,.shopify-payment-button .shopify-payment-button__button--unbranded,.spr-container .spr-button,.spr-container .spr-summary-actions a{
-  line-height:1.42;
+  line-height:1.3;
   text-decoration:none;
   text-align:center;
   white-space:normal;
 
-  font-size:calc(var(--typeBaseSize) - 4px);
-  font-size:max(calc(var(--typeBaseSize) - 4px), 13px);
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:0.3em;
+  font-size:calc(var(--typeBaseSize) + 1px);
+  font-size:max(calc(var(--typeBaseSize) + 1px), 13px);
+  font-weight:500;
+  text-transform:capitalize;
+  /* letter-spacing:0.3em; */
 
   display:inline-block;
   padding:11px 20px;
@@ -2052,9 +2101,11 @@ button[disabled],html input[disabled]{
 }
 
 .btn--secondary,.rte .btn--secondary{
+  padding: 0;
   color:{{ settings.color_body_text | default: "#1c1d1d" }};
   color:var(--colorTextBody);
-  border:1px solid;
+  border:none;
+  border-bottom:3px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
   background-color:transparent
@@ -3740,7 +3791,7 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
   }
 
 .site-footer .footer__collapsible{
-    font-size:calc(var(--typeBaseSize)*0.85);
+    font-size:calc(var(--typeBaseSize) - 2px);
   }
 
 @media only screen and (min-width:769px){
@@ -3821,6 +3872,7 @@ ul+.footer__small-text{
 }
 
 .footer__title{
+  font-weight: 500;
   color:{{ settings.color_footer_text | default: "#fff" }};
   color:var(--colorFooterText)
 }
@@ -11030,10 +11082,11 @@ html[dir=rtl] .product-single__meta .rte{
     }
 
 .product__price{
+  font-family: 'Signifier',serif;
   color:{{ settings.color_price | default: "#1c1d1d" }};
   color:var(--colorPrice);
   margin-right:5px;
-  font-size:calc(var(--typeBaseSize) + 2px)
+  font-size:calc(var(--typeBaseSize) + 1px)
 }
 
 .product__price.on-sale{
@@ -11784,6 +11837,37 @@ html[dir=rtl] .product-single__meta .rte{
   margin-bottom: 5px;
 }
 
-#MainContent .shopify-section:first-child .type-advanced .rte--strong{
-  font-size:70px;
+.h0{
+  font-size:70px !important;
+}
+
+@media only screen and (max-width:768px){
+  .h0{
+    font-size: 44px !important; 
+  }
+
+}
+
+.site-nav__link{
+  font-family: 'Founders Grotesk';
+
+}
+
+.logo-list .section-header p{
+  font-family: 'Founders Grotesk';
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+font-size: 15px;
+}
+
+.custom-text-column_container h6{
+  font-family: 'Founders Grotesk';
+text-transform: capitalize;
+}
+.custom-text-column_container .text-spacing p{
+  font-size:calc(var(--typeBaseSize) - 2px);
+
+}
+.special-font{
+  font-family: 'Founders Grotesk';
 }

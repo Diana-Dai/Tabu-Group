@@ -67,7 +67,7 @@
           <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+          <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
@@ -107,6 +107,7 @@
     padding-left: 0;
     padding-right: 0;
     border-bottom: 3px solid;
+    letter-spacing: 0;
   }
   @media only screen and (max-width: 768px){
     #shopify-section-{{section.id}} .page-width{

@@ -11,7 +11,7 @@
         {{ section.settings.mobile-title }}
       </h2>
 
-      <a class="small--hide" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+      <a class="special-font btn--secondary small--hide" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
     </header>
   {%- endif -%}
 
@@ -62,7 +62,7 @@
 
         {% when 'question'%}
           <div>
-            <button type="button" class="collapsible-trigger collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
+            <button type="button" class="h6 special-font collapsible-trigger collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
               <span>{{ block.settings.title }}</span>
               
               <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +82,7 @@
 {%- endif -%}
 </div>
 <div class="section-header">
-<a class="hide small--show" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+<a class="hide special-font btn--secondary small--show" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
 </div>
 
   {%- if section.blocks.size == 0 -%}
@@ -105,10 +105,10 @@
     }
   }
   #shopify-section-{{section.id}} .section-header a {
-    text-decoration: underline;
     text-transform: uppercase;
     margin-top: 50px;
     display: inline-block;
+    letter-spacing: 0.1em;
   }
   #shopify-section-{{section.id}} .content{
     flex: 1 1 0;
