@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16620177306131e38f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2f73c44301eee99fb7e3c4a9ccf4efc9_2.jpg",
+        "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
+        "image_width": 700,
+        "subtitle": "at least 50% and up to",
+        "title": "75%",
+        "text": "<p>of distress encountered by couples in unhappy relationships can be ascribed to sexual problems.<\/p><p><\/p><p><em>Source lorem ipsum<\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "1662017899d309b5c2": {
+      "type": "promo-grid",
+      "blocks": {
+        "eee941ce-b15b-4174-a20e-aa5831cdfbcb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1317.jpg",
+            "link": "",
+            "width": "50"
+          }
+        },
+        "1662017898bc07d8e0-1": {
+          "type": "advanced",
+          "settings": {
+            "no_overlay": true,
+            "background_color": "#fcf4eb",
+            "font_color": "#000000",
+            "subheading": "",
+            "heading": "Dignified <br>Sexual Wellness",
+            "textarea": "<p style=\"max-width:450px;\">A complete kit with everything you need to start and maintain your sexual wellness routine.\n<\/p>",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "eee941ce-b15b-4174-a20e-aa5831cdfbcb",
+        "1662017898bc07d8e0-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    }, 
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "This gives me hope again",
+            "icon": "5-stars",
+            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
+            "author": "New York, 64",
+            "author_info": ""
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Excellent Quality",
+            "icon": "5-stars",
+            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
+            "author": "Missouri, 68",
+            "author_info": ""
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "The Best!",
+            "icon": "5-stars",
+            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
+            "author": "California, 74",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#000000",
+        "color_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16620177306131e38f",
+    "testimonials",
+    "1662017899d309b5c2"
+  ]
+}
