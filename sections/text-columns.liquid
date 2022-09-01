@@ -71,12 +71,17 @@
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 <style>
-#shopify-section-{{section.id}}{
-      padding:50px 0;
-      background:{{section.settings.background}};
-  }
+#shopify-section-{{section.id}} .page-width{
+  padding:50px 0;
+  background:{{section.settings.background}};
+
+}
+#shopify-section-{{section.id}} .section-header p{
+  margin: 0 auto;
+max-width: 600px;
+}
 @media only screen and (min-width:769px){
-  #shopify-section-{{section.id}}{
+  #shopify-section-{{section.id}} .page-width{
     padding:100px 0;
   }
 }

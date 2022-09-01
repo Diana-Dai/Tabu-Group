@@ -54,6 +54,9 @@
       {%- endif -%}
 
       {%- style -%}
+      .flex-grid__item--{{ block.id }} * {
+          color:{{block.settings.font_color}};
+        }
         {% if block.settings.height %}
           {% unless block.settings.boxed %}
             .flex-grid__item--{{ block.id }} {
@@ -153,7 +156,7 @@
                 <a href="{{ block.settings.cta_link1 }}" class="promo-grid__slide-link" aria-hidden="true" aria-label="{{block.settings.cta_text1}}"></a>
               {%- endif -%}
 
-              <div class="promo-grid__bg">
+              <div class="promo-grid__bg {% if block.settings.no_overlay == true %}no_overlay{% endif %}" style="background-color: {{ block.settings.background_color }};">
                 {%- if block.settings.video_url != '' -%}
                   {%- render 'promo-video', id: block.id, url: block.settings.video_url -%}
                 {%- else -%}
@@ -180,7 +183,9 @@
                         alt="{{ block.settings.image.alt }}">
                     </noscript>
                   {%- else -%}
+                  {% unless block.settings.background_color != blank %}
                     {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endunless %}
                   {%- endif -%}
                 {%- endif -%}
               </div>
@@ -320,8 +325,7 @@
 
             <a href="{{ block.settings.link }}"
               class="promo-grid__container{% if block.settings.framed %} promo-grid__container--framed{% endif %}{% if block.settings.color_tint_opacity > 0 %} promo-grid__container--tint{% endif %} vertical-center horizontal-center">
-
-              <div class="promo-grid__bg">
+              <div class="promo-grid__bg {% if block.settings.no_overlay == true %}no_overlay{% endif %}" style="background-color:{{ block.settings.background_color }}">
                 {%- if block_img != blank -%}
                   {%- assign img_url = block_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
@@ -332,7 +336,9 @@
                     data-sizes="auto"
                     alt="{{ block_img.alt | escape }}">
                 {%- else -%}
+                  {% unless block.settings.background_color != blank %}
                   {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endunless %}
                 {%- endif -%}
               </div>
 

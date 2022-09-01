@@ -33,7 +33,7 @@
     "type_base_font_family": "twentieth_century_n4",
     "type_base_spacing": "25",
     "type_base_size": 19,
-    "type_base_line_height": 1.4,
+    "type_base_line_height": 1.5,
     "type_body_align_text": true,
     "type_navigation_style": "body",
     "type_navigation_size": 15,
@@ -250,6 +250,37 @@
           "hide_homepage": false,
           "image_size": "wide"
         }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "blocks": {
+          "0d743796-7447-48b8-b416-0ed01d9ba4e7": {
+            "type": "title",
+            "settings": {
+              "title": "Join Our Movement"
+            }
+          },
+          "3f2d7b7b-7569-4674-882b-bf3481ea8a70": {
+            "type": "text",
+            "settings": {
+              "text": "<p>We’re building Tabu in partnership with you. Sign up to stay informed and help us challenge the idea that female sexuality has an expiration date.  <\/p>"
+            }
+          },
+          "f369dcfe-2fdd-4837-9fcb-127bd0cd58db": {
+            "type": "form",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "0d743796-7447-48b8-b416-0ed01d9ba4e7",
+          "3f2d7b7b-7569-4674-882b-bf3481ea8a70",
+          "f369dcfe-2fdd-4837-9fcb-127bd0cd58db"
+        ],
+        "settings": {
+          "color_background": "#ffffff",
+          "color_text": "#1c1d1d"
+        }
       }
     },
     "content_for_index": [
@@ -308,7 +339,7 @@
       "product_hover_image": false,
       "quick_shop_text": "Quick view",
       "type_base_font_family": "twentieth_century_n4",
-      "type_base_line_height": 1.4,
+      "type_base_line_height": 1.5,
       "type_base_size": 18,
       "type_base_spacing": "25",
       "type_body_align_text": true,

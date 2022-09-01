@@ -270,7 +270,7 @@
   position:relative;
   transition:height 0.35s;
   height:100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .flickity-slider{
@@ -372,7 +372,7 @@
 .flickity-page-dots{
   position:absolute;
   width:100%;
-  bottom: 6px;
+  bottom: 0;
   padding:0;
   margin:0;
   list-style:none;
@@ -1964,12 +1964,12 @@ button[disabled],html input[disabled]{
 
   font-size:calc(var(--typeBaseSize) + 1px);
   font-size:max(calc(var(--typeBaseSize) + 1px), 13px);
-  font-weight:500;
+  /* font-weight:500; */
   text-transform:capitalize;
   /* letter-spacing:0.3em; */
 
   display:inline-block;
-  padding:11px 20px;
+  padding: 21px 45px;
   margin:0;
   width:auto;
   min-width:90px;
@@ -2945,12 +2945,13 @@ label.error{
 .input-group-btn{
   flex:0 1 auto;
   margin:0;
-  display:flex
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .input-group-btn .icon{
-    vertical-align:baseline;
-    vertical-align:initial;
+    vertical-align:middle;
   }
 
 [data-button_style=angled] .input-group-btn{
@@ -3358,8 +3359,8 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
 }
 
 .image-wrap{
-  background:{{ settings.color_small_image_bg | default: "#eee" }};
-  background:var(--colorSmallImageBg);
+  /* background:{{ settings.color_small_image_bg | default: "#eee" }}; */
+  /* background:var(--colorSmallImageBg); */
   overflow:hidden;
 }
 
@@ -4306,7 +4307,7 @@ form+.footer__social{
 @media only screen and (min-width:769px){
 
 .rte--block{
-    margin-bottom:12px
+    margin-bottom:30px
 }
   }
 
@@ -6710,7 +6711,11 @@ input[type=image]{
   border-top-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-top-color:var(--colorBorder);
 }
-
+.newsletter-section .theme-block{
+  max-width: 600px;
+margin: 0 auto;
+margin-bottom: 40px;
+}
 .template-challange .index-section--footer{
   display:none;
 }
@@ -6774,7 +6779,7 @@ input[type=image]{
 @media only screen and (min-width:1050px){
 
 .feature-row{
-    margin:0 6%
+    /* margin:0 6% */
 }
   }
 
@@ -6823,7 +6828,7 @@ input[type=image]{
   }
 
 .feature-row__item--overlap-images>*{
-    width:50%
+  width: 50%;
   }
 
 .feature-row__item--overlap-images>:first-child{
@@ -6832,10 +6837,26 @@ input[type=image]{
     }
 
 @media only screen and (min-width:769px){
-
-.feature-row__item--overlap-images>:first-child{
-        transform:translate(50px, 50px)
+  .feature-row__item--overlap-images>*{
+    width: 27vw;
     }
+    .feature-row__item--overlap-images{
+      position: relative;
+    }
+  
+
+  .feature-row__item--overlap-images>:first-child{
+        transform: translate(-4vw,-4vw);
+    }
+    .feature-row__text--right +  .feature-row__item--overlap-images > :first-child{
+      transform: translate(0,-4vw);
+      
+    }
+    .feature-row__item--overlap-images>:last-child{
+      transform: translate(-5vw,4vw);
+      position: absolute;
+      right: 0;
+        }
       }
 
 .feature-row__item--overlap-images svg{
@@ -6880,14 +6901,19 @@ input[type=image]{
 .feature-row__text .btn{
     margin-top:15px;
   }
-
+  .feature-row__text .h1{
+    margin-bottom: 20px;
+  }
 @media only screen and (min-width:769px){
+  .feature-row__text .h1{
+    margin-bottom: 48px;
+  }
   .feature-row__text--left{
     padding-left:60px;
   }
 
   .feature-row__text--right{
-    padding-right:60px;
+    padding-right:50px;
   }
 }
 
@@ -9474,9 +9500,14 @@ html[dir=rtl] .background-media-text__text{
 
 .newsletter__input-group{
   margin:0 auto 20px;
-  max-width:400px
+  max-width:500px;
+  border-bottom: 1px solid black;
 }
+.newsletter__input-group input{
+  border: none;
+  font-size: 17px;
 
+}
 .newsletter__input-group:last-child{
     margin-bottom:0;
   }
@@ -10151,6 +10182,10 @@ newsletter-reminder .newsletter-reminder__message{
     opacity:{{ settings.color_image_overlay_opacity | divided_by: 100.0 }};
     opacity:var(--colorImageOverlayOpacity)
 }
+.promo-grid__container:not(.promo-grid__container--boxed)  .promo-grid__bg.no_overlay::before{
+  background-color: transparent !important;  
+  opacity: 0;
+}
 
 .promo-grid__bg .placeholder-svg{
     position:absolute;
@@ -10191,7 +10226,7 @@ newsletter-reminder .newsletter-reminder__message{
   }
 
 .type-advanced .promo-grid__content{
-    padding:2em
+    padding:2em 4em;
   }
 
 @media only screen and (max-width:768px){
@@ -11871,3 +11906,7 @@ text-transform: capitalize;
 .special-font{
   font-family: 'Founders Grotesk';
 }
+
+/* About page */
+
+.promo-grid__bg

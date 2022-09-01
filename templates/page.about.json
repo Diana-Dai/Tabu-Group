@@ -6,93 +6,194 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
+    "16620054106bf19f43": {
+      "type": "promo-grid",
       "blocks": {
-        "slideshow-0": {
+        "16620054106363eae9-1": {
+          "type": "advanced",
+          "settings": {
+            "no_overlay": true,
+            "background_color": "#e5eae7",
+            "font_color": "#000000",
+            "subheading": "",
+            "heading": "About Us",
+            "textarea": "We believe sexual health is about more than just pleasure — and it’s time we start talking about it.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "8833fbf6-bbce-4482-9cb8-6ee92419cf4b": {
           "type": "image",
           "settings": {
-            "link_text": ""
+            "image": "shopify:\/\/shop_images\/Group_1349_19ba7edd-590c-40f6-ab83-9a6337f56d06.jpg",
+            "link": "",
+            "width": "50"
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "16620054106363eae9-1",
+        "8833fbf6-bbce-4482-9cb8-6ee92419cf4b"
       ],
       "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "16620074859a4304e3": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/31b45de7d4e520c9a8b89ee61538d7a9_1.jpg",
+        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_5.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Our Story",
+        "text": "<p>Tabu was founded to help women prioritize their sexual health throughout their lives - not just for pleasure but as an essential (yet overlooked) part of long-term well-being. We want to overcome the taboo notion that women, like men, may want to preserve this part of their lives as they age, and provide them with an adequate solution. Like the old adage says: use it or lose it.<br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
       }
     },
-    "map": {
-      "type": "map",
+    "16620085309bb580d3": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2f73c44301eee99fb7e3c4a9ccf4efc9_2.jpg",
+        "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Embrace It All",
+        "text": "<p>We are working towards a future where our sexual health as women isn’t defined by where we are in our reproductive years, but by our unique journeys, meaningful connections, individual experiences, and above all, our quality of life. We invite you to join our movement and prioritize your well-being — now and always. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
       }
     },
-    "text-columns": {
+    "1662009237519ae008": {
       "type": "text-columns",
       "blocks": {
-        "column1": {
+        "1662009237b8cd8090-0": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image_width": 300,
+            "title": "Name Lorem, pHD",
+            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "column2": {
+        "1662009237b8cd8090-1": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image_width": 300,
+            "title": "Name Lorem, pHD",
+            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "column3": {
+        "1662009237b8cd8090-2": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image_width": 300,
+            "title": "Name Lorem, pHD",
+            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "1662009237b8cd8090-0",
+        "1662009237b8cd8090-1",
+        "1662009237b8cd8090-2"
       ],
       "settings": {
+        "background": "#fcf4eb",
+        "title": "Medical Experts & Advisors",
+        "sub-title": "Made in partnership with clinicians, therapists, and women who are doing extraordinary things.",
+        "align_text": "center",
+        "divider": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "1662015451618dfaad": {
+      "type": "promo-grid",
+      "blocks": {
+        "9dc62236-7e18-434f-8db3-43781d902f5d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1317.jpg",
+            "link": "",
+            "width": "50"
+          }
+        },
+        "1662015451fb6506c6-1": {
+          "type": "advanced",
+          "settings": {
+            "no_overlay": true,
+            "background_color": "#e5eae7",
+            "font_color": "#000000",
+            "subheading": "",
+            "heading": "Dignified <br>sexual wellness",
+            "textarea": "<p style=\"max-width:450px;\">A complete kit with everything you need to start and maintain your sexual wellness routine. \n<\/p>",
+            "cta_text1": "shop the Kit",
+            "cta_link1": "shopify:\/\/products\/the-kit",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "center",
+            "color_accent": "#000000",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "9dc62236-7e18-434f-8db3-43781d902f5d",
+        "1662015451fb6506c6-1"
+      ],
       "settings": {
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": true,
+        "space_below": false
       }
     }
   },
   "order": [
     "main",
-    "slideshow",
-    "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "16620054106bf19f43",
+    "16620074859a4304e3",
+    "16620085309bb580d3",
+    "1662009237519ae008",
+    "1662015451618dfaad"
   ]
 }

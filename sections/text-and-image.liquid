@@ -67,7 +67,7 @@
           <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
@@ -111,7 +111,7 @@
       "label": "t:sections.text-and-image.settings.image_width.label",
       "default": 700,
       "min": 200,
-      "max": 700,
+      "max": 1000,
       "step": 10,
       "unit": "px"
     },
