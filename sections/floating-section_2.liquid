@@ -160,7 +160,7 @@
 
         #shopify-section-{{section.id}} .feature-row{
          display:block !important;
-         margin: 0 80px;
+         /* margin: 0 80px; */
         }
       #shopify-section-{{section.id}} .subheading{
         text-transform: uppercase;
@@ -203,7 +203,7 @@
       }
       #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
         margin-top: 0;
-        margin-right: 8vw;
+        /* margin-right: 8vw; */
       }
       @media only screen and (min-width: 769px){
 
@@ -246,6 +246,7 @@
         bottom: -10vw;
         border-bottom: 1px solid;
         border-right: 1px solid;
+        max-width: 300px;
       }
 
       }
@@ -282,6 +283,13 @@
         #shopify-section-{{section.id}} .feature-text{
           margin-top: 35px;
         }
+      }
+
+      @media only screen and (min-width: 768px){
+        #shopify-section-{{section.id}} .feature-row{
+       /* min-width: 70vw;
+       max-width: 60vw; */
+      }
       }
 
     </style>
