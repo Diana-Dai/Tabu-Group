@@ -150,7 +150,6 @@
     },
     "1660704914412f8848": {
       "type": "key-features",
-      "disabled": true,
       "blocks": {
         "1660704914cf4a7f84-0": {
           "type": "text_block",
@@ -199,7 +198,7 @@
         "background": "",
         "title": "Key Features",
         "sub-title": "An essential piece of long-term well-being, designed with your needs in mind.",
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-06_at_12.07_1.jpg",
+        "image": "shopify:\/\/shop_images\/Key_Features_-_The_Kit.png",
         "align_text": "left",
         "divider": false
       }
