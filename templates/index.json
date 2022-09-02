@@ -35,7 +35,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-21_at_5.12.23_pm.png",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-02_at_1.11.31_pm.png",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -226,7 +226,7 @@
             "image": "shopify:\/\/shop_images\/CTA_B_W_photo.jpg",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
@@ -248,7 +248,7 @@
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-16_at_12.11.08_pm.png",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-left",
             "focal_point": "center",
@@ -271,14 +271,67 @@
     },
     "1660644766ca7d6b7b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Find Your Routine",
+        "sub-title": "",
         "home_featured_products": "all-products",
         "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": false,
         "divider": false
+      }
+    },
+    "16618794689cb9ecff": {
+      "type": "apps",
+      "blocks": {
+        "9f38ce54-dc1a-4d75-ba0a-944cfb59e801": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "9f38ce54-dc1a-4d75-ba0a-944cfb59e801"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    },
+    "1661879547f658ff5b": {
+      "type": "newsletter",
+      "blocks": {
+        "1661879547d6517c9e-0": {
+          "type": "title",
+          "settings": {
+            "title": "Join Our Movement"
+          }
+        },
+        "1661879547d6517c9e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're building Tabu in partnership with you. Sign up to stay informed and help us challenge the idea that female sexuality has an expiration date.<\/p>"
+          }
+        },
+        "1661879547d6517c9e-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1661879547d6517c9e-0",
+        "1661879547d6517c9e-1",
+        "1661879547d6517c9e-2"
+      ],
+      "settings": {
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     }
   },
@@ -290,6 +343,8 @@
     "16584165774c3521d8",
     "16594173996e3dca2d",
     "16584166431bea2af4",
-    "1660644766ca7d6b7b"
+    "1660644766ca7d6b7b",
+    "16618794689cb9ecff",
+    "1661879547f658ff5b"
   ]
 }
