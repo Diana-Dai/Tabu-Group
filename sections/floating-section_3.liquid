@@ -98,7 +98,7 @@
 
 
 
-        <div class="floating_images__wrapper small--hide">
+        <div class="floating_images__wrapper">
             {{image_layout}}
         </div>
 
@@ -184,12 +184,14 @@
           padding-top: 40px;
           padding-bottom: 40px;
         }
+        #shopify-section-{{section.id}} .feature-row__text:nth-child(2) .h2 p{
+          text-align: right;
+        }
       }
       #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
         margin-top: 10vw;
         margin-right: 8vw;
       }
-      @media only screen and (min-width: 769px){
 
       #shopify-section-{{section.id}} .feature-row__text:nth-child(3){
         margin-left: 14vw;
@@ -200,8 +202,6 @@
             align-items: flex-end;
             
         }
-      }
-      @media only screen and (min-width: 769px){
 
       #shopify-section-{{section.id}} .feature-row__text:nth-child(2),
       #shopify-section-{{section.id}} .feature-row__text:first-child{
@@ -212,27 +212,15 @@
         content: '';
         display: inline-block;
         width: 22vw;
-height: 12vw;
-position: absolute;
-left: 20%;
-margin-top: -2%;
+        height: 12vw;
+        position: absolute;
+        left: 20%;
+        margin-top: -2%;
         background-size: cover;
         background-position: center;
         background-image: url("data:image/svg+xml,%3Csvg width='346' height='177' viewBox='0 0 346 177' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 1C32.5 59.3333 146.4 176 346 176' stroke='black'/%3E%3C/svg%3E%0A");
       }
-      #shopify-section-{{section.id}} .feature-row__text:nth-child(2):after{
-        content: '';
-        display: inline-block;
-        width: 17vw;
-        height: 7vw;
-        position: absolute;
-        right: 14vw;
-        bottom: -10vw;
-        border-bottom: 1px solid;
-        border-right: 1px solid;
-      }
 
-      }
 
       @media only screen and (max-width: 768px){
         #shopify-section-{{section.id}} .feature-row{
@@ -243,6 +231,7 @@ margin-top: -2%;
         }
         #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
           margin-right: 0;
+          margin-top: 0;
         }
         #shopify-section-{{section.id}} .feature-row__text:first-child:after{
           width: 30vw;
@@ -250,14 +239,14 @@ margin-top: -2%;
           left: 29%;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1{
-          top: 21%;
+          top: 27%;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1 .image-wrap{
           width: 19vw !important;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
           left: -1%;
-          bottom: 37%;
+          bottom: 50%;
         }
 
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2 .image-wrap{
@@ -265,6 +254,9 @@ margin-top: -2%;
         }
         #shopify-section-{{section.id}} .feature-text{
           margin-top: 35px;
+        }
+        #shopify-section-{{section.id}} .feature-row__text:nth-child(2):after{
+          margin-top: 2%;
         }
       }
       @media only screen and (min-width: 768px){
