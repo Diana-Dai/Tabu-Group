@@ -316,6 +316,7 @@
         },
         "8402c6cf-2172-464b-ae71-0698869fa72a": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Why are there sweeteners in your lubricant?",
             "text": "<p>The organic stevia is rich in antibacterial and antioxidant properties, and sorbitol is a natural humectant that’s great for hydration.<\/p>"
