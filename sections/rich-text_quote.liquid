@@ -1,0 +1,162 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="text-{{ section.settings.align_text }} page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
+  <div class="h2"> 
+    <svg width="56" height="38" viewBox="0 0 56 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.0283203 23.6309C0.0283203 18.9922 1.76172 14.5244 5.22852 10.2275C8.74414 5.93066 12.6504 2.80566 16.9473 0.852539L18.3389 3.78223C14.9209 5.73535 11.9912 8.17676 9.5498 11.1064C7.15723 13.9873 5.96094 16.917 5.96094 19.8955C5.96094 20.4814 6.13184 20.9209 6.47363 21.2139C6.86426 21.5068 7.35254 21.6533 7.93848 21.6533C11.1123 21.3115 12.8213 21.1406 13.0654 21.1406C14.6768 21.1406 16.4102 21.7266 18.2656 22.8984C20.1699 24.0703 21.1221 26.0723 21.1221 28.9043C21.1221 31.2969 20.3408 33.3232 18.7783 34.9834C17.2158 36.6436 14.9941 37.4736 12.1133 37.4736C8.74414 37.4736 5.8877 36.1797 3.54395 33.5918C1.2002 30.9551 0.0283203 27.6348 0.0283203 23.6309ZM34.4521 24.2168C34.4521 18.9922 36.21 14.2803 39.7256 10.0811C43.29 5.83301 47.1719 2.75684 51.3711 0.852539L52.7627 3.78223C49.3447 5.73535 46.415 8.15234 43.9736 11.0332C41.5811 13.8652 40.3848 16.7705 40.3848 19.749C40.3848 20.2861 40.5312 20.75 40.8242 21.1406C41.1172 21.4824 41.6299 21.6533 42.3623 21.6533C45.4873 21.3115 47.1963 21.1406 47.4893 21.1406C49.2959 21.1406 51.0781 21.7998 52.8359 23.1182C54.6426 24.3877 55.5459 26.292 55.5459 28.8311C55.5459 30.833 54.8379 32.7861 53.4219 34.6904C52.0547 36.5459 49.7354 37.4736 46.4639 37.4736C42.9482 37.4736 40.0674 36.1309 37.8213 33.4453C35.5752 30.7109 34.4521 27.6348 34.4521 24.2168Z" fill="black"/>
+      </svg>
+      
+  </div>
+  {%- for block in section.blocks -%}
+    <div class="theme-block" {{ block.shopify_attributes }}>
+
+      {%- case block.type -%}
+        {%- when 'heading' -%}
+          <h2>{{ block.settings.title }}</h2>
+        {%- when 'page' -%}
+          <div class="rte">
+            {%- if block.settings.page_text != blank -%}
+              {{ pages[block.settings.page_text].content }}
+            {%- else -%}
+              {{ 'home_page.onboarding.no_content' | t }}
+            {%- endif -%}
+          </div>
+        {%- when 'text' -%}
+          <div class="rte">
+            {%- if block.settings.text != blank -%}
+              {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+              {{ block.settings.text }}
+              {%- if block.settings.enlarge_text %}</div>{% endif -%}
+            {%- else -%}
+              {{ 'home_page.onboarding.no_content' | t }}
+            {%- endif -%}
+          </div>
+        {%- when 'button' -%}
+          <div class="rte">
+            <a href="{{ block.settings.link }}" class="btn">
+              {{ block.settings.link_text }}
+            </a>
+          </div>
+      {%- endcase -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+
+<style>
+ 
+</style>
+{% schema %}
+{
+  "name": "Quote",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.rich-text.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "narrow_column",
+      "label": "t:sections.rich-text.settings.narrow_column.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:sections.rich-text.settings.divider.label",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.rich-text.blocks.heading.name",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "title",
+          "label": "t:sections.rich-text.blocks.heading.settings.title.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.rich-text.blocks.text.name",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "t:sections.rich-text.blocks.text.settings.enlarge_text.label",
+          "default": true
+        },
+        {
+          "id": "text",
+          "type": "textarea",
+          "label": "t:sections.rich-text.blocks.text.settings.text.label",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "t:sections.rich-text.blocks.button.name",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.rich-text.blocks.button.settings.link.label"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "t:sections.rich-text.blocks.button.settings.link_text.label",
+          "default": "Button"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "name": "t:sections.rich-text.blocks.page.name",
+      "settings": [
+        {
+          "id": "page_text",
+          "type": "page",
+          "label": "t:sections.rich-text.blocks.page.settings.page_text.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quote",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,26 +1,253 @@
 {
   "sections": {
+    "166207638696ba384c": {
+      "type": "floating-section",
+      "blocks": {
+        "48732a1c-2ed2-479b-8cb4-0d303e3619b9": {
+          "type": "text",
+          "settings": {
+            "subtitle": "",
+            "title": "<p>Sexual <\/p><p>health<\/p>",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "left"
+          }
+        },
+        "72cc7d6b-2a2f-4024-878e-37475e81d60e": {
+          "type": "text",
+          "settings": {
+            "subtitle": "At every age",
+            "title": "<p>matters<\/p>",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "right"
+          }
+        }
+      },
+      "block_order": [
+        "48732a1c-2ed2-479b-8cb4-0d303e3619b9",
+        "72cc7d6b-2a2f-4024-878e-37475e81d60e"
+      ],
+      "settings": {
+        "section-title": "",
+        "background": "#e5eae7",
+        "image": "shopify:\/\/shop_images\/ac78e1bc7b1903a5d6385c39b9587f21_3.jpg",
+        "image_text": "<p>Your well-being includes your sexual health, yet it is often the most overlooked piece of the wellness puzzle, especially as you age. <\/p>",
+        "image_width": 11,
+        "image2": "shopify:\/\/shop_images\/i.jpg",
+        "image2_text": "",
+        "image_2_width": 9,
+        "divider": false
+      }
+    },
+    "16620812517a5e736f": {
+      "type": "floating-section_2",
+      "blocks": {
+        "faa0001d-4304-4f8c-aad4-9bb29779dc11": {
+          "type": "text",
+          "settings": {
+            "subtitle": "UP TO",
+            "title": "<p>90%<\/p>",
+            "text": "<p>of women over the age of 50 experience pain or discomfort during sex due to menopause. <\/p><p><\/p><p><\/p>",
+            "button_label": "Source lorem ipsum",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "left"
+          }
+        },
+        "e21d7b50-8809-4c38-a245-99148341c58f": {
+          "type": "text",
+          "settings": {
+            "subtitle": "Yet",
+            "title": "<p>75%<\/p>",
+            "text": "<p>of women don't seek help from a doctor for menopause symptoms like vaginal atrophy or dryness.<\/p>",
+            "button_label": "Source lorem ipsum",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "right"
+          }
+        },
+        "2a15dfc6-389d-4f12-8a48-7457614510ef": {
+          "type": "text",
+          "settings": {
+            "subtitle": "Nearly",
+            "title": "<p>50%<\/p>",
+            "text": "<p>of women give up on their sex lives altogether in their 50s.<\/p>",
+            "button_label": "Source lorem ipsum",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "left"
+          }
+        }
+      },
+      "block_order": [
+        "faa0001d-4304-4f8c-aad4-9bb29779dc11",
+        "e21d7b50-8809-4c38-a245-99148341c58f",
+        "2a15dfc6-389d-4f12-8a48-7457614510ef"
+      ],
+      "settings": {
+        "section-title": "Let’s look at the FACTS",
+        "background": "",
+        "image": "shopify:\/\/shop_images\/545eaecf46b5a992b5a4b8d803f95fd8.jpg",
+        "image_text": "",
+        "image_width": 10,
+        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_5_cb6e4d35-6f36-4b97-b7fb-8bdc43b1384c.jpg",
+        "image2_text": "",
+        "image_2_width": 8,
+        "divider": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
       }
     },
-    "16620177306131e38f": {
-      "type": "text-and-image",
+    "166208479334b01376": {
+      "type": "text-and-image_whyus",
       "settings": {
+        "background": "#fcf4eb",
         "image": "shopify:\/\/shop_images\/2f73c44301eee99fb7e3c4a9ccf4efc9_2.jpg",
         "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
         "image_width": 700,
         "subtitle": "at least 50% and up to",
         "title": "75%",
-        "text": "<p>of distress encountered by couples in unhappy relationships can be ascribed to sexual problems.<\/p><p><\/p><p><em>Source lorem ipsum<\/em><\/p>",
-        "button_label": "",
+        "text": "<p>of distress encountered by couples in unhappy relationships can be ascribed to sexual problems.<\/p>",
+        "button_label": "Source lorem ipsum",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
         "divider": false
+      }
+    },
+    "166208545426b5e62b": {
+      "type": "rich-text_quote",
+      "blocks": {
+        "16620854548786a580-0": {
+          "type": "heading",
+          "settings": {
+            "title": "When I turned 40, my eyesight started to wane so I got reading glasses. I didn’t just stop reading. <br><br>\nWhen I turned 50, it became harder to reach an orgasm. So what did I do? I got a massager.\n<br><br>\nI wasn’t about to give up on orgasms."
+          }
+        },
+        "16620854548786a580-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p class=\"text-small\">\nDr. Barb DePree<br>\nGynecologist & Menopause Care Specialist\n<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16620854548786a580-0",
+        "16620854548786a580-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "1662086580014888c8": {
+      "type": "floating-section_3",
+      "blocks": {
+        "5b72f472-c812-469f-9523-7b1244271013": {
+          "type": "text",
+          "settings": {
+            "subtitle": "",
+            "title": "<p>Sexual  <\/p><p>health<\/p>",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "left"
+          }
+        },
+        "199e47b4-4514-4b90-8ba9-b856c3febcd5": {
+          "type": "text",
+          "settings": {
+            "subtitle": "",
+            "title": "<p>Pleasure<\/p>",
+            "text": "<p>The physical and emotional health implications of giving up sexual activity (for many reasons) are very real, but so are the benefits of starting a routine. <br\/><br\/>According to The Mayo Clinic and Harvard Medical School, as well as leading gynecologists around the globe, regular sexual activity - with or without a partner - is a safe and natural way to help address many symptoms that follow menopause and childbirth. <br\/><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "layout": "right"
+          }
+        }
+      },
+      "block_order": [
+        "5b72f472-c812-469f-9523-7b1244271013",
+        "199e47b4-4514-4b90-8ba9-b856c3febcd5"
+      ],
+      "settings": {
+        "section-title": "tabu is starting a movement",
+        "background": "#e5eae7",
+        "image": "shopify:\/\/shop_images\/31b45de7d4e520c9a8b89ee61538d7a9_2.jpg",
+        "image_text": "",
+        "image_width": 20,
+        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_4.jpg",
+        "image2_text": "",
+        "image_2_width": 10,
+        "divider": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "This gives me hope again",
+            "icon": "5-stars",
+            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
+            "author": "New York, 64",
+            "author_info": ""
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Excellent Quality",
+            "icon": "5-stars",
+            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
+            "author": "Missouri, 68",
+            "author_info": ""
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "The Best!",
+            "icon": "5-stars",
+            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
+            "author": "California, 74",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#000000",
+        "color_text": "#ffffff"
       }
     },
     "1662017899d309b5c2": {
@@ -69,58 +296,15 @@
         "space_above": false,
         "space_below": false
       }
-    }, 
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonials-0": {
-          "type": "testimonial",
-          "settings": {
-            "title": "This gives me hope again",
-            "icon": "5-stars",
-            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
-            "author": "New York, 64",
-            "author_info": ""
-          }
-        },
-        "testimonials-1": {
-          "type": "testimonial",
-          "settings": {
-            "title": "Excellent Quality",
-            "icon": "5-stars",
-            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
-            "author": "Missouri, 68",
-            "author_info": ""
-          }
-        },
-        "testimonials-2": {
-          "type": "testimonial",
-          "settings": {
-            "title": "The Best!",
-            "icon": "5-stars",
-            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
-            "author": "California, 74",
-            "author_info": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonials-0",
-        "testimonials-1",
-        "testimonials-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "round_images": true,
-        "color_background": "#000000",
-        "color_text": "#ffffff"
-      }
     }
   },
   "order": [
+    "166207638696ba384c",
+    "16620812517a5e736f",
     "main",
-    "16620177306131e38f",
+    "166208479334b01376",
+    "166208545426b5e62b",
+    "1662086580014888c8",
     "testimonials",
     "1662017899d309b5c2"
   ]

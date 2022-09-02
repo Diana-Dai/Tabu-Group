@@ -6676,9 +6676,11 @@ input[type=image]{
   }
 
 .index-section{
-  margin:40px 0;
+  margin:44px 0;
 }
-
+.index-padding-section{
+  padding: 44px 0;
+}
 .index-section--small{
   margin:18px 0;
 }
@@ -6733,6 +6735,9 @@ margin-bottom: 40px;
 @media only screen and (min-width:769px){
   .index-section{
     margin:75px 0;
+  }
+  .index-padding-section{
+    padding: 75px 0;
   }
 
   .index-section--small{
@@ -11909,4 +11914,18 @@ text-transform: capitalize;
 
 /* About page */
 
-.promo-grid__bg
+.heading-small{
+  font-family: 'Founders Grotesk';
+  letter-spacing: 0.1em;
+text-transform: uppercase;
+font-size:calc(var(--typeBaseSize) - 4px);
+
+}
+
+.button{
+  font-size:calc(var(--typeBaseSize) - 2px);
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 1vw;
+  display: inline-block;
+}

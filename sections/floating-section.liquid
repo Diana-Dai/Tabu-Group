@@ -1,0 +1,416 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+  {%- liquid
+    assign overlap_images = true
+    if section.settings.image != blank and section.settings.image2 == blank
+      assign overlap_images = false
+    endif
+  -%}
+  
+  <div class=" custom-text-and-image">
+  
+    <div class="page-width feature-row-wrapper">
+      {%- capture image_layout -%}
+        <div class="floating_images" data-aos>
+            {%- if section.settings.image != blank -%}
+              <div class="image_1 image-wrapper" >
+                  <div class="image-wrap" style="width:{{section.settings.image_width}}vw;">
+                    {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img role="presentation" class="feature-row__image lazyload"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image.alt }}">
+                  </div>
+                  {% if section.settings.image_text != blank %}
+                  <div class="text small--hide">
+                      {{section.settings.image_text}}
+                  </div>
+                  {% endif %}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.image2 != blank -%}
+              <div class="image_2 image-wrapper">
+                  <div class="image-wrap" style="width:{{section.settings.image_2_width}}vw;">
+                    {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img role="presentation" class="feature-row__image lazyload"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image2.alt }}">
+                  </div>
+                  {% if section.settings.image2_text != blank %}
+                  <div class="text small--hide">
+                      {{section.settings.image2_text}}
+                  </div>
+                  {% endif %}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.image == blank and section.settings.image2 == blank -%}
+              <div>
+                <div class="image-wrap">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+              <div>
+                <div class="image-wrap">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+            {%- endif -%}
+        </div>
+      {%- endcapture -%}
+  
+      <div class="feature-row">
+          {% for block in section.blocks %}
+          <div class="feature-row__item feature-row__text feature-row__text-{{ block.settings.layout }} text-{{ block.settings.align_text }}" data-aos>
+            <div>
+
+                {%- if block.settings.title != blank -%}
+                  <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.title }}</div>
+                {%- endif -%}
+                {%- if block.settings.subtitle != blank -%}
+                <div class="subheading special-font text-small appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.subtitle }}</div>
+                {%- endif -%}
+                {%- if block.settings.text != blank -%}
+                  <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if block.settings.button_label != blank -%}
+                  <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
+                    <a href="{{ block.settings.button_link }}" class=" button {% if block.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+                      {{ block.settings.button_label }}
+                    </a>
+                  </div>
+                {%- endif -%}
+            </div>
+            </div>
+          {% endfor %}
+          <div class="feature-text medium-up--hide">
+            {{section.settings.image_text}}
+            {{section.settings.image2_text}}
+          </div>
+      </div>
+
+
+
+      <div class="floating_images__wrapper">
+          {{image_layout}}
+      </div>
+
+    </div>
+  
+  </div>
+  
+  <style>
+      #shopify-section-{{section.id}}{
+          background:{{section.settings.background}};
+          padding:6vw 0;
+          position:relative;
+      }
+      #shopify-section-{{section.id}} .section-top{
+        border-bottom: 1px solid;
+        margin-bottom: 40px !important;
+      }
+      #shopify-section-{{section.id}} .rte{
+        max-width: 320px;
+      }
+      #shopify-section-{{section.id}} .text p{
+        font-size: 1.2vw;
+      }
+      #shopify-section-{{section.id}} .feature-row-wrapper{
+          position: relative;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_1{
+        position: absolute;
+        top: 7%;
+        right: 13%;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
+        position: absolute;
+        left: 15vw;
+        bottom: 0vw;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image-wrapper .text{
+        max-width: 20vw;
+        margin-left: 2vw;
+      }
+
+      #shopify-section-{{section.id}} .feature-row{
+       display:block !important;
+       margin: 0 10vw;
+       min-width: 65vw;
+      }
+    #shopify-section-{{section.id}} .subheading{
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    
+    #shopify-section-{{section.id}} .feature-row__text .btn{
+      background: transparent;
+      color: black;
+      text-transform: capitalize;
+      padding-left: 0;
+      padding-right: 0;
+      border-bottom: 3px solid;
+      letter-spacing: 0;
+    }
+    #shopify-section-{{section.id}} .feature-row .h2{
+      font-size: 10vw;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+    #shopify-section-{{section.id}} .feature-row .h2 p{
+      margin-bottom: 0;
+    }
+    @media only screen and (max-width: 768px){
+      #shopify-section-{{section.id}}{
+          padding: 2vw 0;
+      }
+      #shopify-section-{{section.id}} .page-width{
+        padding: 0;
+      }
+      #shopify-section-{{section.id}} .feature-row{
+        padding: 30px 37px;
+      }
+      #shopify-section-{{section.id}} .feature-row__text{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    }
+    #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
+      margin-top: 8vw;
+      margin-right: 2vw;
+    }
+
+    #shopify-section-{{section.id}} .feature-row__text:nth-child(3){
+      margin-left: 14vw;
+    }
+    #shopify-section-{{section.id}} .feature-row__text-right{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          
+      }
+
+    #shopify-section-{{section.id}} .feature-row__text:nth-child(2),
+    #shopify-section-{{section.id}} .feature-row__text:first-child{
+      position: relative;
+    }
+
+    #shopify-section-{{section.id}} .feature-row__text:first-child:after{
+      content: '';
+      display: inline-block;
+      width: 19vw;
+      height: 10vw;
+      position: absolute;
+      left: 22%;
+      margin-top: 2%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("data:image/svg+xml,%3Csvg width='346' height='177' viewBox='0 0 346 177' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 1C32.5 59.3333 146.4 176 346 176' stroke='black'/%3E%3C/svg%3E%0A");
+    }
+
+    @media only screen and (max-width: 768px){
+      #shopify-section-{{section.id}} .feature-row{
+       margin: 0;
+      }
+      #shopify-section-{{section.id}} .feature-row .h2{
+        font-size: 18vw;
+      }
+      #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
+        margin-right: 0;
+        margin-top: 0;
+      }
+      #shopify-section-{{section.id}} .feature-row__text:first-child:after{
+        width: 30vw;
+        height: 16vw;
+        left: 29%;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_1{
+        top: 21%;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_1 .image-wrap{
+        width: 19vw !important;
+      }
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
+        left: -1%;
+        bottom: 37%;
+      }
+
+      #shopify-section-{{section.id}} .floating_images__wrapper .image_2 .image-wrap{
+        width: 18vw !important;
+      }
+      #shopify-section-{{section.id}} .feature-text{
+        margin-top: 35px;
+      }
+    }
+
+  </style>
+  
+  {%- if section.settings.divider -%}</div>{%- endif -%}
+  
+  {% schema %}
+  {
+    "name": "Floading section 2",
+    "settings": [  
+   {
+    "type": "text",
+    "id": "section-title",
+    "label": "Section Title"
+   },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background Color"
+    },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.text-and-image.settings.image.label"
+      },
+      {
+          "type": "richtext",
+          "id": "image_text",
+          "label": "Text"
+      },
+      {
+          "type": "range",
+          "id": "image_width",
+          "label": "t:sections.text-and-image.settings.image_width.label",
+           "default": 10,
+          "min": 0,
+          "max": 50,
+          "step": 1,
+          "unit": "vw"
+        },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "t:sections.text-and-image.settings.image2.label"
+      },
+      {
+          "type": "richtext",
+          "id": "image2_text",
+          "label": "Text - 2"
+      },
+      {
+        "type": "range",
+        "id": "image_2_width",
+        "label": "t:sections.text-and-image.settings.image_width.label",
+       "default": 10,
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "vw"
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "t:sections.text-and-image.settings.divider.label",
+        "default": false
+      }
+    ],
+    "blocks":[
+     {
+      "type": "text",
+      "name":"Text",
+     "settings": [
+     {
+      "type": "text",
+      "id": "subtitle",
+      "label": "t:sections.text-and-image.settings.subtitle.label"
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "t:sections.text-and-image.settings.title.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:sections.text-and-image.settings.text.label",
+      "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:sections.text-and-image.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.text-and-image.settings.button_link.label"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "t:sections.text-and-image.settings.button_style.label",
+      "default": "primary",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:sections.text-and-image.settings.button_style.options.primary.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.text-and-image.settings.button_style.options.secondary.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.text-and-image.settings.align_text.label",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-and-image.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-and-image.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.text-and-image.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "t:sections.text-and-image.settings.layout.label",
+      "default": "right",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    }
+     ]
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Floading section 2"
+      }
+    ]
+  }
+  {% endschema %}
+  
