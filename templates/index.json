@@ -6,6 +6,9 @@
         "promo2-0": {
           "type": "advanced",
           "settings": {
+            "no_overlay": false,
+            "background_color": "",
+            "font_color": "",
             "subheading": "",
             "heading": "",
             "textarea": "",
@@ -28,6 +31,9 @@
         "c28fe7dd-4b93-4569-9233-dd2636a252b5": {
           "type": "advanced",
           "settings": {
+            "no_overlay": false,
+            "background_color": "",
+            "font_color": "",
             "subheading": "",
             "heading": "<span style=\"color:black;\">Unlock<br>Long-Term<br>Wellness<\/span>",
             "textarea": "<span style=\"color:black;\">Because your sexual health doesn’t have an expiration date.<\/span>",
@@ -179,6 +185,7 @@
     "16584165774c3521d8": {
       "type": "text-and-image",
       "settings": {
+        "background": "",
         "image": "shopify:\/\/shop_images\/Homepage_Middle.jpg",
         "image2": "shopify:\/\/shop_images\/Background_-_Homepage_Middle.jpg",
         "image_width": 700,
@@ -197,7 +204,7 @@
       "type": "text-and-image_custom",
       "settings": {
         "background": "#fcf4eb",
-        "image": "shopify:\/\/shop_images\/Group_1348.jpg",
+        "image": "shopify:\/\/shop_images\/Quiz_photo.png",
         "image_width": 30,
         "subtitle": "",
         "title": "Survey says…",
@@ -216,6 +223,9 @@
         "1658416643ef8b13bc-0": {
           "type": "advanced",
           "settings": {
+            "no_overlay": false,
+            "background_color": "",
+            "font_color": "",
             "subheading": "",
             "heading": "",
             "textarea": "",
@@ -238,6 +248,9 @@
         "1658416643ef8b13bc-1": {
           "type": "advanced",
           "settings": {
+            "no_overlay": false,
+            "background_color": "",
+            "font_color": "",
             "subheading": "",
             "heading": "<span style=\"color:black;\">Dignified Sexual Wellness<\/span>",
             "textarea": "<span style='color:black;\"'>A complete kit with everything you need to start and maintain your sexual wellness routine.<\/span>",
