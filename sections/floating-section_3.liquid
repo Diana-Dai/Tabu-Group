@@ -9,7 +9,7 @@
     
     <div class=" custom-text-and-image">
     
-      <div class="page-width feature-row-wrapper">
+      <div class="page-width-about feature-row-wrapper">
         {%- capture image_layout -%}
           <div class="floating_images" data-aos>
               {%- if section.settings.image != blank -%}
@@ -112,13 +112,33 @@
             padding:6vw 0;
             position:relative;
         }
+        @media only screen and (min-width: 769px){
+        #shopify-section-{{section.id}} .subheading{
+          font-size: 1vw;
+        }
+        #shopify-section-{{section.id}} a,
+        #shopify-section-{{section.id}} .rte p{
+          font-size: 1.2vw;
+        }
+        }
         #shopify-section-{{section.id}} .section-top{
           border-bottom: 1px solid;
           margin-bottom: 40px !important;
+          padding: 0 !important;
+          padding-top: 40px !important;
         }
+        @media only screen and (max-width: 768px){
+        #shopify-section-{{section.id}} .section-top{
+          padding-left: 37px !important;
+          padding-right: 37px !important;
+        }
+        }
+        @media only screen and (min-width: 769px){
+
         #shopify-section-{{section.id}} .rte{
-          max-width: 500px;
+          max-width: 29vw;
         }
+      }
         #shopify-section-{{section.id}} .feature-row-wrapper{
             /* position: relative; */
         }
@@ -129,8 +149,8 @@
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
           position: absolute;
-          left: 6vw;
-          bottom: 11vw;
+          left: 26vw;
+          bottom: 21vw;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image-wrapper{
           display: flex;
@@ -190,7 +210,7 @@
       }
       #shopify-section-{{section.id}} .feature-row__text:nth-child(2){
         margin-top: 10vw;
-        margin-right: 8vw;
+        margin-right: 2vw;
       }
 
       #shopify-section-{{section.id}} .feature-row__text:nth-child(3){
@@ -203,23 +223,6 @@
             
         }
 
-      #shopify-section-{{section.id}} .feature-row__text:nth-child(2),
-      #shopify-section-{{section.id}} .feature-row__text:first-child{
-        position: relative;
-      }
-
-      #shopify-section-{{section.id}} .feature-row__text:first-child:after{
-        content: '';
-        display: inline-block;
-        width: 22vw;
-        height: 12vw;
-        position: absolute;
-        left: 20%;
-        margin-top: -2%;
-        background-size: cover;
-        background-position: center;
-        background-image: url("data:image/svg+xml,%3Csvg width='346' height='177' viewBox='0 0 346 177' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 1C32.5 59.3333 146.4 176 346 176' stroke='black'/%3E%3C/svg%3E%0A");
-      }
 
 
       @media only screen and (max-width: 768px){
@@ -233,20 +236,16 @@
           margin-right: 0;
           margin-top: 0;
         }
-        #shopify-section-{{section.id}} .feature-row__text:first-child:after{
-          width: 30vw;
-          height: 16vw;
-          left: 29%;
-        }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1{
-          top: 27%;
+          top: 22%;
+          right: 12%;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1 .image-wrap{
           width: 19vw !important;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
           left: -1%;
-          bottom: 50%;
+          bottom: 55%;
         }
 
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2 .image-wrap{
@@ -258,12 +257,6 @@
         #shopify-section-{{section.id}} .feature-row__text:nth-child(2):after{
           margin-top: 2%;
         }
-      }
-      @media only screen and (min-width: 768px){
-        #shopify-section-{{section.id}} .feature-row{
-       min-width: 70vw;
-       max-width: 60vw;
-      }
       }
 
     </style>
