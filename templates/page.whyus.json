@@ -199,7 +199,26 @@
         "image_width": 20,
         "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_4.jpg",
         "image2_text": "",
-        "image_2_width": 10,
+        "image_2_width": 11,
+        "divider": false
+      }
+    },
+    "1662455515e97ac042": {
+      "type": "text-and-image_heath",
+      "settings": {
+        "background": "",
+        "title": "For long-term well-being in women",
+        "image": "shopify:\/\/shop_images\/i_7946c97e-631e-4233-9a0b-4a20b08d867b.jpg",
+        "image2": "shopify:\/\/shop_images\/9028d4e33f97df613d6f9a0b20fe441f_1_043b9c11-1bc9-477c-b45f-805b3fe7507b.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "block-title": "<p>Health<br><span>Benefits<\/span>",
+        "text": "<style>\n.heath-list{\ndisplay: flex;\nflex-direction: column;\nflex-wrap:wrap;\nheight:240px;\npadding-left: 0;\nmargin-left: 0;\nmargin-top: 20px;\n}\n.heath-list .heath-list *{\n  font-size:17px !important;\n}\n.heath-list i{\n\nmargin-right:10px;\n}\n.heath-list li{\nlist-style:none;\ndisplay: flex;\nheight:20%;\n}\n<\/style>\n<ul class=\"heath-list text-small\">\n<li>\n<i>01<\/i>\n<p>Reduced Stress<\/p>\n<\/li>\n<li>\n<i>02<\/i>\n<p>Stronger Vaginal Muscles<\/p>\n<\/li>\n<li>\n<i>03<\/i>\n<p>Lower Blood Pressure<\/p>\n<\/li>\n<li>\n<i>04<\/i>\n<p>Reduced Incontinence<\/p>\n<\/li>\n<li>\n<i>05<\/i>\n<p>Increased Libido<\/p>\n<\/li>\n<li>\n<i>06<\/i>\n<p>Improved Lubrication<\/p>\n<\/li>\n<li>\n<i>07<\/i>\n<p>Better Sleep<\/p>\n<\/li>\n<li>\n<i>08<\/i>\n<p>Lower Risk of Heart Disease<\/p>\n<\/li>\n<li>\n<i>09<\/i>\n<p>Improved Body Confidence<\/p>\n<\/li>\n<\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
         "divider": false
       }
     },
@@ -270,8 +289,8 @@
             "subheading": "",
             "heading": "Dignified <br>Sexual Wellness",
             "textarea": "<p style=\"max-width:450px;\">A complete kit with everything you need to start and maintain your sexual wellness routine.\n<\/p>",
-            "cta_text1": "",
-            "cta_link1": "",
+            "cta_text1": "Shop the kit",
+            "cta_link1": "#",
             "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
@@ -280,7 +299,7 @@
             "text_size": 100,
             "text_align": "vertical-center horizontal-left",
             "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#000000",
             "boxed": false,
             "framed": false
           }
@@ -305,6 +324,7 @@
     "166208479334b01376",
     "166208545426b5e62b",
     "1662086580014888c8",
+    "1662455515e97ac042",
     "testimonials",
     "1662017899d309b5c2"
   ]

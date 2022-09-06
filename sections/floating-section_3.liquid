@@ -131,6 +131,7 @@
         #shopify-section-{{section.id}} .section-top{
           padding-left: 37px !important;
           padding-right: 37px !important;
+          margin-bottom: 0;
         }
         }
         @media only screen and (min-width: 769px){
@@ -191,6 +192,7 @@
       @media only screen and (max-width: 768px){
         #shopify-section-{{section.id}}{
             padding: 2vw 0;
+            overflow-x:hidden;
         }
         #shopify-section-{{section.id}} .page-width{
           padding: 0;
@@ -201,8 +203,12 @@
         #shopify-section-{{section.id}} .feature-row__text{
           padding-left: 0;
           padding-right: 0;
-          padding-top: 40px;
+          padding-top: 0;
           padding-bottom: 40px;
+        }
+        #shopify-section-{{section.id}} .feature-row__text:nth-child(2) .h2{
+          margin-bottom: 80px;
+margin-top: 50px;
         }
         #shopify-section-{{section.id}} .feature-row__text:nth-child(2) .h2 p{
           text-align: right;
@@ -223,11 +229,20 @@
             
         }
 
-
+      #shopify-section-{{section.id}} .feature-row__text:first-child::before{
+        content: 'Is More Than';
+        display: inline-block;
+        position: absolute;
+        left: 38%;
+        margin-top: 2%;
+        bottom: -7vw;
+        font-family: Boogy_Brut_Poster;
+        font-size: 2.2vw;
+      }
 
       @media only screen and (max-width: 768px){
         #shopify-section-{{section.id}} .feature-row{
-         margin: 0;
+         margin: 0 !important; 
         }
         #shopify-section-{{section.id}} .feature-row .h2{
           font-size:18vw;
@@ -237,19 +252,25 @@
           margin-top: 0;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1{
-          top: 22%;
-          right: 12%;
+          top: 19%;
+right: -6%;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_1 .image-wrap{
-          width: 19vw !important;
+          width: initial !important;
+        }
+        #shopify-section-{{section.id}} .floating_images__wrapper .image_1 .image-wrap img{
+          object-fit: cover;
+object-position: center center;
+width: 33vw !important;
+height: 33vw;
         }
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2{
-          left: -1%;
+          left: -7%;
           bottom: 55%;
         }
 
         #shopify-section-{{section.id}} .floating_images__wrapper .image_2 .image-wrap{
-          width: 18vw !important;
+          width: 27vw !important;
         }
         #shopify-section-{{section.id}} .feature-text{
           margin-top: 35px;
@@ -257,6 +278,15 @@
         #shopify-section-{{section.id}} .feature-row__text:nth-child(2):after{
           margin-top: 2%;
         }
+        #shopify-section-{{section.id}} .feature-row__text:first-child::after{
+          display: none;
+        }
+        #shopify-section-{{section.id}} .feature-row__text:first-child::before{
+          font-size: 7.2vw;
+          left: 14%;
+          bottom: -3vw;
+        }
+
       }
 
     </style>

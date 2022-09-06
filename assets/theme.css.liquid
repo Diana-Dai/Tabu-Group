@@ -6843,22 +6843,23 @@ margin-bottom: 40px;
 
 @media only screen and (min-width:769px){
   .feature-row__item--overlap-images>*{
-    width: 27vw;
+    width: 56%;
     }
     .feature-row__item--overlap-images{
       position: relative;
     }
   
 
-  .feature-row__item--overlap-images>:first-child{
-        transform: translate(-4vw,-4vw);
+    .feature-row__item--overlap-images>:first-child{
+      transform: translate(37%,-10%);
     }
+    
     .feature-row__text--right +  .feature-row__item--overlap-images > :first-child{
-      transform: translate(0,-4vw);
+      transform: translate(38%,-7%);
       
     }
     .feature-row__item--overlap-images>:last-child{
-      transform: translate(-5vw,4vw);
+      transform: translate(-14%,15%);
       position: absolute;
       right: 0;
         }
@@ -11917,8 +11918,8 @@ text-transform: capitalize;
 .heading-small{
   font-family: 'Founders Grotesk';
   letter-spacing: 0.1em;
-text-transform: uppercase;
-font-size:calc(var(--typeBaseSize) - 4px);
+  text-transform: uppercase;
+  font-size:calc(var(--typeBaseSize) - 4px);
 
 }
 
@@ -12018,11 +12019,19 @@ span.testimonial-stars {
 }
 
 /* Padding changes to the Take the Survey section */
-.feature-row__item.feature-row__text.feature-row__text--left.text-left.aos-init.aos-animate {
+.template-index .feature-row__item.feature-row__text.feature-row__text--left.text-left.aos-init.aos-animate {
     padding-left: 120px;
     padding-right: 100px;
 }
 .site-footer {
   padding-bottom: 20px;
+}
+
+
+/* Whyus page */
+@media only screen and (max-width: 768px){
+.page-whyus main .page-width:not(.feature-row-wrapper){
+  padding-left: 37px;
+  padding-right: 37px;
 }
 }

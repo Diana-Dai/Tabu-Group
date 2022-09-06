@@ -10,8 +10,11 @@
 <div class="index-padding-section">
 
   <div class="page-width feature-row-wrapper">
+    <div class="section-top">
+      <p class="heading-small">{{section.settings.title}}</p>
+    </div>
     {%- capture image_layout -%}
-      <div class="feature-row__item{% if overlap_images %} feature-row__item--overlap-images{% endif %}" style="max-width: {{ section.settings.image_width }}px" data-aos>
+      <div class="small--hide feature-row__item{% if overlap_images %} feature-row__item--overlap-images{% endif %}" style="max-width: {{ section.settings.image_width }}px" data-aos>
           {%- if section.settings.image != blank -%}
             <div>
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
@@ -64,17 +67,51 @@
 
       <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-{{ section.settings.align_text }}" data-aos>
         {%- if section.settings.subtitle != blank -%}
-          <div class="heading-small subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
+          <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
-        {%- if section.settings.title != blank -%}
-          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+
+        {%- if section.settings.block-title != blank -%}
+          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.block-title }}
+            <div class="medium-up--hide images">
+              {%- if section.settings.image != blank -%}
+              <div>
+                {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+                    {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="feature-row__image lazyload"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image.alt }}">
+                  </div>
+                {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.image2 != blank -%}
+              <div>
+                {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
+                    {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="feature-row__image lazyload"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image2.alt }}">
+                  </div>
+                {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+              </div>
+            {%- endif -%}
+            </div>
+          </div>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
           <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
-            <a href="{{ section.settings.button_link }}" class="button {% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+            <a href="{{ section.settings.button_link }}" class="btn btn--secondary{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
               {{ section.settings.button_label }}
             </a>
           </div>
@@ -92,6 +129,20 @@
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 <style>
+    #shopify-section-{{section.id}} .section-top{
+    border-bottom: 1px solid;
+    margin-bottom: 40px !important;
+    padding: 0 !important;
+    padding-top: 40px !important;
+
+  }
+  @media only screen and (max-width: 768px){
+  #shopify-section-{{section.id}} .section-top{
+    padding-left: 37px !important;
+    padding-right: 37px !important;
+    margin-bottom: 0;
+  }
+  }
   #shopify-section-{{section.id}}{
     background:{{section.settings.background}};
   }
@@ -101,30 +152,93 @@
         margin-bottom: 0;
   }
   @media only screen and (max-width: 768px){
-    #shopify-section-{{section.id}} .index-padding-section{
-      padding: 75px 0 ;
-    }
     #shopify-section-{{section.id}} .h1{
-      font-size: 32vw;
+      font-size: 18vw;
+    }
   }
-  } 
+ 
   @media only screen and (min-width: 769px){
 
-        #shopify-section-{{section.id}} a,
-        #shopify-section-{{section.id}} .rte p{
-          font-size: 1.2vw;
-        }
-        }
+    #shopify-section-{{section.id}} a,
+    #shopify-section-{{section.id}} .rte p{
+      font-size: 1.2vw;
+    }
+}
+@media only screen and (min-width: 769px){
+
+#shopify-section-{{section.id}} .feature-row__item{
+  flex: 0 1 40%;
+}
+#shopify-section-{{section.id}} .feature-row__text{
+  flex: 0 1 60%;
+}
+}
+
+@media only screen and (min-width: 769px){
+  #shopify-section-{{section.id}}  .feature-row__item--overlap-images > div{
+    width: 45%;
+  }
+#shopify-section-{{section.id}}  .feature-row__item--overlap-images > :first-child {
+  transform: translate(100%,-16%);
+}
+#shopify-section-{{section.id}} .feature-row__item--overlap-images > :last-child{
+  transform: translate(-60%,50%);
+}
+}
+@media only screen and (max-width: 768px){
+#shopify-section-{{section.id}} .feature-row__text{
+  padding-top: 0;
+  width: 100%;
+}
+  #shopify-section-{{section.id}} .h1{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 38px;
+    position: relative;
+  }
+  #shopify-section-{{section.id}} .h1 span{
+    margin-left: 80px;
+  }
+
+  #shopify-section-{{section.id}} .medium-up--hide.images > div{
+  position: absolute;
+
+}
+#shopify-section-{{section.id}} .medium-up--hide.images > :first-child{
+  width: 94px;
+  right: 0;
+  top: 0;
+}
+#shopify-section-{{section.id}} .medium-up--hide.images > :last-child{
+width: 60px;
+bottom: 0;
+left: 0;
+}
+#shopify-section-{{section.id}} .heath-list{
+  display: block !important;
+  height: auto !important;
+}
+#shopify-section-{{section.id}} .heath-list li{
+  margin: 15px 0;
+}
+}
+
 </style>
 {% schema %}
 {
-  "name": "Image with text whyus",
+  "name": "Text and Image Heath",
   "settings": [
  {
   "type": "color",
   "id": "background",
   "label": "Background Color"
  },
+ {
+  "type": "text",
+  "id": "title",
+  "label": "t:sections.text-and-image.settings.title.label",
+  "default": "Image with text"
+},
     {
       "type": "image_picker",
       "id": "image",
@@ -151,16 +265,14 @@
       "label": "t:sections.text-and-image.settings.subtitle.label"
     },
     {
-      "type": "text",
-      "id": "title",
-      "label": "t:sections.text-and-image.settings.title.label",
-      "default": "Image with text"
+      "type": "richtext",
+      "id": "block-title",
+      "label": "t:sections.text-and-image.settings.title.label"
     },
     {
-      "type": "richtext",
+      "type": "html",
       "id": "text",
-      "label": "t:sections.text-and-image.settings.text.label",
-      "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+      "label": "t:sections.text-and-image.settings.text.label"
     },
     {
       "type": "text",
@@ -233,7 +345,7 @@
   ],
   "presets": [
     {
-      "name": "Image with text - whyus"
+      "name": "Text and Image Heath"
     }
   ]
 }
