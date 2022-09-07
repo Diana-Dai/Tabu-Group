@@ -179,7 +179,7 @@
       "type": "marquee",
       "settings": {
         "background": "#e5eae7",
-        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
+        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
       }
     },
     "16584165774c3521d8": {
@@ -312,6 +312,8 @@
         "9f38ce54-dc1a-4d75-ba0a-944cfb59e801"
       ],
       "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "1661879547f658ff5b": {
