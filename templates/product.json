@@ -25,7 +25,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": true
           }
         },
@@ -352,6 +352,7 @@
         "testimonials-0": {
           "type": "testimonial",
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -362,6 +363,7 @@
           "type": "testimonial",
           "disabled": true,
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
@@ -372,6 +374,7 @@
           "type": "testimonial",
           "disabled": true,
           "settings": {
+            "title": "",
             "icon": "5-stars",
             "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
             "author": "Author's name",
