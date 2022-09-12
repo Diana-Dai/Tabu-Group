@@ -11,7 +11,7 @@
         {{ section.settings.mobile-title }}
       </h2>
 
-      <a class="special-font btn--secondary small--hide" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+      <a class="btn--secondary small--hide" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
     </header>
   {%- endif -%}
 
@@ -82,7 +82,7 @@
 {%- endif -%}
 </div>
 <div class="section-header">
-<a class="hide special-font btn--secondary small--show" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
+<a class="hide btn--secondary small--show" href="{{section.settings.view_all_text_url}}">{{section.settings.view_all_text}}</a>
 </div>
 
   {%- if section.blocks.size == 0 -%}
@@ -100,8 +100,9 @@
     flex: none !important;
   }
   @media only screen and (min-width:769px){
-    #shopify-section-{{section.id}} .section-header{
-      margin: 0 30px;
+    #shopify-section-{{section.id}}{
+      margin-left: 100px;
+      margin-right: 100px;
     }
   }
   #shopify-section-{{section.id}} .section-header a {
@@ -109,13 +110,21 @@
     margin-top: 50px;
     display: inline-block;
     letter-spacing: 0.1em;
+    font-weight: normal !important;
+    border-width: 2px !important;
   }
+  @media only screen and (max-width:768px){
+    #shopify-section-{{section.id}} .section-header a.small--show {
+      display: inline-block !important;
+    }
+  }
+
   #shopify-section-{{section.id}} .content{
     flex: 1 1 0;
   }
   @media only screen and (min-width:769px){
     #shopify-section-{{section.id}} .content{
-      margin: 0 85px;
+      margin-left: 85px;
     }
   }
   #shopify-section-{{section.id}} .collapsible-trigger{

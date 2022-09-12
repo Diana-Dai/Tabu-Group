@@ -17,7 +17,7 @@
             "font_color": "#000000",
             "subheading": "",
             "heading": "About Us",
-            "textarea": "We believe sexual health is about more than just pleasure — and it’s time we start talking about it.",
+            "textarea": "We believe sexual health is about more than just pleasure – and it doesn’t come with an expiration date.",
             "cta_text1": "",
             "cta_link1": "",
             "cta_text2": "",
@@ -36,7 +36,7 @@
         "8833fbf6-bbce-4482-9cb8-6ee92419cf4b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1349_19ba7edd-590c-40f6-ab83-9a6337f56d06.jpg",
+            "image": "shopify:\/\/shop_images\/Group_1350.jpg",
             "link": "",
             "width": "50"
           }
@@ -56,12 +56,13 @@
     "16620074859a4304e3": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/31b45de7d4e520c9a8b89ee61538d7a9_1.jpg",
-        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_5.jpg",
+        "background": "",
+        "image": "shopify:\/\/shop_images\/84.jpg",
+        "image2": "shopify:\/\/shop_images\/Our_story_back_woman_s_face_shouldn_t_show.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Our Story",
-        "text": "<p>Tabu was founded to help women prioritize their sexual health throughout their lives - not just for pleasure but as an essential (yet overlooked) part of long-term well-being. We want to overcome the taboo notion that women, like men, may want to preserve this part of their lives as they age, and provide them with an adequate solution. Like the old adage says: use it or lose it.<br\/><\/p>",
+        "text": "<p>Tabu was founded to help women prioritize their sexual health throughout their lives - not just for pleasure but as an essential (yet overlooked) part of long-term well-being. We want to help overcome the taboo notion that women, like men, may want to preserve this part of our lives as we age. Like the old adage says: use it or lose it.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -73,12 +74,13 @@
     "16620085309bb580d3": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2f73c44301eee99fb7e3c4a9ccf4efc9_2.jpg",
-        "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
+        "background": "",
+        "image": "shopify:\/\/shop_images\/Embrace_it_all_front.jpg",
+        "image2": "shopify:\/\/shop_images\/Embrace_it_all_back.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Embrace It All",
-        "text": "<p>We are working towards a future where our sexual health as women isn’t defined by where we are in our reproductive years, but by our unique journeys, meaningful connections, individual experiences, and above all, our quality of life. We invite you to join our movement and prioritize your well-being — now and always. <\/p>",
+        "text": "<p>We are working toward a future where our sexual health as women isn’t defined by where we are in our reproductive years, but by our unique journeys, meaningful connections, individual experiences, and above all, our quality of life. We invite you to join our movement and prioritize your well-being - now and always. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -94,11 +96,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image": "shopify:\/\/shop_images\/dr_heidi.png",
             "image_width": 300,
-            "title": "Name Lorem, pHD",
-            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
-            "button_label": "Optional button",
+            "title": "Dr. Heidi Gastler",
+            "text": "<p>Pelvic Floor Physical Therapist<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -106,11 +108,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image": "shopify:\/\/shop_images\/barb.png",
             "image_width": 300,
-            "title": "Name Lorem, pHD",
-            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
-            "button_label": "Optional button",
+            "title": "Dr. Barb DePree",
+            "text": "<p>Gynecologist & Menopause Care Specialist<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -118,11 +120,35 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "image": "shopify:\/\/shop_images\/julie.png",
             "image_width": 300,
-            "title": "Name Lorem, pHD",
-            "text": "<p>Lorem ipsum, Nutritional Science<\/p>",
-            "button_label": "Optional button",
+            "title": "Julie Bottarini, MPT \/ CLT",
+            "text": "<p>Pelvic Floor Physical Therapist<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "454261d0-8462-4920-beb9-b04c4fcb8a36": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/susan.png",
+            "image_width": 300,
+            "title": "Susan Feldman",
+            "text": "<p>Founder of In The Groove<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "12010d42-21a7-4bd9-9e2a-88829fcef541": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dr_casper.png",
+            "image_width": 300,
+            "title": "Dr. Kelly Casperson",
+            "text": "<p>Urologist & Sex Educator<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -130,7 +156,9 @@
       "block_order": [
         "1662009237b8cd8090-0",
         "1662009237b8cd8090-1",
-        "1662009237b8cd8090-2"
+        "1662009237b8cd8090-2",
+        "454261d0-8462-4920-beb9-b04c4fcb8a36",
+        "12010d42-21a7-4bd9-9e2a-88829fcef541"
       ],
       "settings": {
         "background": "#fcf4eb",
@@ -187,7 +215,6 @@
         "space_below": false
       }
     }
-    
   },
   "order": [
     "main",

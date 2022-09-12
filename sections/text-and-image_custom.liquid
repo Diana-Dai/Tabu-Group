@@ -74,7 +74,7 @@
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
           <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
-            <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+            <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--secondary{% endif %}">
               {{ section.settings.button_label }}
             </a>
           </div>
@@ -100,7 +100,7 @@
   #shopify-section-{{section.id}} .feature-row__item{
     flex: 0 1 {{ 100 | minus: section.settings.image_width}}%;
   }
-  #shopify-section-{{section.id}} .feature-row__text .btn{
+  /* #shopify-section-{{section.id}} .feature-row__text .btn{
     background: transparent;
     color: black;
     text-transform: capitalize;
@@ -108,7 +108,7 @@
     padding-right: 0;
     border-bottom: 3px solid;
     letter-spacing: 0;
-  }
+  } */
   @media only screen and (max-width: 768px){
     #shopify-section-{{section.id}} .page-width{
       padding: 0;

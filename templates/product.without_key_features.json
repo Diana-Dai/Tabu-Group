@@ -11,7 +11,7 @@
         "b1387777-29dc-4fe4-8288-e3ba670c6f18": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Warming Wand<\/p>\n<p>Clinician-Approved<\/p>\n<p>Organic Ingredients<\/p>\n<\/div>"
+            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.7em\">\n<p>pH Balanced <\/p>\n<p>FDA Cleared<\/p>\n<p>Hypoallergenic<\/p>\n<\/div>"
           }
         },
         "variant_picker": {
@@ -29,6 +29,18 @@
             "surface_pickup_enable": true
           }
         },
+        "241f51bf-6645-422c-bf3e-67edb9bf374a": {
+          "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "primary_color": "#000000",
+            "secondary_color": "#000000",
+            "header_text": "Purchase Options",
+            "one_time_text": "One-time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "frequency_header": "Delivery Frequency",
+            "frequency_text": "delivery"
+          }
+        },
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
           "type": "text",
           "settings": {
@@ -39,15 +51,16 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p><br\/>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t lose it). <\/p>",
+            "content": "<p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant-based antioxidants to soothe and calm your most sensitive areas.<\/p><p>Developed in beautiful California, our lubricant is recommended by top GYNs and pelvic floor experts.<\/p>",
             "page": ""
           }
         },
         "a04579d3-07f9-42a3-a917-4cacd9f921d8": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Inside The Kit",
-            "content": "<p><strong>Nuri Massager<\/strong><\/p><p>This soft-touch wand massager is ergonomically designed with three speeds, making it comfortable and easy to use. Waterproof and made with 100% medical grade silicone, our favorite feature is the Nuri’s optional warming system. The device heats up to around 97 degrees Fahrenheit (just about body temperature) to increase comfort and stimulate blood flow, which helps to maintain vaginal health. Using the wand internally can also help to maintain vaginal width, length, and tone. <\/p><p> <br\/><\/p><p><strong>Aureum Lubricant<\/strong> <br\/><\/p><p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant based antioxidants to soothe and calm your most sensitive areas. <\/p>",
+            "content": "<p>Nuri Massager<\/p><p>This soft-touch wand massager is ergonomically designed with three speeds, making it comfortable and easy to use. Waterproof and made with 100% medical grade silicone, our favorite feature is the Nuri’s optional warming system. The device heats up to around 97 degrees Fahrenheit (just about body temperature) to increase comfort and stimulate blood flow, which helps to maintain vaginal health. Using the wand internally can also help to maintain vaginal width, length, and tone. <\/p><p>Aureum Lubricant<\/p><p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant based antioxidants to soothe and calm your most sensitive areas. <\/p>",
             "page": ""
           }
         },
@@ -55,7 +68,7 @@
           "type": "tab",
           "settings": {
             "title": "How To Use",
-            "content": "<p><strong>Your Aureum Lubricant<\/strong><br\/> <br\/>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<br\/><\/p>",
+            "content": "<p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
             "page": ""
           }
         },
@@ -63,7 +76,7 @@
           "type": "tab",
           "settings": {
             "title": "Ingredients",
-            "content": "<p><strong>Organic aloe leaf<\/strong><\/p><p>Known for healing, soothing, and moisturizing <\/p><p> <\/p><p><strong>Organic peony root<\/strong><\/p><p>Anti-inflammatory and antioxidant that protects from damaging free radicals<\/p><p> <\/p><p><strong>Organic passion flower<\/strong><\/p><p>Antioxidant rich in essential fatty acids and Vitamins A & C<\/p><p> <\/p><p><strong>Tocopherol (Vitamin E)<\/strong><\/p><p>Antioxidant that helps moisturize and soothe sensitive areas<\/p><p> <\/p><p><strong>Hyaluronic acid<\/strong><\/p><p>Found naturally in the body, to help retain moisture<\/p><p> <\/p><p><strong>Lactic acid<\/strong><\/p><p>Helps maintain optimal vaginal pH and promotes lactobacilli balance<\/p><p> <\/p><p><strong>Allantoin <\/strong><\/p><p>Found in plants like chamomile, helps to moisturize and prevent dryness and irritation<\/p><p> <\/p><p><strong>Hydroxyethylcellulose<\/strong><\/p><p>Plant-derived thickener<\/p><p> <\/p><p><strong>Organic stevia<\/strong><\/p><p>Natural sweetener that’s rich in antibacterial and antioxidant properties<\/p><p> <\/p><p><strong>Sorbitol<\/strong><\/p><p>Natural humectant that hydrates<\/p><p> <\/p><p><strong>Potassium sorbate<\/strong><\/p><p>Natural preservative<\/p>",
+            "content": "<p><strong>Organic aloe leaf<\/strong><\/p><p>Known for healing, soothing, and moisturizing.<\/p><p> <\/p><p><strong>Hyaluronic acid<\/strong><\/p><p>Found naturally in the body, to help retain moisture.<\/p><p> <\/p><p><strong>Organic passion flower<\/strong><\/p><p>Antioxidant rich in essential fatty acids and Vitamins A & C.<\/p><p> <\/p><p><strong>Organic peony root<\/strong><\/p><p>Anti-inflammatory and antioxidant that protects from damaging free radicals.<\/p>",
             "page": ""
           }
         }
@@ -73,6 +86,7 @@
         "b1387777-29dc-4fe4-8288-e3ba670c6f18",
         "variant_picker",
         "buy_buttons",
+        "241f51bf-6645-422c-bf3e-67edb9bf374a",
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88",
         "tab",
         "a04579d3-07f9-42a3-a917-4cacd9f921d8",
@@ -145,11 +159,12 @@
       "type": "marquee",
       "settings": {
         "background": "#e5eae7",
-        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbspGlycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
+        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
       }
     },
     "1660704914412f8848": {
       "type": "key-features",
+      "disabled": true,
       "blocks": {
         "1660704914cf4a7f84-0": {
           "type": "text_block",
@@ -160,20 +175,20 @@
             "button_link": ""
           }
         },
-        "1660704914cf4a7f84-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "Slender Design",
-            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "1660704914cf4a7f84-1": {
           "type": "text_block",
           "settings": {
             "title": "Antioxidant Rich",
             "text": "<p>Powerful antioxidants and omega-6 essential fatty acids protect from dryness and harmful free-radicals<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660704914cf4a7f84-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Slender Design",
+            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -190,15 +205,15 @@
       },
       "block_order": [
         "1660704914cf4a7f84-0",
-        "1660704914cf4a7f84-2",
         "1660704914cf4a7f84-1",
+        "1660704914cf4a7f84-2",
         "6ca21f17-c483-4b24-aa6d-759f06fef617"
       ],
       "settings": {
         "background": "",
         "title": "Key Features",
-        "sub-title": "An intentional toolkit, designed with your needs in mind.",
-        "image": "shopify:\/\/shop_images\/Key_Features_-_The_Kit_9c77dca1-8abc-4221-b37a-4544d3218ba3.png",
+        "sub-title": "An essential piece of long-term well-being, designed with your needs in mind.",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-06_at_12.07_1.jpg",
         "align_text": "left",
         "divider": false
       }
@@ -272,51 +287,29 @@
     "166070351680028fea": {
       "type": "faq",
       "blocks": {
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59": {
+          "type": "question",
+          "settings": {
+            "title": "Can it be used as a moisturizer?",
+            "text": "<p>Our organic lubricant is designed to be applied both in and around your vagina for partnered or solo sexual activity. While some members do use it as a moisturizer, it is designed to be a lubricant.<\/p><p> <\/p><p>If you're specifically looking for a vaginal moisturizer, Kindra is a fantastic option.<\/p>"
+          }
+        },
         "1660703516dd6c1e1c-0": {
           "type": "question",
           "settings": {
-            "title": "How often should I use this?",
-            "text": "<p>While everyone is different, our medical advisors recommend using the Tabu Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
+            "title": "Is it safe to ingest\/use orally?",
+            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E),<\/p><p>Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol,<\/p><p>Potassium sorbate<\/p>"
           }
         },
         "1660703516dd6c1e1c-1": {
           "type": "question",
           "settings": {
-            "title": "How do I charge it?",
-            "text": "<p>To charge you Nuri, plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p>"
+            "title": "Is your lubricant formula FDA Cleared?",
+            "text": "<p>Yes! Our organic lubricant is FDA cleared and made from only the finest ingredients.<\/p>"
           }
         },
         "f33ea504-28ba-461c-a018-f0645536aa74": {
           "type": "question",
-          "settings": {
-            "title": "How big is the massager?",
-            "text": "<p>Our massager is 8in long and 1.2in wide at its widest point.<\/p>"
-          }
-        },
-        "abd51d1a-3d6b-41d3-aaad-f158a52f9a38": {
-          "type": "question",
-          "settings": {
-            "title": "Can I insert both ends?",
-            "text": "<p>The end of the massager that has the power and heat function buttons, as well as the charging port, is not meant to be inserted.<\/p>"
-          }
-        },
-        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59": {
-          "type": "question",
-          "settings": {
-            "title": "Can the lubricant be used as a moisturizer?",
-            "text": "<p>Our organic lubricant is designed to be applied both in and around your vulva \/ vagina for partnered or solo sexual activity. While some members do use it as a moisturizer, it is designed to be a lubricant.<\/p><p> <\/p><p>If you're specifically looking for a vaginal moisturizer, Kindra is a fantastic option.<\/p>"
-          }
-        },
-        "82ebf93b-50d7-4815-aa7d-2a45e8d09383": {
-          "type": "question",
-          "settings": {
-            "title": "Is it safe to ingest or use orally?",
-            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E), Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol, Potassium sorbate<\/p>"
-          }
-        },
-        "8402c6cf-2172-464b-ae71-0698869fa72a": {
-          "type": "question",
-          "disabled": true,
           "settings": {
             "title": "Why are there sweeteners in your lubricant?",
             "text": "<p>The organic stevia is rich in antibacterial and antioxidant properties, and sorbitol is a natural humectant that’s great for hydration.<\/p>"
@@ -324,18 +317,15 @@
         }
       },
       "block_order": [
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
         "1660703516dd6c1e1c-0",
         "1660703516dd6c1e1c-1",
-        "f33ea504-28ba-461c-a018-f0645536aa74",
-        "abd51d1a-3d6b-41d3-aaad-f158a52f9a38",
-        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
-        "82ebf93b-50d7-4815-aa7d-2a45e8d09383",
-        "8402c6cf-2172-464b-ae71-0698869fa72a"
+        "f33ea504-28ba-461c-a018-f0645536aa74"
       ],
       "settings": {
         "title": "<p>frequently <\/p><p>Asked <\/p><p>Questions<\/p>",
         "mobile-title": "<p>frequently Asked <\/p><p>Questions<\/p>",
-        "view_all_text": "see all faqs",
+        "view_all_text": "see all faq’s",
         "view_all_text_url": "shopify:\/\/pages\/faqs"
       }
     },
@@ -352,30 +342,30 @@
         "testimonials-0": {
           "type": "testimonial",
           "settings": {
-            "title": "This gives me hope again",
+            "title": "Game Changer",
             "icon": "5-stars",
-            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
-            "author": "New York, 64",
+            "testimonial": "<p>This is great stuff. My doctor has seen a definite change.<\/p>",
+            "author": "Colorado, 70",
             "author_info": ""
           }
         },
         "testimonials-1": {
           "type": "testimonial",
           "settings": {
-            "title": "Excellent Quality",
+            "title": "LOVE this product!",
             "icon": "5-stars",
-            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
-            "author": "Missouri, 68",
+            "testimonial": "<p>I have always been extremely sensitive to drugstore lubes that I've purchased. Which is so frustrating. This is the first lube I've found that does not irritate me AT ALL. I am so excited to have found this lube. I plan to continue to purchase it for years to come! Thank you Tabu!<\/p>",
+            "author": "Arizona, 33",
             "author_info": ""
           }
         },
         "testimonials-2": {
           "type": "testimonial",
           "settings": {
-            "title": "The Best!",
+            "title": "Only product that works for me!!",
             "icon": "5-stars",
-            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
-            "author": "California, 74",
+            "testimonial": "<p>I have tried them all!! I have several issues that were causing painful intercourse. This product is a life saver (in and out of the bedroom)!! Thank you! Thank you! Thank you!<\/p>",
+            "author": "Ohio, 59",
             "author_info": ""
           }
         }

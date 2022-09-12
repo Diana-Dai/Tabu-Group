@@ -10,7 +10,7 @@
     </div>
   {%- endif -%}
 
-  <div class="d-custom-carousel grid{% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom"> 
+  <div class="d-custom-carousel grid {% if section.blocks.size >= 5 %}enable-flickity-desktop{% endif %} {% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom"> 
     {%- liquid
       assign grid_item_width = 'medium-up--one-third'
       case section.blocks.size
@@ -72,23 +72,26 @@
 
 <style>
 #shopify-section-{{section.id}} .page-width{
-  padding:50px 0;
+  padding-top:50px;
+  padding-bottom:50px;
   background:{{section.settings.background}};
 
 }
 #shopify-section-{{section.id}} .section-header p{
-  margin: 0 auto;
-max-width: 600px;
+  /* margin: 0 auto; */
+/* max-width: 600px; */
 }
 @media only screen and (min-width:769px){
   #shopify-section-{{section.id}} .page-width{
-    padding:100px 0;
+    padding-top:100px;
+  padding-bottom:100px;
   }
 }
 </style>
 {% schema %}
 {
   "name": "t:sections.text-columns.name",
+ "class": "text-columns",
   "settings": [
   {
     "type": "color",

@@ -23,7 +23,15 @@ function init() {
                 draggable:true
               });
         })
-
+    }else{
+      var custom_carousels = document.querySelectorAll('.d-custom-carousel.enable-flickity-desktop').forEach(elem=>{
+        var flkty = new Flickity( elem, {
+            prevNextButtons: false,
+            pageDots: true,
+            draggable:true,
+            cellAlign:'left'
+          });
+      })
     }
 
   }else{

@@ -18,12 +18,11 @@
       assign is_megamenu = false
       if link.links != blank
         assign has_dropdown = true
-        if link.levels > 1
+        if link.levels > 0
           assign is_megamenu = true
         endif
       endif
     -%}
-
     <li
       class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}"
       {% if has_dropdown %}aria-haspopup="true"{% endif %}>
@@ -45,7 +44,7 @@
                   {%- liquid
                     assign create_new_column = false
 
-                    if childlink.levels > 0 and forloop.index != 1
+                    if  forloop.index != 1
                       assign create_new_column = true
                     endif
 
@@ -69,8 +68,15 @@
                     {%- endif -%}
                   {%- endif -%}
 
-                  <div class="h5">
-                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">{{ childlink.title }}</a>
+                  {%- comment -%}Add images{%- endcomment -%}
+                  {%- assign main_menu = link.title -%}
+                  {% if main_menu == "Shop" %}
+                    {%- assign image_name = childlink.title | handleize | append: '.jpg' -%}
+                    <img loading="lazy" src="{{ image_name | file_img_url : '800x'}}" alt="">
+                  {% endif %}
+                  
+                  <div class="">
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level special-font">{{ childlink.title }}</a>
                   </div>
 
                   {%- liquid
@@ -94,6 +100,7 @@
           </div>
         </div>
       {%- elsif has_dropdown -%}
+      {%- assign main_menu = link.title -%}
         <ul class="site-nav__dropdown text-left">
           {%- for childlink in link.links -%}
             {%- liquid
@@ -103,7 +110,7 @@
               endif
             -%}
 
-            <li class="{% if has_sub_dropdown %} site-nav__deep-dropdown-trigger{% endif %}">
+            <li class="{% if has_sub_dropdown %} site-nav__deep-dropdown-trigger{% endif %} ">
               <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--second-level{% if has_sub_dropdown %} site-nav__dropdown-link--has-children{% endif %}">
                 {{ childlink.title | escape }}
                 {%- if has_sub_dropdown -%}

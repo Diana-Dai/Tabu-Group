@@ -1413,13 +1413,13 @@ body,html{
 }
 
 .page-full,.page-width{
-  padding:0 17px
+  padding:0 30px;
 }
 
 @media only screen and (min-width:769px){
 
 .page-full,.page-width{
-    padding:0 40px
+    padding:0 100px;
 }
   }
 
@@ -2110,7 +2110,8 @@ button[disabled],html input[disabled]{
   border-bottom:3px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
-  background-color:transparent
+  background-color:transparent;
+  font-weight:500;
 }
 
 [data-button_style=angled] .btn--secondary,[data-button_style=angled] .rte .btn--secondary{
@@ -3789,7 +3790,11 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
 
 .site-footer{
     padding-top:60px;
-    padding-bottom:60px
+    padding-bottom:60px;
+}
+.site-footer .grid{
+  padding-left: 80px;
+  padding-right: 80px;
 }
   }
 
@@ -5013,7 +5018,7 @@ form+.footer__social{
   display:inline-block;
   vertical-align:middle;
   text-decoration:none;
-  padding:7.5px 15px;
+  padding:7.5px 25px;
   white-space:nowrap;
   color:{{ settings.color_header_text | default: "#000" }};
   color:var(--colorNavText)
@@ -5574,6 +5579,7 @@ form+.footer__social{
     display:inline-block;
     vertical-align:top;
     text-align:left;
+    padding-right: 22px;
   }
 
 .megamenu .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level){
@@ -6808,7 +6814,9 @@ margin-bottom: 40px;
   flex:0 1 57%;
   margin:0 auto
 }
-
+.feature-row__item.feature-row__text{
+  margin: 0;
+}
 @media only screen and (max-width:768px){
 
 .feature-row__item{
@@ -6823,14 +6831,14 @@ margin-bottom: 40px;
   justify-content:space-between;
   align-items:center;
   padding:0 0 15px;
-  margin:0 0 0 -30px
+  /* margin:0 0 0 -30px */
 }
 
 @media only screen and (min-width:769px){
 
 .feature-row__item--overlap-images{
     padding:50px 0;
-    margin:0 auto
+    /* margin:0 auto */
 }
   }
 
@@ -6852,18 +6860,23 @@ margin-bottom: 40px;
     }
   
 
-    .feature-row__item--overlap-images>:first-child{
-      transform: translate(37%,-10%);
+    /* Images on the left side */
+    .feature-row__item--overlap-images > :first-child{
+      transform: translate(0%,-10%);
     }
-    
+    /* Images on the right side */
     .feature-row__text--right +  .feature-row__item--overlap-images > :first-child{
-      transform: translate(38%,-7%);
+      transform: translate(52%,-7%);
       
     }
     .feature-row__item--overlap-images>:last-child{
-      transform: translate(-14%,15%);
+      transform: translate(-37%,15%);
       position: absolute;
       right: 0;
+        }
+        .feature-row__text--right +  .feature-row__item--overlap-images > :last-child{
+          transform: translate(0%,15%);
+
         }
       }
 
@@ -6917,11 +6930,11 @@ margin-bottom: 40px;
     margin-bottom: 48px;
   }
   .feature-row__text--left{
-    padding-left:60px;
+    padding-left:30px;
   }
 
   .feature-row__text--right{
-    padding-right:50px;
+    padding-right:30px;
   }
 }
 
@@ -11855,8 +11868,8 @@ html[dir=rtl] .product-single__meta .rte{
 }
 @media only screen and (min-width: 768px){
   .wellness-section{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 89px;
+    padding-bottom: 92px;
   }
 .custom-text-column_container{
   display: flex;
@@ -11980,14 +11993,14 @@ text-transform: capitalize;
 /*Set max/width padding for promotion grid*/
 .promo-grid__text {
     max-width: 500px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .flex-grid__item--c28fe7dd-4b93-4569-9233-dd2636a252b5.flex-grid__item--50 .promo-grid__text {
     font-size: 1em !important;
 }
 /*Increase size of buttons - done for the homepage promo grid*/
-a.btn {
+a.btn:not(.btn--secondary) {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1.5rem;
@@ -12002,9 +12015,12 @@ div#shopify-section-template--15781309874358__16584163921fd90b0e {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 1.5rem;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     padding-bottom: 1.75rem;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+}
+div#shopify-section-template--15781309874358__16584163921fd90b0e .section-header{
+  margin-bottom: 20px;
 }
 
 /*Changes to Product Page Testimonials*/
@@ -12040,4 +12056,16 @@ span.testimonial-stars {
 
 .site-header {
     box-shadow: none;
+}
+
+/* About us page - Medical Experts & Advisors */
+@media only screen and (min-width: 769px){
+.page-about .text-columns .page-width{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.enable-flickity-desktop .grid__item{
+width: 33.3% !important;
+}
+
 }

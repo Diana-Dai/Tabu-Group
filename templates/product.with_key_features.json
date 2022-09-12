@@ -11,7 +11,7 @@
         "b1387777-29dc-4fe4-8288-e3ba670c6f18": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Warming Wand<\/p>\n<p>Clinician-Approved<\/p>\n<p>Organic Ingredients<\/p>\n<\/div>"
+            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Golden Hour +<\/p>\n<p>Gua Sha<\/p>\n<p>Mirror Decals<\/p>\n<\/div>"
           }
         },
         "variant_picker": {
@@ -39,15 +39,15 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p><br\/>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t lose it). <\/p>",
+            "content": "<p>One of our community members once told us that her work with The Golden Hour Kit helped her feel like a woman again. That got us thinking - how else can we help women get in touch with themselves?  <\/p><p> <\/p><p>We put together a care package with Golden Hour and some extra tools to help you take care of yourself, body and soul.<\/p>",
             "page": ""
           }
         },
         "a04579d3-07f9-42a3-a917-4cacd9f921d8": {
           "type": "tab",
           "settings": {
-            "title": "Inside The Kit",
-            "content": "<p><strong>Nuri Massager<\/strong><\/p><p>This soft-touch wand massager is ergonomically designed with three speeds, making it comfortable and easy to use. Waterproof and made with 100% medical grade silicone, our favorite feature is the Nuri’s optional warming system. The device heats up to around 97 degrees Fahrenheit (just about body temperature) to increase comfort and stimulate blood flow, which helps to maintain vaginal health. Using the wand internally can also help to maintain vaginal width, length, and tone. <\/p><p> <br\/><\/p><p><strong>Aureum Lubricant<\/strong> <br\/><\/p><p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant based antioxidants to soothe and calm your most sensitive areas. <\/p>",
+            "title": "Inside The Affirmations Kit",
+            "content": "<p><strong>The Golden Hour Kit<\/strong><\/p><p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t <em>lose <\/em>it). <\/p><p> <\/p><p><strong>Mirror Affirmation Decals<\/strong><\/p><p>Inspired by some sweet sticky notes our founder Natalie found on her mom’s bathroom mirror, The Affirmations Kit includes two mirror decals with some loving reminders to start and end your day. They say, “today, love yourself first” and “prioritizing myself is a pleasure”.<\/p><p> <\/p><p><strong>Gua Sha<\/strong><\/p><p>Every woman should have the opportunity to indulge in simple, luxurious healing practices. Self massage with gua sha is a beautiful way to relieve tension, improve circulation, and even help address hot flashes, sleep issues, and mood changes, according to a recent study by Chinese researchers.<\/p>",
             "page": ""
           }
         },
@@ -55,7 +55,7 @@
           "type": "tab",
           "settings": {
             "title": "How To Use",
-            "content": "<p><strong>Your Aureum Lubricant<\/strong><br\/> <br\/>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<br\/><\/p>",
+            "content": "<p><strong>Your Nuri Massager<\/strong><\/p><p> To charge your Nuri,  plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p><p><br\/>To activate the heating feature, press the power button again. The button will blink as it heats up to 97 degrees Fahrenheit. <\/p><p> <\/p><p>Hit the vibration button to cycle through your three different speeds and vibration patterns. Once you’re done, hold down the power button again for two seconds to turn your device off. <\/p><p> <\/p><p><strong>Your Aureum Lubricant<\/strong><\/p><p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
             "page": ""
           }
         },
@@ -145,7 +145,7 @@
       "type": "marquee",
       "settings": {
         "background": "#e5eae7",
-        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbspGlycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
+        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
       }
     },
     "1660704914412f8848": {
@@ -160,20 +160,20 @@
             "button_link": ""
           }
         },
-        "1660704914cf4a7f84-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "Slender Design",
-            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "1660704914cf4a7f84-1": {
           "type": "text_block",
           "settings": {
             "title": "Antioxidant Rich",
             "text": "<p>Powerful antioxidants and omega-6 essential fatty acids protect from dryness and harmful free-radicals<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660704914cf4a7f84-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Slender Design",
+            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -190,15 +190,15 @@
       },
       "block_order": [
         "1660704914cf4a7f84-0",
-        "1660704914cf4a7f84-2",
         "1660704914cf4a7f84-1",
+        "1660704914cf4a7f84-2",
         "6ca21f17-c483-4b24-aa6d-759f06fef617"
       ],
       "settings": {
         "background": "",
         "title": "Key Features",
-        "sub-title": "An intentional toolkit, designed with your needs in mind.",
-        "image": "shopify:\/\/shop_images\/Key_Features_-_The_Kit_9c77dca1-8abc-4221-b37a-4544d3218ba3.png",
+        "sub-title": "An essential piece of long-term well-being, designed with your needs in mind.",
+        "image": "shopify:\/\/shop_images\/Key_Features_-_The_Kit.png",
         "align_text": "left",
         "divider": false
       }
@@ -275,28 +275,28 @@
         "1660703516dd6c1e1c-0": {
           "type": "question",
           "settings": {
-            "title": "How often should I use this?",
-            "text": "<p>While everyone is different, our medical advisors recommend using the Tabu Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
+            "title": "How often should I use The Golden Hour Kit?",
+            "text": "<p>While everyone is different, our medical advisors recommend using the Golden Hour Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
           }
         },
         "1660703516dd6c1e1c-1": {
           "type": "question",
           "settings": {
-            "title": "How do I charge it?",
+            "title": "How do I charge the Nuri Massager?",
             "text": "<p>To charge you Nuri, plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p>"
           }
         },
         "f33ea504-28ba-461c-a018-f0645536aa74": {
           "type": "question",
           "settings": {
-            "title": "How big is the massager?",
+            "title": "How big is the Nuri?",
             "text": "<p>Our massager is 8in long and 1.2in wide at its widest point.<\/p>"
           }
         },
         "abd51d1a-3d6b-41d3-aaad-f158a52f9a38": {
           "type": "question",
           "settings": {
-            "title": "Can I insert both ends?",
+            "title": "Can I insert both ends of the Nuri?",
             "text": "<p>The end of the massager that has the power and heat function buttons, as well as the charging port, is not meant to be inserted.<\/p>"
           }
         },
@@ -311,7 +311,7 @@
           "type": "question",
           "settings": {
             "title": "Is it safe to ingest or use orally?",
-            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E), Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol, Potassium sorbate<\/p>"
+            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E), Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol, Potassium sorbate.<\/p>"
           }
         },
         "8402c6cf-2172-464b-ae71-0698869fa72a": {
@@ -320,6 +320,13 @@
           "settings": {
             "title": "Why are there sweeteners in your lubricant?",
             "text": "<p>The organic stevia is rich in antibacterial and antioxidant properties, and sorbitol is a natural humectant that’s great for hydration.<\/p>"
+          }
+        },
+        "569526f7-8a4b-4292-a8ae-6acc96aed0fd": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use the Gua Sha on my body?",
+            "text": "<p>Yes! Gua Sha can be used on both your face and body.<\/p>"
           }
         }
       },
@@ -330,7 +337,8 @@
         "abd51d1a-3d6b-41d3-aaad-f158a52f9a38",
         "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
         "82ebf93b-50d7-4815-aa7d-2a45e8d09383",
-        "8402c6cf-2172-464b-ae71-0698869fa72a"
+        "8402c6cf-2172-464b-ae71-0698869fa72a",
+        "569526f7-8a4b-4292-a8ae-6acc96aed0fd"
       ],
       "settings": {
         "title": "<p>frequently <\/p><p>Asked <\/p><p>Questions<\/p>",
@@ -348,35 +356,38 @@
     },
     "testimonials": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
           "settings": {
-            "title": "This gives me hope again",
+            "title": "",
             "icon": "5-stars",
-            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
-            "author": "New York, 64",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
         "testimonials-1": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
-            "title": "Excellent Quality",
+            "title": "",
             "icon": "5-stars",
-            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
-            "author": "Missouri, 68",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
         "testimonials-2": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
-            "title": "The Best!",
+            "title": "",
             "icon": "5-stars",
-            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
-            "author": "California, 74",
-            "author_info": ""
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         }
       },
@@ -386,11 +397,11 @@
         "testimonials-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Testimonials",
         "align_text": "center",
         "round_images": true,
-        "color_background": "#000000",
-        "color_text": "#ffffff"
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
       }
     },
     "16607033794ea6bc0e": {
@@ -412,8 +423,8 @@
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "Complete Your Routine",
-        "sub-title": "Your health is in your hand",
-        "related_count": 5
+        "sub-title": "Shop our sexual health essentials",
+        "related_count": 4
       }
     },
     "recently-viewed": {

@@ -191,7 +191,7 @@
         "image_width": 700,
         "subtitle": "",
         "title": "Make Sexual Health Routine",
-        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routine as your nutrition, movement, and even your skincare. Learn more about our mission and why addressing your sexual health now, can help you feel like your (new) self later. <\/p>",
+        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routine as your nutrition, movement, and even your skincare. Learn more about our mission and why addressing your sexual health now, can help you feel like your (new) self later. <\/p><p><\/p>",
         "button_label": "Learn More",
         "button_link": "",
         "button_style": "primary",
@@ -211,7 +211,7 @@
         "text": "<p>We’re building Tabu in partnership with you. To us, that means always listening and learning from our community. Take our short survey to help us build sexual wellness products that truly meet your needs. <\/p>",
         "button_label": "Take The Survey",
         "button_link": "",
-        "button_style": "primary",
+        "button_style": "secondary",
         "align_text": "left",
         "layout": "left",
         "divider": false

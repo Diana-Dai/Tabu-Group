@@ -4,6 +4,9 @@
     assign output_tab = false
   endif
 -%}
+{% if title == "Description" %}
+  {%- assign force_open = true -%}
+{% endif %}
 {%- if output_tab -%}
   <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
     <button type="button"
