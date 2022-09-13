@@ -9,7 +9,7 @@
 
 <div class="index-padding-section">
 
-  <div class="page-width feature-row-wrapper">
+  <div class="page-width-about feature-row-wrapper">
     <div class="section-top">
       <p class="heading-small">{{section.settings.title}}</p>
     </div>
@@ -176,19 +176,22 @@
 
 @media only screen and (min-width: 769px){
   #shopify-section-{{section.id}}  .feature-row__item--overlap-images > div{
-    width: 45%;
+    width: 60%;
   }
 #shopify-section-{{section.id}}  .feature-row__item--overlap-images > :first-child {
-  transform: translate(100%,-16%);
+  transform: translate(50%,-16%);
 }
 #shopify-section-{{section.id}} .feature-row__item--overlap-images > :last-child{
-  transform: translate(-60%,50%);
+  transform: translate(0%,50%);
+  left: 0;
 }
 }
 @media only screen and (max-width: 768px){
 #shopify-section-{{section.id}} .feature-row__text{
   padding-top: 0;
   width: 100%;
+  padding-left: 37px;
+  padding-right: 37px;
 }
   #shopify-section-{{section.id}} .h1{
     padding-top: 80px;

@@ -37,10 +37,10 @@
       "settings": {
         "section-title": "",
         "background": "#e5eae7",
-        "image": "shopify:\/\/shop_images\/ac78e1bc7b1903a5d6385c39b9587f21_3.jpg",
-        "image_text": "<p>Your well-being includes your sexual health, yet it is often the most overlooked piece of the wellness puzzle, especially as you age. <\/p>",
+        "image": "shopify:\/\/shop_images\/65-3.jpg",
+        "image_text": "<p>Our well-being includes our sexual health, yet it is often the most overlooked piece of the wellness puzzle – especially as we age. <\/p>",
         "image_width": 11,
-        "image2": "shopify:\/\/shop_images\/i.jpg",
+        "image2": "shopify:\/\/shop_images\/84-3.jpg",
         "image2_text": "",
         "image_2_width": 9,
         "divider": false
@@ -54,8 +54,8 @@
           "settings": {
             "subtitle": "UP TO",
             "title": "<p>90%<\/p>",
-            "text": "<p>of women over the age of 50 experience pain or discomfort during sex due to menopause. <\/p><p><\/p><p><\/p>",
-            "button_label": "Source lorem ipsum",
+            "text": "<p>of women experience pain or discomfort during sex due to hormonal and lifestyle changes, leading many to avoid regular sexual activity during menopause or as new moms.<\/p><p><\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "primary",
             "align_text": "left",
@@ -65,10 +65,10 @@
         "e21d7b50-8809-4c38-a245-99148341c58f": {
           "type": "text",
           "settings": {
-            "subtitle": "Yet",
-            "title": "<p>75%<\/p>",
-            "text": "<p>of women don't seek help from a doctor for menopause symptoms like vaginal atrophy or dryness.<\/p>",
-            "button_label": "Source lorem ipsum",
+            "subtitle": "Only",
+            "title": "<p>12%<\/p>",
+            "text": "<p>of women over the age of 50 are satisfied with their bodies, yet studies show a distinct correlation between masturbation and self esteem.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "primary",
             "align_text": "left",
@@ -78,10 +78,10 @@
         "2a15dfc6-389d-4f12-8a48-7457614510ef": {
           "type": "text",
           "settings": {
-            "subtitle": "Nearly",
-            "title": "<p>50%<\/p>",
-            "text": "<p>of women give up on their sex lives altogether in their 50s.<\/p>",
-            "button_label": "Source lorem ipsum",
+            "subtitle": "In as little as",
+            "title": "<p>3 mos<\/p>",
+            "text": "<p>studies show that women who take the time to touch themselves can develop a higher libido - and that’s not just good news because it feels good. Regular sexual activity and orgasms have incredible benefits that span your physical health, your brain health, and your relationship. <\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "primary",
             "align_text": "left",
@@ -97,10 +97,10 @@
       "settings": {
         "section-title": "Let’s look at the FACTS",
         "background": "",
-        "image": "shopify:\/\/shop_images\/545eaecf46b5a992b5a4b8d803f95fd8.jpg",
+        "image": "shopify:\/\/shop_images\/178.jpg",
         "image_text": "",
         "image_width": 10,
-        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_5_cb6e4d35-6f36-4b97-b7fb-8bdc43b1384c.jpg",
+        "image2": "shopify:\/\/shop_images\/140bw_1.jpg",
         "image2_text": "",
         "image_2_width": 8,
         "divider": false
@@ -116,13 +116,13 @@
       "type": "text-and-image_whyus",
       "settings": {
         "background": "#fcf4eb",
-        "image": "shopify:\/\/shop_images\/2f73c44301eee99fb7e3c4a9ccf4efc9_2.jpg",
+        "image": "shopify:\/\/shop_images\/32.jpg",
         "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
         "image_width": 700,
         "subtitle": "at least 50% and up to",
         "title": "75%",
-        "text": "<p>of distress encountered by couples in unhappy relationships can be ascribed to sexual problems.<\/p>",
-        "button_label": "Source lorem ipsum",
+        "text": "<p>of couples in <em>unhappy<\/em> relationships ascribe their distress to sexual problems.<\/p>",
+        "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
@@ -143,7 +143,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p class=\"text-small\">\nDr. Barb DePree<br>\nGynecologist & Menopause Care Specialist\n<\/p>"
+            "text": "<p class=\"text-small\">\nDr. Barb DePree<br>\nGynecologist, Menopause Care Specialist, and Tabu Advisor\n<\/p>"
           }
         }
       },
@@ -178,7 +178,7 @@
           "settings": {
             "subtitle": "",
             "title": "<p>Pleasure<\/p>",
-            "text": "<p>The physical and emotional health implications of giving up sexual activity (for many reasons) are very real, but so are the benefits of starting a routine. <br\/><br\/>According to The Mayo Clinic and Harvard Medical School, as well as leading gynecologists around the globe, regular sexual activity - with or without a partner - is a safe and natural way to help address many symptoms that follow menopause and childbirth. <br\/><\/p>",
+            "text": "<p>The physical and emotional health implications of giving up sexual activity (for many reasons) are very real, but so are the benefits of starting a routine. <\/p><p>According to The Mayo Clinic and Harvard Medical School, as well as leading gynecologists around the globe, regular sexual activity - with or without a partner - is a safe and natural way to help address symptoms that arise as our horomone levels change over time.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style": "primary",
@@ -194,10 +194,10 @@
       "settings": {
         "section-title": "tabu is starting a movement",
         "background": "#e5eae7",
-        "image": "shopify:\/\/shop_images\/31b45de7d4e520c9a8b89ee61538d7a9_2.jpg",
+        "image": "shopify:\/\/shop_images\/82bw_1.jpg",
         "image_text": "",
         "image_width": 20,
-        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-02-07_at_4.jpg",
+        "image2": "shopify:\/\/shop_images\/110bwcrop_1.jpg",
         "image2_text": "",
         "image_2_width": 11,
         "divider": false
@@ -275,7 +275,7 @@
         "eee941ce-b15b-4174-a20e-aa5831cdfbcb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1317.jpg",
+            "image": "shopify:\/\/shop_images\/Bottom_CTA_layered.jpg",
             "link": "",
             "width": "50"
           }

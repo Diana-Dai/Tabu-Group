@@ -9,7 +9,7 @@
 
 <div class="index-padding-section">
 
-  <div class="page-width feature-row-wrapper">
+  <div class="page-width-about feature-row-wrapper">
     {%- capture image_layout -%}
       <div class="feature-row__item{% if overlap_images %} feature-row__item--overlap-images{% endif %}" style="max-width: {{ section.settings.image_width }}px" data-aos>
           {%- if section.settings.image != blank -%}
@@ -96,7 +96,7 @@
     background:{{section.settings.background}};
   }
   #shopify-section-{{section.id}} .h1{
-        font-size: 10vw;
+        font-size: 15vw;
         line-height: 1;
         margin-bottom: 0;
   }
@@ -107,9 +107,12 @@
     #shopify-section-{{section.id}} .h1{
       font-size: 32vw;
   }
+  #shopify-section-{{section.id}} .feature-row__item{
+    padding-left: 37px;
+    padding-right: 37px;
+  }
   } 
   @media only screen and (min-width: 769px){
-
         #shopify-section-{{section.id}} a,
         #shopify-section-{{section.id}} .rte p{
           font-size: 1.2vw;

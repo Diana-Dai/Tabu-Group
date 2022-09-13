@@ -1,7 +1,55 @@
 {
   "sections": {
+    "16620054106bf19f43": {
+      "type": "promo-grid",
+      "blocks": {
+        "16620054106363eae9-1": {
+          "type": "advanced",
+          "settings": {
+            "no_overlay": true,
+            "background_color": "#fcf4eb",
+            "font_color": "#000000",
+            "subheading": "",
+            "heading": "Blog",
+            "textarea": "We share research, member stories, and profiles of women who are making an impact.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "8833fbf6-bbce-4482-9cb8-6ee92419cf4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1351.jpg",
+            "link": "",
+            "width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "16620054106363eae9-1",
+        "8833fbf6-bbce-4482-9cb8-6ee92419cf4b"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1661868884dae26ef4": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1661868884721fedf1-0": {
           "type": "heading",
@@ -33,7 +81,7 @@
         "blog_show_tag_filter": true,
         "blog_show_rss": false,
         "blog_show_tags": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "blog_show_comments": true,
         "blog_show_author": false,
         "blog_show_excerpt": true,
@@ -92,6 +140,7 @@
     }
   },
   "order": [
+    "16620054106bf19f43",
     "1661868884dae26ef4",
     "main",
     "featured-collections"

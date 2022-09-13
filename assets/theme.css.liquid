@@ -1719,6 +1719,7 @@ label{
 .h3,h3{
   font-size:calc(var(--typeHeaderSize)*0.62);
 }
+
 .h6, h6{
   font-size:22px;
 }
@@ -8106,9 +8107,11 @@ html[dir=rtl] .grid-product__content{
 }
 
 [data-type_product_capitalize=true] .grid-product__title{
-    text-transform:uppercase;
-    font-size:calc(var(--typeBaseSize) - 2px);
-    letter-spacing:0.2em
+    /* text-transform:uppercase; */
+    font-family: 'Founders Grotesk';
+  font-weight: 500;
+    font-size:calc(var(--typeBaseSize) + 3px);
+    /* letter-spacing:0.2em */
   }
 
 @media only screen and (max-width:768px){
@@ -8231,7 +8234,7 @@ html[dir=rtl] .grid-product__content{
 }
 
 .grid-product__price{
-  font-size:calc(var(--typeBaseSize)*0.85);
+  font-size:calc(var(--typeBaseSize) - 2px);
   color:{{ settings.color_price | default: "#1c1d1d" }};
   color:var(--colorPrice);
   margin-top:5px;
@@ -8901,9 +8904,12 @@ html[dir=rtl] .grid-product__content{
   }
 
 .article__title{
-  font-size:calc(var(--typeBaseSize) + 2px);
+  font-size:calc(var(--typeBaseSize) + 11px);
 }
 
+.article__excerpt{
+  font-size:calc(var(--typeBaseSize) - 2px);
+}
 .article__date{
   font-size:max(calc(var(--typeBaseSize)*0.7), 12px);
   margin-bottom:3px
@@ -8919,13 +8925,13 @@ html[dir=rtl] .grid-product__content{
 }
 
 .article__grid-meta{
-  margin-bottom:30px
+  margin-bottom:60px;
 }
 
 @media only screen and (min-width:769px){
 
 [data-center-text=true] .article__grid-meta{
-    text-align:center
+    /* text-align:center */
 }
   }
 
@@ -11948,14 +11954,15 @@ text-transform: capitalize;
 @media only screen and (min-width: 768px){
 
 .page-width-about{
-  max-width: 300vw;
-  padding: 0 8vw;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 100px;
+  /* max-width: 1040px; */
 }
 }
 @media only screen and (min-width: 768px){
 .page-width-about .feature-row{
   min-width: 70vw;
-  max-width: 60vw;
 }
 }
 
@@ -12068,4 +12075,15 @@ span.testimonial-stars {
 width: 33.3% !important;
 }
 
+}
+
+/* Blog page */
+#BlogTagFilter *{
+  font-weight: 500;
+}
+#BlogTagFilter a{
+  margin: 0 16px;
+}
+#BlogTagFilter [selected]{
+  text-decoration: underline;
 }
