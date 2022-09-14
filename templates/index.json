@@ -82,6 +82,13 @@
             "link": ""
           }
         },
+        "7d879739-64ab-4978-931c-ff8acffc34b3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fast_company.png",
+            "link": ""
+          }
+        },
         "16584163928f381437-2": {
           "type": "logo_image",
           "settings": {
@@ -98,15 +105,9 @@
         },
         "48ab122a-2fb4-4a05-92f3-79651fcaba5f": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/elle.png",
-            "link": ""
-          }
-        },
-        "7d879739-64ab-4978-931c-ff8acffc34b3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fast_company.png",
             "link": ""
           }
         }
@@ -114,10 +115,10 @@
       "block_order": [
         "16584163928f381437-0",
         "16584163928f381437-1",
+        "7d879739-64ab-4978-931c-ff8acffc34b3",
         "16584163928f381437-2",
         "16584163928f381437-3",
-        "48ab122a-2fb4-4a05-92f3-79651fcaba5f",
-        "7d879739-64ab-4978-931c-ff8acffc34b3"
+        "48ab122a-2fb4-4a05-92f3-79651fcaba5f"
       ],
       "settings": {
         "title": "As Seen In",
