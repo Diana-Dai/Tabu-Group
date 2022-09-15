@@ -183,16 +183,17 @@
           "reminder-block"
         ],
         "settings": {
-          "mode": false,
+          "mode": true,
           "disable_for_account_holders": true,
           "popup_seconds": 5,
           "popup_days": 30,
-          "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_title": "Join us",
+          "popup_text": "<p>Subscribe to our newsletter and be the first to know about new arrivals, deals, and special events<\/p>",
+          "popup_image": "shopify:\/\/shop_images\/82bw_1.jpg",
           "image_position": "left",
           "show_social_icons": false,
           "enable_newsletter": true,
-          "button_label": "Optional button",
+          "button_label": "Subscribe",
           "button_link": ""
         }
       },
