@@ -132,7 +132,8 @@
               {%- endif -%}
             </div>
 
-            <div data-product-blocks>
+            <div data-product-blocks> 
+                       {{ isModal }}
               {%- capture form_id -%}AddToCartForm-{{ section_id }}-{{ product.id }}{%- endcapture -%}
               {%- for block in blocks -%}
                 {%- case block.type -%}
@@ -317,8 +318,6 @@
                       {%- endunless -%}
                     </div>
                   {%- when 'buy_buttons' -%}
-         {{ isModal }}
-                  
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
                         <div class="product-block">
