@@ -22,7 +22,7 @@
             "height": 720,
             "text_size": 120,
             "text_align": "vertical-center horizontal-center",
-            "focal_point": "80% 50%",
+            "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
