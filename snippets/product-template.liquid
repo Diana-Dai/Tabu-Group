@@ -64,7 +64,6 @@
     data-history="true"
   {% endunless %}
   data-modal="{{ isModal }}">
-{{ isModal }}
   {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
 
   <div class="page-content page-content--product">
@@ -318,6 +317,8 @@
                       {%- endunless -%}
                     </div>
                   {%- when 'buy_buttons' -%}
+         {{ isModal }}
+                  
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
                         <div class="product-block">
@@ -337,7 +338,6 @@
                           ></div>
                       {%- endif -%}
 
-         {{ isModal }}
                     </div>
 
 
