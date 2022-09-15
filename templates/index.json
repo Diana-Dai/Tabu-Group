@@ -305,7 +305,7 @@
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": ""
+            "html_area": "<div class='h2'>Follow Us</div><p>@tABU</p>"
           }
         }
       },

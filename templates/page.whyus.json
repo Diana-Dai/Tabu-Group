@@ -212,7 +212,7 @@
         "image2": "shopify:\/\/shop_images\/9028d4e33f97df613d6f9a0b20fe441f_1_043b9c11-1bc9-477c-b45f-805b3fe7507b.jpg",
         "image_width": 700,
         "subtitle": "",
-        "block-title": "<p>Health<br><span>Benefits<\/span>",
+        "block-title": "<p>Health<br\/>Benefits<\/p>",
         "text": "<style>\n.heath-list{\ndisplay: flex;\nflex-direction: column;\nflex-wrap:wrap;\nheight:240px;\npadding-left: 0;\nmargin-left: 0;\nmargin-top: 20px;\n}\n.heath-list .heath-list *{\n  font-size:17px !important;\n}\n.heath-list i{\n\nmargin-right:10px;\n}\n.heath-list li{\nlist-style:none;\ndisplay: flex;\nheight:20%;\n}\n<\/style>\n<ul class=\"heath-list text-small\">\n<li>\n<i>01<\/i>\n<p>Reduced Stress<\/p>\n<\/li>\n<li>\n<i>02<\/i>\n<p>Stronger Vaginal Muscles<\/p>\n<\/li>\n<li>\n<i>03<\/i>\n<p>Lower Blood Pressure<\/p>\n<\/li>\n<li>\n<i>04<\/i>\n<p>Reduced Incontinence<\/p>\n<\/li>\n<li>\n<i>05<\/i>\n<p>Increased Libido<\/p>\n<\/li>\n<li>\n<i>06<\/i>\n<p>Improved Lubrication<\/p>\n<\/li>\n<li>\n<i>07<\/i>\n<p>Better Sleep<\/p>\n<\/li>\n<li>\n<i>08<\/i>\n<p>Lower Risk of Heart Disease<\/p>\n<\/li>\n<li>\n<i>09<\/i>\n<p>Improved Body Confidence<\/p>\n<\/li>\n<\/ul>",
         "button_label": "",
         "button_link": "",

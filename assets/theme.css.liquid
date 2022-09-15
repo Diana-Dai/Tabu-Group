@@ -11102,7 +11102,8 @@ html[dir=rtl] .product-single__meta .rte{
   }
 
 .product__thumbs--beside .product__thumb-item{
-    margin-bottom:8.5px
+    margin-bottom:8.5px;
+    flex: 1 1 0;
 }
 
 @media only screen and (min-width:769px){
@@ -12104,6 +12105,8 @@ width: 33.3% !important;
   }
 
 
+/* Quickshop Modal */
+
 .btn--bordered{
   background:white;
   color: black !important;
@@ -12111,7 +12114,22 @@ width: 33.3% !important;
   padding: 13px 20px !important;
 }
   
-}
 .modal .view_full_details{
   display:inline-block !important; 
+}
+.modal .product-form-holder--loaded .product-block--tab:not(.description){
+  display: none;
+}
+
+/* Why us */
+@media only screen and (min-width: 769px){
+.page-whyus .feature-row-wrapper .feature-row__item--overlap-images > *{
+  width: 65%;
+}
+.page-whyus .feature-row__item--overlap-images > :last-child {
+  transform: translate(-20%,12%);
+}
+.page-whyus .feature-row__item--overlap-images > :first-child{
+  transform: translate(0%,-15%);
+}
 }

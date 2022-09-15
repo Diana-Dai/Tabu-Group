@@ -29,7 +29,8 @@ function init() {
             prevNextButtons: false,
             pageDots: true,
             draggable:true,
-            cellAlign:'left'
+            cellAlign:'left',
+            groupCells:true
           });
       })
     }
