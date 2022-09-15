@@ -75,17 +75,17 @@
             "link": ""
           }
         },
-        "16584163928f381437-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/logos_goop_v3.png",
-            "link": ""
-          }
-        },
         "7d879739-64ab-4978-931c-ff8acffc34b3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/logos_fast_company_v3.png",
+            "link": ""
+          }
+        },
+        "16584163928f381437-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logos_goop_v3.png",
             "link": ""
           }
         },
@@ -114,8 +114,8 @@
       },
       "block_order": [
         "16584163928f381437-1",
-        "16584163928f381437-0",
         "7d879739-64ab-4978-931c-ff8acffc34b3",
+        "16584163928f381437-0",
         "16584163928f381437-2",
         "16584163928f381437-3",
         "48ab122a-2fb4-4a05-92f3-79651fcaba5f"
