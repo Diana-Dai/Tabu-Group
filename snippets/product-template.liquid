@@ -133,7 +133,6 @@
             </div>
 
             <div data-product-blocks> 
-                       {{ isModal }}
               {%- capture form_id -%}AddToCartForm-{{ section_id }}-{{ product.id }}{%- endcapture -%}
               {%- for block in blocks -%}
                 {%- case block.type -%}
