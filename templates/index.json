@@ -84,6 +84,7 @@
         },
         "16584163928f381437-1": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_200_x_100_px_200_x_100_px_1.png",
             "link": ""
