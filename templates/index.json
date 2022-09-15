@@ -71,35 +71,35 @@
         "16584163928f381437-0": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos2_goop.png",
+            "image": "shopify:\/\/shop_images\/Goop_updated.png",
             "link": ""
           }
         },
         "16584163928f381437-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logos2_anthropologie.png",
+            "image": "shopify:\/\/shop_images\/Anthro_logo_update.png",
             "link": ""
           }
         },
         "7d879739-64ab-4978-931c-ff8acffc34b3": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fast_company.png",
+            "image": "shopify:\/\/shop_images\/FC_updated.png",
             "link": ""
           }
         },
         "16584163928f381437-2": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/byrdie.png",
+            "image": "shopify:\/\/shop_images\/Byrdie_updated.png",
             "link": ""
           }
         },
         "16584163928f381437-3": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/well_and_good.png",
+            "image": "shopify:\/\/shop_images\/WellGood_logo_update.png",
             "link": ""
           }
         },
@@ -305,7 +305,7 @@
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": "<div class='h2'>Follow Us</div><p>@tABU</p>"
+            "html_area": "<div class=\"h2\">Follow Us<\/div><p>@tABU<\/p>"
           }
         }
       },
