@@ -419,7 +419,7 @@
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "Complete Your Routine",
-        "sub-title": "Your health is in your hand",
+        "sub-title": "",
         "related_count": 5
       }
     },
