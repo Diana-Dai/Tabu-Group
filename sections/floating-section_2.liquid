@@ -74,7 +74,7 @@
                 <div class="subheading special-font text-small appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.subtitle }}</div>
                 {%- endif -%}
                   {%- if block.settings.title != blank -%}
-                    <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.title | remove: "mos" }}{%  if block.settings.title contains 'mos' %}<span></span><em class="em-font-special">mos</em><span></span>{%  endif %} %}</div>
+                    <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ block.settings.title | remove: "mos" }}{%  if block.settings.title contains 'mos' %}<span><em class="em-font-special">mos</em><span></span>{%  endif %}</div>
                   {%- endif -%}
   
                   {%- if block.settings.text != blank -%}
