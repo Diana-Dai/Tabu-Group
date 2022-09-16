@@ -22,23 +22,23 @@
             "color_swatches": false
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": true
-          }
-        },
         "241f51bf-6645-422c-bf3e-67edb9bf374a": {
           "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
             "primary_color": "#000000",
             "secondary_color": "#000000",
-            "header_text": "Purchase Options",
+            "header_text": "",
             "one_time_text": "One-time Purchase",
             "recurring_text": "Subscribe and Save",
             "frequency_header": "Delivery Frequency",
             "frequency_text": "delivery"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
           }
         },
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
@@ -85,8 +85,8 @@
         "price",
         "b1387777-29dc-4fe4-8288-e3ba670c6f18",
         "variant_picker",
-        "buy_buttons",
         "241f51bf-6645-422c-bf3e-67edb9bf374a",
+        "buy_buttons",
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88",
         "tab",
         "a04579d3-07f9-42a3-a917-4cacd9f921d8",
