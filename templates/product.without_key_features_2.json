@@ -1,0 +1,469 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "b1387777-29dc-4fe4-8288-e3ba670c6f18": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.7em\">\n<p>pH Balanced <\/p>\n<p>FDA Cleared<\/p>\n<p>Hypoallergenic<\/p>\n<\/div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "241f51bf-6645-422c-bf3e-67edb9bf374a": {
+          "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "primary_color": "#000000",
+            "secondary_color": "#000000",
+            "header_text": "Purchase Options",
+            "one_time_text": "One-time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "frequency_header": "Delivery Frequency",
+            "frequency_text": "delivery"
+          }
+        },
+        "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
+          "type": "text",
+          "settings": {
+            "text": "Credit Card charges appear as TABU GROUP. Discreet Shipping is our thing. Don’t you worry."
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant-based antioxidants to soothe and calm your most sensitive areas.<\/p><p>Developed in beautiful California, our lubricant is recommended by top GYNs and pelvic floor experts.<\/p>",
+            "page": ""
+          }
+        },
+        "a04579d3-07f9-42a3-a917-4cacd9f921d8": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Inside The Kit",
+            "content": "<p>Nuri Massager<\/p><p>This soft-touch wand massager is ergonomically designed with three speeds, making it comfortable and easy to use. Waterproof and made with 100% medical grade silicone, our favorite feature is the Nuri’s optional warming system. The device heats up to around 97 degrees Fahrenheit (just about body temperature) to increase comfort and stimulate blood flow, which helps to maintain vaginal health. Using the wand internally can also help to maintain vaginal width, length, and tone. <\/p><p>Aureum Lubricant<\/p><p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant based antioxidants to soothe and calm your most sensitive areas. <\/p>",
+            "page": ""
+          }
+        },
+        "8aac8d8f-8838-44ac-a3fb-d9c4969b1db5": {
+          "type": "tab",
+          "settings": {
+            "title": "How To Use",
+            "content": "<p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
+            "page": ""
+          }
+        },
+        "f86dbcc7-35c3-4872-9b4b-a499a488b02c": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p><strong>Organic aloe leaf<\/strong><\/p><p>Known for healing, soothing, and moisturizing.<\/p><p> <\/p><p><strong>Hyaluronic acid<\/strong><\/p><p>Found naturally in the body, to help retain moisture.<\/p><p> <\/p><p><strong>Organic passion flower<\/strong><\/p><p>Antioxidant rich in essential fatty acids and Vitamins A & C.<\/p><p> <\/p><p><strong>Organic peony root<\/strong><\/p><p>Anti-inflammatory and antioxidant that protects from damaging free radicals.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "b1387777-29dc-4fe4-8288-e3ba670c6f18",
+        "variant_picker",
+        "buy_buttons",
+        "241f51bf-6645-422c-bf3e-67edb9bf374a",
+        "a8c2e808-65bf-496f-bbe8-dcf64bac8b88",
+        "tab",
+        "a04579d3-07f9-42a3-a917-4cacd9f921d8",
+        "8aac8d8f-8838-44ac-a3fb-d9c4969b1db5",
+        "f86dbcc7-35c3-4872-9b4b-a499a488b02c"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "1659412062f0948068": {
+      "type": "text-columns_custom",
+      "blocks": {
+        "1659412061c36a5740-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Science-Backed",
+            "text": "<p>Developed in partnership with clinicians, therapists, and (most importantly) women like you.  <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1659412061c36a5740-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Health First",
+            "text": "<p>Supported as a safe and natural way to address dryness, atrophy, low libido, and so much more.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1659412061c36a5740-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Never Crude",
+            "text": "<p>And not a toy. This is not your daughter’s sexual wellness brand.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659412061c36a5740-0",
+        "1659412061c36a5740-1",
+        "1659412061c36a5740-2"
+      ],
+      "settings": {
+        "background": "#e5eae7",
+        "title": "<p>a new <\/p><p>approach to <\/p><p>sexual Wellness<\/p>",
+        "mobile_title": "<p>a new approach to <\/p><p>sexual Wellness<\/p>",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "1659411266280d2d23": {
+      "type": "marquee",
+      "settings": {
+        "background": "#e5eae7",
+        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
+      }
+    },
+    "1660704914412f8848": {
+      "type": "key-features",
+      "disabled": true,
+      "blocks": {
+        "1660704914cf4a7f84-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Organic Ingredients",
+            "text": "<p>Active botanicals to soothe, calm, and heal.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660704914cf4a7f84-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Antioxidant Rich",
+            "text": "<p>Powerful antioxidants and omega-6 essential fatty acids protect from dryness and harmful free-radicals<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660704914cf4a7f84-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Slender Design",
+            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6ca21f17-c483-4b24-aa6d-759f06fef617": {
+          "type": "text_block",
+          "settings": {
+            "title": "Warming",
+            "text": "<p>Heats up to 97 degrees to help increase blood flow and promote vaginal health<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1660704914cf4a7f84-0",
+        "1660704914cf4a7f84-1",
+        "1660704914cf4a7f84-2",
+        "6ca21f17-c483-4b24-aa6d-759f06fef617"
+      ],
+      "settings": {
+        "background": "",
+        "title": "Key Features",
+        "sub-title": "An essential piece of long-term well-being, designed with your needs in mind.",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-06_at_12.07_1.jpg",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "16607025209ce683df": {
+      "type": "text-columns",
+      "blocks": {
+        "1660702520cdd6d85f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_178879928_Preview_1_1.jpg",
+            "image_width": 650,
+            "title": "Organic aloe leaf",
+            "text": "<p>Known for healing, soothing, and moisturizing.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660702520cdd6d85f-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_270759337_Preview_1.jpg",
+            "image_width": 650,
+            "title": "Hyaluronic Acid",
+            "text": "<p>Found naturally in the body and helps to retain moisture.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1660702520cdd6d85f-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_448752849_Preview_1.jpg",
+            "image_width": 650,
+            "title": "Organic Passion Flower",
+            "text": "<p>Antioxidant rich in essential fatty acids and Vitamins A & C.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e83a0355-ab83-4970-b6fd-6e50e9603bd2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_390525694_Preview_1.jpg",
+            "image_width": 650,
+            "title": "Organic Peony Root",
+            "text": "<p>Anti-inflammatory with antioxidants to protect from free radicals.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1660702520cdd6d85f-0",
+        "1660702520cdd6d85f-1",
+        "1660702520cdd6d85f-2",
+        "e83a0355-ab83-4970-b6fd-6e50e9603bd2"
+      ],
+      "settings": {
+        "background": "#fcf4eb",
+        "title": "Clean Ingredients",
+        "sub-title": "Made with powerful plant extracts to heal and nourish.",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "166070351680028fea": {
+      "type": "faq",
+      "blocks": {
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59": {
+          "type": "question",
+          "settings": {
+            "title": "Can it be used as a moisturizer?",
+            "text": "<p>Our organic lubricant is designed to be applied both in and around your vagina for partnered or solo sexual activity. While some members do use it as a moisturizer, it is designed to be a lubricant.<\/p><p> <\/p><p>If you're specifically looking for a vaginal moisturizer, Kindra is a fantastic option.<\/p>"
+          }
+        },
+        "1660703516dd6c1e1c-0": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe to ingest\/use orally?",
+            "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E),<\/p><p>Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol,<\/p><p>Potassium sorbate<\/p>"
+          }
+        },
+        "1660703516dd6c1e1c-1": {
+          "type": "question",
+          "settings": {
+            "title": "Is your lubricant formula FDA Cleared?",
+            "text": "<p>Yes! Our organic lubricant is FDA cleared and made from only the finest ingredients.<\/p>"
+          }
+        },
+        "f33ea504-28ba-461c-a018-f0645536aa74": {
+          "type": "question",
+          "settings": {
+            "title": "Why are there sweeteners in your lubricant?",
+            "text": "<p>The organic stevia is rich in antibacterial and antioxidant properties, and sorbitol is a natural humectant that’s great for hydration.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
+        "1660703516dd6c1e1c-0",
+        "1660703516dd6c1e1c-1",
+        "f33ea504-28ba-461c-a018-f0645536aa74"
+      ],
+      "settings": {
+        "title": "<p>frequently <\/p><p>Asked <\/p><p>Questions<\/p>",
+        "mobile-title": "<p>frequently Asked <\/p><p>Questions<\/p>",
+        "view_all_text": "see all faq’s",
+        "view_all_text_url": "shopify:\/\/pages\/faqs"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Game Changer",
+            "icon": "5-stars",
+            "testimonial": "<p>This is great stuff. My doctor has seen a definite change.<\/p>",
+            "author": "Colorado, 70",
+            "author_info": ""
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "LOVE this product!",
+            "icon": "5-stars",
+            "testimonial": "<p>I have always been extremely sensitive to drugstore lubes that I've purchased. Which is so frustrating. This is the first lube I've found that does not irritate me AT ALL. I am so excited to have found this lube. I plan to continue to purchase it for years to come! Thank you Tabu!<\/p>",
+            "author": "Arizona, 33",
+            "author_info": ""
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Only product that works for me!!",
+            "icon": "5-stars",
+            "testimonial": "<p>I have tried them all!! I have several issues that were causing painful intercourse. This product is a life saver (in and out of the bedroom)!! Thank you! Thank you! Thank you!<\/p>",
+            "author": "Ohio, 59",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#000000",
+        "color_text": "#ffffff"
+      }
+    },
+    "16607033794ea6bc0e": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Complete Your Routine",
+        "sub-title": "Your health is in your hand.",
+        "home_featured_products": "all-products",
+        "per_row": 3,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Complete Your Routine",
+        "sub-title": "Your health is in your hand",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16607125322da0714e": {
+      "type": "newsletter",
+      "blocks": {
+        "16607125325f3bed55-0": {
+          "type": "title",
+          "settings": {
+            "title": "Join Our Movement"
+          }
+        },
+        "16607125325f3bed55-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re building Tabu in partnership with you. Sign up to stay informed and help us challenge the idea that female sexuality has an expiration date.  <\/p>"
+          }
+        },
+        "16607125325f3bed55-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16607125325f3bed55-0",
+        "16607125325f3bed55-1",
+        "16607125325f3bed55-2"
+      ],
+      "settings": {
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659412062f0948068",
+    "1659411266280d2d23",
+    "1660704914412f8848",
+    "16607025209ce683df",
+    "166070351680028fea",
+    "sub",
+    "testimonials",
+    "16607033794ea6bc0e",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "16607125322da0714e"
+  ]
+}
