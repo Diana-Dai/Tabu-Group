@@ -67,7 +67,7 @@
           <div class="heading-small subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+          <div class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title }}</div>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
@@ -94,11 +94,19 @@
 <style>
   #shopify-section-{{section.id}}{
     background:{{section.settings.background}};
+    height: calc(100vh - 80px);
+    display: flex;
+align-items: center;
   }
   #shopify-section-{{section.id}} .h1{
         font-size: 15vw;
         line-height: 1;
         margin-bottom: 0;
+  }
+  #shopify-section-{{section.id}} .feature-row .h1 em{
+        font-style: normal;
+        font-size: 10vw;
+        font-family: Times;
   }
   @media only screen and (max-width: 768px){
     #shopify-section-{{section.id}} .index-padding-section{
@@ -107,6 +115,9 @@
     #shopify-section-{{section.id}} .h1{
       font-size: 32vw;
   }
+  #shopify-section-{{section.id}} .feature-row .h1 em{
+        font-size: 18vw;
+      }
   #shopify-section-{{section.id}} .feature-row__item{
     padding-left: 37px;
     padding-right: 37px;
@@ -154,10 +165,9 @@
       "label": "t:sections.text-and-image.settings.subtitle.label"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "title",
-      "label": "t:sections.text-and-image.settings.title.label",
-      "default": "Image with text"
+      "label": "t:sections.text-and-image.settings.title.label"
     },
     {
       "type": "richtext",

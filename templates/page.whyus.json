@@ -53,7 +53,7 @@
           "type": "text",
           "settings": {
             "subtitle": "UP TO",
-            "title": "<p>90%<\/p>",
+            "title": "<p>90<em>%<\/em><\/p>",
             "text": "<p>of women experience pain or discomfort during sex due to hormonal and lifestyle changes, leading many to avoid regular sexual activity during menopause or as new moms.<\/p><p><\/p>",
             "button_label": "",
             "button_link": "",
@@ -66,7 +66,7 @@
           "type": "text",
           "settings": {
             "subtitle": "Only",
-            "title": "<p>12%<\/p>",
+            "title": "<p>12<em>%<\/em><\/p>",
             "text": "<p>of women over the age of 50 are satisfied with their bodies, yet studies show a distinct correlation between masturbation and self esteem.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -79,7 +79,7 @@
           "type": "text",
           "settings": {
             "subtitle": "In as little as",
-            "title": "<p>3 mos<\/p>",
+            "title": "<p>3 <em>mos<\/em><\/p>",
             "text": "<p>studies show that women who take the time to touch themselves can develop a higher libido - and that’s not just good news because it feels good. Regular sexual activity and orgasms have incredible benefits that span your physical health, your brain health, and your relationship. <\/p>",
             "button_label": "",
             "button_link": "",
@@ -120,7 +120,7 @@
         "image2": "shopify:\/\/shop_images\/4543995_2.jpg",
         "image_width": 700,
         "subtitle": "at least 50% and up to",
-        "title": "75%",
+        "title": "<p>75<em>%<\/em><\/p>",
         "text": "<p>of couples in <em>unhappy<\/em> relationships ascribe their distress to sexual problems.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -283,7 +283,7 @@
         "1662017898bc07d8e0-1": {
           "type": "advanced",
           "settings": {
-            "no_overlay": true,
+            "no_overlay": false,
             "background_color": "#fcf4eb",
             "font_color": "#000000",
             "subheading": "",
