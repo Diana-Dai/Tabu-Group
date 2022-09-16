@@ -91,7 +91,7 @@
             {%- if section.settings.image2 != blank -%}
               <div>
                 {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
-                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
+                  <div class="image-wrap image-wrap-text-health-2" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
                     {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="feature-row__image lazyload"
                       data-src="{{ img_url }}"
