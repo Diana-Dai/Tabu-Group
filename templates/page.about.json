@@ -163,7 +163,7 @@
       "settings": {
         "background": "#fcf4eb",
         "title": "Medical Experts & Advisors",
-        "sub-title": "Made in partnership with clinicians, therapists, and women who are doing extraordinary things.",
+        "sub-title": "Made in partnership with clinicians, therapists,<br> and women who are doing extraordinary things.",
         "align_text": "center",
         "divider": false
       }
