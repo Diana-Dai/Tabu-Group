@@ -67,14 +67,15 @@
                     {%- endif -%}
                   {%- endif -%}
 
-                  {%- comment -%}Add images{%- endcomment -%}
+ 
+                  
+                  <div class="">
+                                   {%- comment -%}Add images{%- endcomment -%}
                   {%- assign main_menu = link.title -%}
                   {% if main_menu == "Shop" %}
                     {%- assign image_name = childlink.title | handleize | append: '.jpg' -%}
                     <img loading="lazy" src="{{ image_name | file_img_url : '800x'}}" alt="">
                   {% endif %}
-                  
-                  <div class="">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level special-font">{{ childlink.title }}</a>
                   </div>
 
