@@ -158,15 +158,6 @@
     "1660704914412f8848": {
       "type": "key-features",
       "blocks": {
-        "1660704914cf4a7f84-0": {
-          "type": "text_block",
-          "settings": {
-            "title": "Organic Ingredients",
-            "text": "<p>Active botanicals to soothe, calm, and heal.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "1660704914cf4a7f84-1": {
           "type": "text_block",
           "settings": {
@@ -185,6 +176,15 @@
             "button_link": ""
           }
         },
+        "1660704914cf4a7f84-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Organic Ingredients",
+            "text": "<p>Active botanicals to soothe, calm, and heal.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "6ca21f17-c483-4b24-aa6d-759f06fef617": {
           "type": "text_block",
           "settings": {
@@ -196,9 +196,9 @@
         }
       },
       "block_order": [
-        "1660704914cf4a7f84-0",
         "1660704914cf4a7f84-1",
         "1660704914cf4a7f84-2",
+        "1660704914cf4a7f84-0",
         "6ca21f17-c483-4b24-aa6d-759f06fef617"
       ],
       "settings": {
