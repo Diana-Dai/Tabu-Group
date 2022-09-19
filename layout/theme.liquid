@@ -114,6 +114,10 @@
     </div>
   </div>
 
+  {% if template contains 'shop-all' %}
+  <script defer src="https://cdn.shopify.com/extensions/b237f492-e4d6-4029-a511-4fe7f146d6c9/1.1.0/assets/bsub-widget.js" type="text/javascript" defer="defer"></script>
+    <link href="https://cdn.shopify.com/extensions/b237f492-e4d6-4029-a511-4fe7f146d6c9/1.1.0/assets/bsub-widget.css" rel="stylesheet" type="text/css" media="all">
+  {% endif %}
   {%- liquid
     render 'video-modal'
     render 'photoswipe-template'
