@@ -227,6 +227,53 @@
         "divider": false
       }
     },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "This gives me hope again",
+            "icon": "5-stars",
+            "testimonial": "<p>I am happy to say for the first time in 2 years, I had an orgasm while my husband and I were intimate.<\/p>",
+            "author": "New York, 64",
+            "author_info": ""
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Excellent Quality",
+            "icon": "5-stars",
+            "testimonial": "<p>At 68 years old, the Tabu experience re-energized my sex life. Thank you for putting so much heart and soul into developing a high quality product that delivers.<\/p>",
+            "author": "Missouri, 68",
+            "author_info": ""
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "The Best!",
+            "icon": "5-stars",
+            "testimonial": "<p>I happily have thrown away my old vibrator and replaced it with this fabulous, quiet, intense, and perfectly shaped and easy-to-use new one. Having a rechargeable battery is great, and the battery life is outstanding. I can even take it with me easily when I travel. I also loved how classy the packaging was, and the lubricant is great, too. Wish I'd known about this long before now. Thank you!!!<\/p>",
+            "author": "California, 74",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#000000",
+        "color_text": "#ffffff"
+      }
+    },
     "16584166431bea2af4": {
       "type": "promo-grid",
       "blocks": {
@@ -365,6 +412,7 @@
     "1659411266280d2d23",
     "16584165774c3521d8",
     "16594173996e3dca2d",
+    "testimonials",
     "16584166431bea2af4",
     "1660644766ca7d6b7b",
     "16618794689cb9ecff",
