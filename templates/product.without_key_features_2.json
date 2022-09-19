@@ -56,6 +56,7 @@
         },
         "tab": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Description",
             "content": "<p>{{ product.metafields.custom.product_tab_description.value }}Need a spare charger? No problem. Order a replacement charging cable today.<\/p>",
