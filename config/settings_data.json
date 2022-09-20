@@ -90,6 +90,7 @@
           },
           "1524770296206": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "",
               "link_text": "Take 10% off your first order with code WELCOMETABU",
