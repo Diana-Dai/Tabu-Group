@@ -3105,6 +3105,7 @@ lazySizesConfig.expFactor = 4;
       var div = doc.querySelector('.product-section[data-product-handle="'+handle+'"]');
   
       if (!holder) {
+
         return;
       }
   
@@ -7333,7 +7334,6 @@ lazySizesConfig.expFactor = 4;
       ==============================================================================*/
       openModalProduct: function() {
         var initialized = false;
-  
         if (!this.settings.modalInit) {
           this.blocksHolder = this.container.querySelector(selectors.blocksHolder);
           var url = this.blocksHolder.dataset.url;
@@ -7387,6 +7387,17 @@ lazySizesConfig.expFactor = 4;
               Shopify.PaymentButton.init();
             }
   
+            // Add Bold subscription
+            if(!document.getElementById(formId).querySelector('[name="selling_plan"]')){
+              var input = document.createElement("input");
+              input.setAttribute('type','hidden');
+              input.setAttribute('name','selling_plan');
+              input.setAttribute('data-bsub-selling-plan-id-input','');
+              input.setAttribute('value','');
+
+              document.getElementById(formId).append(input)
+            }
+
             // Re-hook up collapsible box triggers
             theme.collapsibles.init(this.container);
   
