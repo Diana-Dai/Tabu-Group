@@ -71,6 +71,15 @@
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 <style>
+{% if template contains 'product' %}
+#shopify-section-{{section.id}}{
+  background:{{section.settings.background}};
+  height: calc(100vh - 80px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+{% endif %}
 #shopify-section-{{section.id}} .page-width{
   padding-top:50px;
   padding-bottom:50px;

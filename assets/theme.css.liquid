@@ -11858,7 +11858,8 @@ html[dir=rtl] .product-single__meta .rte{
   }
   .marquee-words {
   white-space: nowrap;
-  animation: marquee-keywords 20s linear infinite;
+  animation: marquee-keywords 50s linear infinite;
+  /* transform: translateX(-50%); */
   letter-spacing: 0.2em;
   }
   @keyframes marquee-keywords {
@@ -12244,4 +12245,10 @@ input:checked + .bsub-widget__plan-header{
 }
 input:checked + .bsub-widget__plan-header{
   background: rgba(0, 0, 0, 0.07) !important;
+}
+
+/* Update Blog page */
+.template-blog .article__grid-meta .btn--secondary{
+  line-height: 1;
+  min-width: initial !important;
 }
