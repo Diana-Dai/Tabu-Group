@@ -23,3 +23,13 @@
 .yotpo.bottomLine .yotpo-bottomline .yotpo-icon-star, .yotpo.bottomLine .yotpo-bottomline .yotpo-icon-half-star, .yotpo.bottomLine .yotpo-bottomline .yotpo-icon-empty-star, .yotpo.bottomline .yotpo-bottomline .yotpo-icon-star, .yotpo.bottomline .yotpo-bottomline .yotpo-icon-half-star, .yotpo.bottomline .yotpo-bottomline .yotpo-icon-empty-star, .yotpo .yotpo-modal-bottom-line .yotpo-bottomline .yotpo-icon-star, .yotpo .yotpo-modal-bottom-line .yotpo-bottomline .yotpo-icon-half-star, .yotpo .yotpo-modal-bottom-line .yotpo-bottomline .yotpo-icon-empty-star {
     font-size: 1.5rem !important;
 }
+
+@media only screen and (max-width: 960px) {
+.main-widget .rating-stars-container {
+    float: left;
+    margin-left: 30px;
+}
+span.reviews-qa-labels-container {
+    margin-left: 90px !important;
+}
+}
