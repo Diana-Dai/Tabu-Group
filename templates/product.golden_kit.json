@@ -414,15 +414,6 @@
         "divider": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "Complete Your Routine",
-        "sub-title": "",
-        "related_count": 3
-      }
-    },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
@@ -434,6 +425,33 @@
       "type": "collection-return",
       "disabled": true,
       "settings": {
+      }
+    },
+    "1663354763716a065c": {
+      "type": "apps",
+      "blocks": {
+        "22e74947-c887-4a0d-9a44-5564583a53af": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "22e74947-c887-4a0d-9a44-5564583a53af"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Complete Your Routine",
+        "sub-title": "",
+        "related_count": 3
       }
     },
     "16607125322da0714e": {
@@ -466,24 +484,6 @@
         "color_background": "#ffffff",
         "color_text": "#1c1d1d"
       }
-    },
-    "1663354763716a065c": {
-      "type": "apps",
-      "blocks": {
-        "22e74947-c887-4a0d-9a44-5564583a53af": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "22e74947-c887-4a0d-9a44-5564583a53af"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
@@ -496,10 +496,10 @@
     "sub",
     "testimonials",
     "16607033794ea6bc0e",
-    "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "16607125322da0714e",
-    "1663354763716a065c"
+    "1663354763716a065c",
+    "product-recommendations",
+    "16607125322da0714e"
   ]
 }
