@@ -166,8 +166,7 @@
       "type": "marquee",
       "settings": {
         "background": "#e5eae7",
-              "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly  &nbsp&nbsp&nbspOur lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
-
+        "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly  &nbsp&nbsp&nbspOur lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
       }
     },
     "1660704914412f8848": {
@@ -405,15 +404,6 @@
         "divider": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "show_product_recommendations": true,
-        "product_recommendations_heading": "Complete Your Routine",
-        "sub-title": "Your health is in your hand",
-        "related_count": 5
-      }
-    },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
@@ -425,6 +415,33 @@
       "type": "collection-return",
       "disabled": true,
       "settings": {
+      }
+    },
+    "166335473887d040bf": {
+      "type": "apps",
+      "blocks": {
+        "208abd5b-1f0b-45dd-92da-17dd1c79ce7f": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "208abd5b-1f0b-45dd-92da-17dd1c79ce7f"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Complete Your Routine",
+        "sub-title": "Your health is in your hand",
+        "related_count": 5
       }
     },
     "16607125322da0714e": {
@@ -457,24 +474,6 @@
         "color_background": "#ffffff",
         "color_text": "#1c1d1d"
       }
-    },
-    "166335473887d040bf": {
-      "type": "apps",
-      "blocks": {
-        "208abd5b-1f0b-45dd-92da-17dd1c79ce7f": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "208abd5b-1f0b-45dd-92da-17dd1c79ce7f"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
@@ -487,10 +486,10 @@
     "sub",
     "testimonials",
     "16607033794ea6bc0e",
-    "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "16607125322da0714e",
-    "166335473887d040bf"
+    "166335473887d040bf",
+    "product-recommendations",
+    "16607125322da0714e"
   ]
 }
