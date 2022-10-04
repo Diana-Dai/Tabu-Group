@@ -17,6 +17,13 @@
   {
     "@context": "http://schema.org",
     "@type": "Product",
+  {% if product.metafields.yotpo.reviews_count and product.metafields.yotpo.reviews_count != "0" %}
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingCount": "{{ product.metafields.yotpo.reviews_count }}",
+    "ratingValue": "{{ product.metafields.yotpo.reviews_average }}"
+  },
+  {% endif %}
     "offers": [
       {%- for variant in product.variants -%}
         {
