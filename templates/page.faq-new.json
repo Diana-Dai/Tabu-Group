@@ -7,6 +7,7 @@
     },
     "1663770294065e3d22": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "1663770294a4bf720a-0": {
           "type": "image",
@@ -38,6 +39,14 @@
     "16637702634a357626": {
       "type": "faq",
       "blocks": {
+        "31a28e7f-262e-4b7e-bbbb-71ad87df6030": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Orders",
+            "text": "",
+            "align_text": "left"
+          }
+        },
         "1663770263d602757d-0": {
           "type": "question",
           "settings": {
@@ -65,44 +74,7 @@
             "title": "There is a problem with the product I received, what do I do?",
             "text": "<p>If you believe there is an issue with your product, please contact us right away at <a href=\"mailto:support@heytabu.com\" title=\"mailto:support@heytabu.com\">support@heytabu.com<\/a>. Our manufacturers adhere to strict quality standards, and we are committed to providing the best products possible.<\/p>"
           }
-        }
-      },
-      "block_order": [
-        "1663770263d602757d-0",
-        "1663770263d602757d-1",
-        "4f683570-6097-408f-8e61-1a24000c55e4",
-        "94c154c0-1b5c-4c4d-aa7b-a8f954e41d20"
-      ],
-      "settings": {
-        "title": "",
-        "mobile-title": "",
-        "view_all_text": "",
-        "view_all_text_url": ""
-      }
-    },
-    "16637704162fed26e7": {
-      "type": "advanced-content",
-      "blocks": {
-        "1663770415c6b57221-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Products<\/h2>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1663770415c6b57221-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "1663770472592a817f": {
-      "type": "faq",
-      "blocks": {
+        },
         "16637704720f14278f-0": {
           "type": "question",
           "settings": {
@@ -130,54 +102,7 @@
             "title": "Are your massagers and lubricant safe for use during pregnancy?",
             "text": "<p>Please check with your physician before use to confirm the products are safe for you. Our lubricant and massager should not pose any risk if you are pregnant. However, the lubricant is pH balanced for women and therefore can be \"unfriendly\" to sperm, so we don't recommend it if you are trying to get pregnant.<\/p>"
           }
-        }
-      },
-      "block_order": [
-        "16637704720f14278f-0",
-        "16637704720f14278f-1",
-        "c6c49596-25a2-4e59-a3fc-0337cea884cb",
-        "23b45db8-67a0-4972-bce8-e97bcd8498a2"
-      ],
-      "settings": {
-        "title": "",
-        "mobile-title": "",
-        "view_all_text": "",
-        "view_all_text_url": ""
-      }
-    },
-    "16637705258ddfb1eb": {
-      "type": "advanced-content",
-      "blocks": {
-        "1663770525d0a3f65d-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
         },
-        "1663770525d0a3f65d-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Shipping<\/h2>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1663770525d0a3f65d-0",
-        "1663770525d0a3f65d-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "16637705976a5a3ffb": {
-      "type": "faq",
-      "blocks": {
         "1663770597c1dc6e95-0": {
           "type": "question",
           "settings": {
@@ -198,53 +123,7 @@
             "title": "What carrier do you ship with?",
             "text": "<p>Carriers are selected based on their delivery performance to each location. Generally speaking, orders shipped with free Standard Shipping are delivered by USPS, and Express shipping are delivered by UPS.<\/p>"
           }
-        }
-      },
-      "block_order": [
-        "1663770597c1dc6e95-0",
-        "1663770597c1dc6e95-1",
-        "fb57fb04-3fa0-4900-a885-227ab2579dbf"
-      ],
-      "settings": {
-        "title": "",
-        "mobile-title": "",
-        "view_all_text": "",
-        "view_all_text_url": ""
-      }
-    },
-    "1663770599b77d8e1b": {
-      "type": "advanced-content",
-      "blocks": {
-        "166377059962476051-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
         },
-        "166377059962476051-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Subscriptions<\/h2>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "166377059962476051-0",
-        "166377059962476051-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "166377073091cd78ad": {
-      "type": "faq",
-      "blocks": {
         "166377073000efa10f-0": {
           "type": "question",
           "settings": {
@@ -268,6 +147,18 @@
         }
       },
       "block_order": [
+        "31a28e7f-262e-4b7e-bbbb-71ad87df6030",
+        "1663770263d602757d-0",
+        "1663770263d602757d-1",
+        "4f683570-6097-408f-8e61-1a24000c55e4",
+        "94c154c0-1b5c-4c4d-aa7b-a8f954e41d20",
+        "16637704720f14278f-0",
+        "16637704720f14278f-1",
+        "c6c49596-25a2-4e59-a3fc-0337cea884cb",
+        "23b45db8-67a0-4972-bce8-e97bcd8498a2",
+        "1663770597c1dc6e95-0",
+        "1663770597c1dc6e95-1",
+        "fb57fb04-3fa0-4900-a885-227ab2579dbf",
         "166377073000efa10f-0",
         "166377073000efa10f-1",
         "32dbaad2-61dc-4f8a-a401-5e6d4b63866a"
@@ -283,12 +174,6 @@
   "order": [
     "main",
     "1663770294065e3d22",
-    "16637702634a357626",
-    "16637704162fed26e7",
-    "1663770472592a817f",
-    "16637705258ddfb1eb",
-    "16637705976a5a3ffb",
-    "1663770599b77d8e1b",
-    "166377073091cd78ad"
+    "16637702634a357626"
   ]
 }
