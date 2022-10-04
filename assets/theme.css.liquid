@@ -12286,3 +12286,38 @@ span.reviews-qa-labels-container {
     margin-left: 90px !important;
 }
 }
+
+
+/* Custom Featured Collection */
+.featured_collection_cstm-inner  .section-header,
+.featured_collection_cstm-inner  .section-header *{
+  text-align: left !important;
+}
+.featured_collection_cstm-inner .section-header__title{
+  margin-bottom: 20px;
+}
+.featured_collection_cstm-inner{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px){
+  .featured_collection_cstm-inner{
+    display: flex;
+  }
+  .featured_collection_cstm-inner .section-header{
+    flex: 0 0 400px;
+    margin-bottom: 0;
+  }
+  .featured_collection_cstm-inner .grid_products_container{
+    flex:  1 1 0;
+  }
+  .featured_collection_cstm-inner .section-header__link{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .featured_collection_cstm-inner .section-header__link{
+   width: 100%;
+  }
+}
