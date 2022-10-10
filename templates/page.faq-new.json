@@ -130,13 +130,22 @@
             "title": "Are your massagers and lubricant safe for use during pregnancy?",
             "text": "<p>Please check with your physician before use to confirm the products are safe for you. Our lubricant and massager should not pose any risk if you are pregnant. However, the lubricant is pH balanced for women and therefore can be \"unfriendly\" to sperm, so we don't recommend it if you are trying to get pregnant.<\/p>"
           }
+        },
+        "ffe37e00-14ba-48b5-9854-38281f24e0c0": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How should I use the Gua Sha?",
+            "text": "<p>Tabu advisor Dr. Heidi Gastler recommends self massage as a gentle way to ease yourself back into enjoying the physical sensation of touch. <\/p>"
+          }
         }
       },
       "block_order": [
         "16637704720f14278f-0",
         "16637704720f14278f-1",
         "c6c49596-25a2-4e59-a3fc-0337cea884cb",
-        "23b45db8-67a0-4972-bce8-e97bcd8498a2"
+        "23b45db8-67a0-4972-bce8-e97bcd8498a2",
+        "ffe37e00-14ba-48b5-9854-38281f24e0c0"
       ],
       "settings": {
         "title": "",
