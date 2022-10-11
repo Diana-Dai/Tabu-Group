@@ -138,6 +138,13 @@
             "title": "How should I use the Gua Sha?",
             "text": "<p>Tabu advisor Dr. Heidi Gastler recommends self massage as a gentle way to ease yourself back into enjoying the physical sensation of touch. <\/p>"
           }
+        },
+        "9ae660c0-1260-4d67-b6d4-de9ee82f2838": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to purchase a charging cable?",
+            "text": "<p>All kits and massagers include a charger in the package. If you believe your order was missing its charger, please send us a message at support@heytabu.com<\/p>"
+          }
         }
       },
       "block_order": [
@@ -145,7 +152,8 @@
         "16637704720f14278f-1",
         "c6c49596-25a2-4e59-a3fc-0337cea884cb",
         "23b45db8-67a0-4972-bce8-e97bcd8498a2",
-        "ffe37e00-14ba-48b5-9854-38281f24e0c0"
+        "ffe37e00-14ba-48b5-9854-38281f24e0c0",
+        "9ae660c0-1260-4d67-b6d4-de9ee82f2838"
       ],
       "settings": {
         "title": "",
