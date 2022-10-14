@@ -137,12 +137,44 @@
         "per_row": 4,
         "enable_gutter": true
       }
+    },
+    "27647f0a-491d-4653-b943-1b4b6d8949b0": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-0": {
+          "type": "title",
+          "settings": {
+            "title": "Join our Movement"
+          }
+        },
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're building Tabu in partnership with you. Sign up to stay informed and help us challenge the idea that female sexuality has an expiration date.<\/p>"
+          }
+        },
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-0",
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-1",
+        "template--15781310529718__27647f0a-491d-4653-b943-1b4b6d8949b0-1665777790a20e01d9-2"
+      ],
+      "settings": {
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
     "16620054106bf19f43",
     "1661868884dae26ef4",
     "main",
-    "featured-collections"
+    "featured-collections",
+    "27647f0a-491d-4653-b943-1b4b6d8949b0"
   ]
 }
