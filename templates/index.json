@@ -192,41 +192,6 @@
         "marquee": "Our lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly  &nbsp&nbsp&nbspOur lubricant is: Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly &nbsp&nbsp•&nbsp&nbsp Glycerin free &nbsp&nbsp•&nbsp&nbsp Paraben Free &nbsp&nbsp•&nbsp&nbsp Hormone Free &nbsp&nbsp•&nbsp&nbsp Fragrance Free &nbsp&nbsp•&nbsp&nbsp Hypoallergenic &nbsp&nbsp•&nbsp&nbsp pH Balanced &nbsp&nbsp•&nbsp&nbsp FDA Cleared &nbsp&nbsp•&nbsp&nbsp Made in the USA &nbsp&nbsp•&nbsp&nbsp Vegan Friendly"
       }
     },
-    "16584165774c3521d8": {
-      "type": "text-and-image",
-      "settings": {
-        "background": "",
-        "image": "shopify:\/\/shop_images\/Homepage_Middle.jpg",
-        "image2": "shopify:\/\/shop_images\/Website_-_Photo_prep_2.png",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Make Sexual Health Routine",
-        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routine as your nutrition, movement, and even your skincare. Learn more about our mission and why addressing your sexual health now, can help you feel like your (new) self later. <\/p><p><\/p>",
-        "button_label": "Learn More",
-        "button_link": "shopify:\/\/pages\/about",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "16594173996e3dca2d": {
-      "type": "text-and-image_custom",
-      "settings": {
-        "background": "#fcf5eb",
-        "image": "shopify:\/\/shop_images\/Website_-_Photo_prep_3.png",
-        "image_width": 30,
-        "subtitle": "",
-        "title": "Survey says…",
-        "text": "<p>We’re building Tabu in partnership with you. To us, that means always listening and learning from our community. Take our short survey to help us build sexual wellness products that truly meet your needs. <\/p>",
-        "button_label": "Take The Survey",
-        "button_link": "https:\/\/form.typeform.com\/to\/cv5tp3pL",
-        "button_style": "secondary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -272,6 +237,41 @@
         "round_images": true,
         "color_background": "#000000",
         "color_text": "#ffffff"
+      }
+    },
+    "16584165774c3521d8": {
+      "type": "text-and-image",
+      "settings": {
+        "background": "",
+        "image": "shopify:\/\/shop_images\/Homepage_Middle.jpg",
+        "image2": "shopify:\/\/shop_images\/Website_-_Photo_prep_2.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Make Sexual Health Routine",
+        "text": "<p>We are on a mission to make sexual health as much a part of your wellness routine as your nutrition, movement, and even your skincare. Learn more about our mission and why addressing your sexual health now, can help you feel like your (new) self later. <\/p><p><\/p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/pages\/about",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "16594173996e3dca2d": {
+      "type": "text-and-image_custom",
+      "settings": {
+        "background": "#fcf5eb",
+        "image": "shopify:\/\/shop_images\/Website_-_Photo_prep_3.png",
+        "image_width": 30,
+        "subtitle": "",
+        "title": "Survey says…",
+        "text": "<p>We’re building Tabu in partnership with you. To us, that means always listening and learning from our community. Take our short survey to help us build sexual wellness products that truly meet your needs. <\/p>",
+        "button_label": "Take The Survey",
+        "button_link": "https:\/\/form.typeform.com\/to\/cv5tp3pL",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
       }
     },
     "16584166431bea2af4": {
@@ -410,9 +410,9 @@
     "16584163921fd90b0e",
     "1659412062f0948068",
     "1659411266280d2d23",
+    "testimonials",
     "16584165774c3521d8",
     "16594173996e3dca2d",
-    "testimonials",
     "16584166431bea2af4",
     "1660644766ca7d6b7b",
     "16618794689cb9ecff",
