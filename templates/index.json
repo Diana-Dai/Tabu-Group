@@ -3,31 +3,6 @@
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
-        "promo2-0": {
-          "type": "advanced",
-          "settings": {
-            "no_overlay": false,
-            "background_color": "",
-            "font_color": "",
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Website_-_Photo_prep_9_8070112f-e57a-4b6f-934f-bf815aeafce3.png",
-            "video_url": "",
-            "width": "50",
-            "height": 720,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
         "c28fe7dd-4b93-4569-9233-dd2636a252b5": {
           "type": "advanced",
           "settings": {
@@ -52,11 +27,36 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "promo2-0": {
+          "type": "advanced",
+          "settings": {
+            "no_overlay": false,
+            "background_color": "",
+            "font_color": "",
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Website_-_Photo_prep_9_8070112f-e57a-4b6f-934f-bf815aeafce3.png",
+            "video_url": "",
+            "width": "50",
+            "height": 720,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
         }
       },
       "block_order": [
-        "promo2-0",
-        "c28fe7dd-4b93-4569-9233-dd2636a252b5"
+        "c28fe7dd-4b93-4569-9233-dd2636a252b5",
+        "promo2-0"
       ],
       "settings": {
         "full_width": true,
