@@ -302,9 +302,9 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/dr_casper_44710c13-799c-4112-b518-8a0017772e53.png",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Dr. Kelly Casperson",
+            "text": "<p>Urologist & Sex Educator<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -314,9 +314,9 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/susan_2.png",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Susan Feldman",
+            "text": "<p>Founder of In the Groove<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
