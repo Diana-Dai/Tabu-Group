@@ -1,6 +1,6 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width custom-text-column_container">
+<div class="custom-text-column_container">
 
   {%- if section.settings.title != blank -%}
     <header class="section-header ">
@@ -15,7 +15,7 @@
     </header>
   {%- endif -%}
 
-<div class="content">
+<div class="">
   {%- if section.blocks.size > 0 -%}
   <script type="application/ld+json">
     {
@@ -43,7 +43,7 @@
     <div {{ block.shopify_attributes }}>
       {% case block.type %}
         {% when 'rich-text'%}
-          <div class="index-section index-section--faq">
+          <div class="index-section page-width index-section--faq " {% if forloop.first %}style="margin-top:0;"{%endif%}>
             <div class="text-{{ block.settings.align_text }}">
               {%- if block.settings.title != blank -%}
                 <p class="h2">
@@ -61,7 +61,7 @@
           </div>
 
         {% when 'question'%}
-          <div>
+          <div class="page-width content">
             <button type="button" class="h6 special-font collapsible-trigger collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
               <span>{{ block.settings.title }}</span>
               
@@ -140,7 +140,6 @@
 {% schema %}
 {
   "name": "t:sections.faq.name",
-  "class": "index-section",
   "settings": [
     {
       "type": "richtext",

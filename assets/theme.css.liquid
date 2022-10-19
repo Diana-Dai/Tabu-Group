@@ -6728,7 +6728,8 @@ input[type=image]{
 }
 
 .index-section--faq{
-  margin-bottom:40px;
+  margin-top: 119px;
+  margin-bottom:75px;
 }
 
 .newsletter-section{
@@ -6776,7 +6777,8 @@ margin-bottom: 40px;
   }
 
   .index-section--faq{
-    margin:75px 0 37.5px;
+    margin:75px 75px;
+    margin-left: -22px;
   }
 
   .newsletter-section{
@@ -11877,6 +11879,9 @@ html[dir=rtl] .product-single__meta .rte{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.custom-text-column_container{
+  margin-bottom: 75px;
+}
 @media only screen and (min-width: 768px){
   .wellness-section{
     padding-top: 89px;
@@ -12205,6 +12210,7 @@ input:checked + .bsub-widget__group-header::before{
 } 
 .bsub-widget__text{
   display: flex !important;
+  flex:1 1 0;
 }
 .bsub-widget__plans-container{
   margin-top: 10px;
@@ -12288,6 +12294,40 @@ span.reviews-qa-labels-container {
 }
 }
 
+
+/* Custom Featured Collection */
+.featured_collection_cstm-inner  .section-header,
+.featured_collection_cstm-inner  .section-header *{
+  text-align: left !important;
+}
+.featured_collection_cstm-inner .section-header__title{
+  margin-bottom: 20px;
+}
+.featured_collection_cstm-inner{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px){
+  .featured_collection_cstm-inner{
+    display: flex;
+  }
+  .featured_collection_cstm-inner .section-header{
+    flex: 0 0 400px;
+    margin-bottom: 0;
+  }
+  .featured_collection_cstm-inner .grid_products_container{
+    flex:  1 1 0;
+  }
+  .featured_collection_cstm-inner .section-header__link{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .featured_collection_cstm-inner .section-header__link{
+   width: 100%;
+  }
+}
 
 [data-button_style=square] .btn:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static):not(.btn--bordered), [data-button_style=square] .rte .btn:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style=square] .shopify-payment-button .shopify-payment-button__button--unbranded:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style=square] .spr-container .spr-button:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style=square] .spr-container .spr-summary-actions a:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style^=round] .btn:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style^=round] .rte .btn:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style^=round] .shopify-payment-button .shopify-payment-button__button--unbranded:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style^=round] .spr-container .spr-button:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static), [data-button_style^=round] .spr-container .spr-summary-actions a:not(.btn--secondary):not(.btn--tertiary):not(.btn--inverse):not(.btn--body):not(.btn--static) {
     border: 1px solid black !important;
