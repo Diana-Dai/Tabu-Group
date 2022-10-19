@@ -7388,6 +7388,9 @@ lazySizesConfig.expFactor = 4;
             }
   
             // Add Bold subscription
+            if(!document.getElementById(formId)){
+              return;
+            }
             if(!document.getElementById(formId).querySelector('[name="selling_plan"]')){
               var input = document.createElement("input");
               input.setAttribute('type','hidden');
