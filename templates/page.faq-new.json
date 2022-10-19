@@ -75,6 +75,14 @@
             "text": "<p>If you believe there is an issue with your product, please contact us right away at <a href=\"mailto:support@heytabu.com\" title=\"mailto:support@heytabu.com\">support@heytabu.com<\/a>. Our manufacturers adhere to strict quality standards, and we are committed to providing the best products possible.<\/p>"
           }
         },
+        "b4c28ead-a4d1-4cad-8153-03d011413fd5": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Products",
+            "text": "",
+            "align_text": "left"
+          }
+        },
         "16637704720f14278f-0": {
           "type": "question",
           "settings": {
@@ -103,6 +111,21 @@
             "text": "<p>Please check with your physician before use to confirm the products are safe for you. Our lubricant and massager should not pose any risk if you are pregnant. However, the lubricant is pH balanced for women and therefore can be \"unfriendly\" to sperm, so we don't recommend it if you are trying to get pregnant.<\/p>"
           }
         },
+        "3117d9a8-b0bd-4c6b-9f71-6297ee5f37fe": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to purchase a charging cable?",
+            "text": "<p>All kits and massagers include a charger in the package. If you believe your order was missing its charger, please send us a message at support@heytabu.com<\/p>"
+          }
+        },
+        "ee56579c-d16f-4a2a-81a4-53073508453b": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping",
+            "text": "",
+            "align_text": "left"
+          }
+        },
         "1663770597c1dc6e95-0": {
           "type": "question",
           "settings": {
@@ -122,6 +145,14 @@
           "settings": {
             "title": "What carrier do you ship with?",
             "text": "<p>Carriers are selected based on their delivery performance to each location. Generally speaking, orders shipped with free Standard Shipping are delivered by USPS, and Express shipping are delivered by UPS.<\/p>"
+          }
+        },
+        "94534343-86a8-4eb7-bd99-ca60c2299f65": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Subscriptions",
+            "text": "",
+            "align_text": "left"
           }
         },
         "166377073000efa10f-0": {
@@ -152,13 +183,17 @@
         "1663770263d602757d-1",
         "4f683570-6097-408f-8e61-1a24000c55e4",
         "94c154c0-1b5c-4c4d-aa7b-a8f954e41d20",
+        "b4c28ead-a4d1-4cad-8153-03d011413fd5",
         "16637704720f14278f-0",
         "16637704720f14278f-1",
         "c6c49596-25a2-4e59-a3fc-0337cea884cb",
         "23b45db8-67a0-4972-bce8-e97bcd8498a2",
+        "3117d9a8-b0bd-4c6b-9f71-6297ee5f37fe",
+        "ee56579c-d16f-4a2a-81a4-53073508453b",
         "1663770597c1dc6e95-0",
         "1663770597c1dc6e95-1",
         "fb57fb04-3fa0-4900-a885-227ab2579dbf",
+        "94534343-86a8-4eb7-bd99-ca60c2299f65",
         "166377073000efa10f-0",
         "166377073000efa10f-1",
         "32dbaad2-61dc-4f8a-a401-5e6d4b63866a"
