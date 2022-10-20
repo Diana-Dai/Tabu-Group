@@ -115,7 +115,12 @@
 </div>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
-
+<style>
+#shopify-section-{{section.id}} .grid-product__secondary-image{
+  display:none !important;
+}
+  
+</style>
 {% schema %}
 {
   "name": "Featured Collection Cstm",
