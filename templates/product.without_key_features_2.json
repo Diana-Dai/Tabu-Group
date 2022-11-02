@@ -58,7 +58,7 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}The perfect gift for the woman you care about to treat herself.<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}<\/p>",
             "page": ""
           }
         },
