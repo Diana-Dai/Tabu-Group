@@ -70,6 +70,11 @@
             "content": "<p><strong>Organic aloe leaf<\/strong><\/p><p>Known for healing, soothing, and moisturizing <\/p><p> <\/p><p><strong>Organic peony root<\/strong><\/p><p>Anti-inflammatory and antioxidant that protects from damaging free radicals<\/p><p> <\/p><p><strong>Organic passion flower<\/strong><\/p><p>Antioxidant rich in essential fatty acids and Vitamins A & C<\/p><p> <\/p><p><strong>Tocopherol (Vitamin E)<\/strong><\/p><p>Antioxidant that helps moisturize and soothe sensitive areas<\/p><p> <\/p><p><strong>Hyaluronic acid<\/strong><\/p><p>Found naturally in the body, to help retain moisture<\/p><p> <\/p><p><strong>Lactic acid<\/strong><\/p><p>Helps maintain optimal vaginal pH and promotes lactobacilli balance<\/p><p> <\/p><p><strong>Allantoin <\/strong><\/p><p>Found in plants like chamomile, helps to moisturize and prevent dryness and irritation<\/p><p> <\/p><p><strong>Hydroxyethylcellulose<\/strong><\/p><p>Plant-derived thickener<\/p><p> <\/p><p><strong>Organic stevia<\/strong><\/p><p>Natural sweetener that’s rich in antibacterial and antioxidant properties<\/p><p> <\/p><p><strong>Sorbitol<\/strong><\/p><p>Natural humectant that hydrates<\/p><p> <\/p><p><strong>Potassium sorbate<\/strong><\/p><p>Natural preservative<\/p>",
             "page": ""
           }
+        },
+        "819f887f-d9a9-497b-84bb-a188a1d8aff2": {
+          "type": "shopify:\/\/apps\/preproduct-next-gen-pre-order\/blocks\/preproduct_block\/2762c018-a41c-4de1-8397-e1a2010a74fa",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -81,7 +86,8 @@
         "tab",
         "a04579d3-07f9-42a3-a917-4cacd9f921d8",
         "8aac8d8f-8838-44ac-a3fb-d9c4969b1db5",
-        "f86dbcc7-35c3-4872-9b4b-a499a488b02c"
+        "f86dbcc7-35c3-4872-9b4b-a499a488b02c",
+        "819f887f-d9a9-497b-84bb-a188a1d8aff2"
       ],
       "settings": {
         "sku_enable": false,
