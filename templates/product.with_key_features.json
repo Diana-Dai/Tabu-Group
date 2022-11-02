@@ -40,7 +40,7 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>One of our community members once told us that her work with The Golden Hour Kit helped her feel like a woman again. That got us thinking - how else can we help women get in touch with themselves?  <\/p><p> <\/p><p>We put together a care package with Golden Hour and some extra tools to help you take care of yourself, body and soul.<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}<\/p>",
             "page": ""
           }
         },
