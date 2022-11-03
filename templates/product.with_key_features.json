@@ -276,46 +276,48 @@
     "166070351680028fea": {
       "type": "faq",
       "blocks": {
-        "1660703516dd6c1e1c-0": {
+        "f33ea504-28ba-461c-a018-f0645536aa74": {
           "type": "question",
           "settings": {
-            "title": "How often should I use The Golden Hour Kit?",
-            "text": "<p>While everyone is different, our medical advisors recommend using the Golden Hour Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
+            "title": "How big is the Pearl?",
+            "text": "<p>The Pearl massager is 3 7\/8in long and 1.5in wide at its widest point.<\/p>"
           }
         },
         "1660703516dd6c1e1c-1": {
           "type": "question",
           "settings": {
-            "title": "How do I charge the Nuri Massager?",
-            "text": "<p>To charge you Nuri, plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Nuri charges in under 120 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it from the wall to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p>"
-          }
-        },
-        "f33ea504-28ba-461c-a018-f0645536aa74": {
-          "type": "question",
-          "settings": {
-            "title": "How big is the Nuri?",
-            "text": "<p>Our massager is 8in long and 1.2in wide at its widest point.<\/p>"
+            "title": "How do I charge the Pearl Massager?",
+            "text": "<p>To charge your Pearl, plug the cable all the way into the bottom of the device (the tip of the charger needs to be fully inserted in order to charge) and the other end into a wall outlet with a USB adapter. The power button will start blinking an orange light as it charges up. <\/p><p> <\/p><p>The Pearl charges in under 65 minutes. <\/p><p> <\/p><p>Once the blinking stops, your device is ready to go. Be sure to unplug it to turn it on. When you’re ready to use, press the power button for two seconds. The button will light up orange when it’s on. <\/p>"
           }
         },
         "abd51d1a-3d6b-41d3-aaad-f158a52f9a38": {
           "type": "question",
           "settings": {
-            "title": "Can I insert both ends of the Nuri?",
-            "text": "<p>The end of the massager that has the power and heat function buttons, as well as the charging port, is not meant to be inserted.<\/p>"
+            "title": "Can I insert the Pearl?",
+            "text": "<p>The Pearl massager is not meant to be inserted. It is best for external stimulation.<\/p>"
           }
         },
         "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59": {
           "type": "question",
           "settings": {
-            "title": "Can the lubricant be used as a moisturizer?",
-            "text": "<p>Our organic lubricant is designed to be applied both in and around your vulva \/ vagina for partnered or solo sexual activity. While some members do use it as a moisturizer, it is designed to be a lubricant.<\/p><p> <\/p><p>If you're specifically looking for a vaginal moisturizer, Kindra is a fantastic option.<\/p>"
+            "title": "Can the Pearl be used with lubricant?",
+            "text": "<p>Certainly! We recommend our water-based <a href=\"\/products\/aureum-lubricant\" title=\"Aureum Lubricant\">Aureum Lubricant<\/a>. Just be sure not to use any silicone based lubricants.<\/p>"
           }
         },
         "82ebf93b-50d7-4815-aa7d-2a45e8d09383": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Is it safe to ingest or use orally?",
             "text": "<p>Our lubricant is safe to use orally, provided that the user does not have any allergies to any of the ingredients listed on the bottle.<\/p><p> <\/p><p>Here they are as well for your convenience:<\/p><p>Organic aloe leaf, Organic peony root, Organic passion flower, Tocopherol (Vitamin E), Hyaluronic acid, Lactic acid, Allantoin, Hydroxyethylcellulose, Organic stevia, Sorbitol, Potassium sorbate.<\/p>"
+          }
+        },
+        "1660703516dd6c1e1c-0": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How often should I use The Golden Hour Kit?",
+            "text": "<p>While everyone is different, our medical advisors recommend using the Golden Hour Kit (or any combination of tools) 2-3 times a week to see results.<\/p>"
           }
         },
         "8402c6cf-2172-464b-ae71-0698869fa72a": {
@@ -328,6 +330,7 @@
         },
         "569526f7-8a4b-4292-a8ae-6acc96aed0fd": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Can I use the Gua Sha on my body?",
             "text": "<p>Yes! Gua Sha can be used on both your face and body.<\/p>"
@@ -335,12 +338,12 @@
         }
       },
       "block_order": [
-        "1660703516dd6c1e1c-0",
-        "1660703516dd6c1e1c-1",
         "f33ea504-28ba-461c-a018-f0645536aa74",
+        "1660703516dd6c1e1c-1",
         "abd51d1a-3d6b-41d3-aaad-f158a52f9a38",
         "78aa505e-3a56-4006-a2f7-9ccc7b3c5a59",
         "82ebf93b-50d7-4815-aa7d-2a45e8d09383",
+        "1660703516dd6c1e1c-0",
         "8402c6cf-2172-464b-ae71-0698869fa72a",
         "569526f7-8a4b-4292-a8ae-6acc96aed0fd"
       ],
