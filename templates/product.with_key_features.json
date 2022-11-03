@@ -10,9 +10,8 @@
         },
         "b1387777-29dc-4fe4-8288-e3ba670c6f18": {
           "type": "custom",
-          "disabled": true,
           "settings": {
-            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Golden Hour +<\/p>\n<p>Gua Sha<\/p>\n<p>Mirror Decals<\/p>\n<\/div>"
+            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Petite<\/p>\n<p>Quiet<\/p>\n<p>Discreet<\/p>\n<\/div>"
           }
         },
         "variant_picker": {
