@@ -152,6 +152,7 @@
     },
     "1660704914412f8848": {
       "type": "key-features",
+      "disabled": true,
       "blocks": {
         "1660704914cf4a7f84-0": {
           "type": "text_block",
@@ -207,6 +208,7 @@
     },
     "16607025209ce683df": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "1660702520cdd6d85f-0": {
           "type": "text_block",
