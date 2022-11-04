@@ -370,7 +370,6 @@
     },
     "testimonials": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -384,7 +383,6 @@
         },
         "testimonials-1": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "title": "",
             "icon": "5-stars",
@@ -395,7 +393,6 @@
         },
         "testimonials-2": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "title": "",
             "icon": "5-stars",
