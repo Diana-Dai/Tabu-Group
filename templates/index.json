@@ -305,18 +305,6 @@
             "button_link": ""
           }
         },
-        "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/julie_1.png",
-            "image_width": 650,
-            "title": "Julie Bottarini, MPT \/ CLT",
-            "text": "<p>Pelvic Floor Physical Therapist<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "cdbdc61d-9ce9-4056-854c-ffbac4724c07": {
           "type": "text_block",
           "settings": {
@@ -325,6 +313,18 @@
             "image_width": 650,
             "title": "Dr. Kelly Casperson",
             "text": "<p>Urologist & Sex Educator<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/julie_1.png",
+            "image_width": 650,
+            "title": "Julie Bottarini, MPT \/ CLT",
+            "text": "<p>Pelvic Floor Physical Therapist<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -345,8 +345,8 @@
       "block_order": [
         "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-0",
         "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-1",
-        "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-2",
         "cdbdc61d-9ce9-4056-854c-ffbac4724c07",
+        "template--15781309874358__834d2ed5-d8eb-4077-b6de-51d91b282bd0-1666050273bcfcdc4d-2",
         "9ef2b32f-0400-4db0-b28d-d74516100c51"
       ],
       "settings": {
