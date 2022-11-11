@@ -109,6 +109,10 @@
 {%- if yotpo_offload_content == 'yes' and diffSeconds < 86400 -%}
 {{ 'yotpo-full-css.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
+
+    <!-- Upsell & Cross Sell - Selleasy by Logbase - Starts -->
+      <script src='https://upsell-app.logbase.io/lb-upsell.js?shop=tabu-group.myshopify.com' defer></script>
+    <!-- Upsell & Cross Sell - Selleasy by Logbase - Ends -->
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} {{template | handleize}} {% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
