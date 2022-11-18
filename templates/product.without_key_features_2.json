@@ -38,6 +38,7 @@
         },
         "241f51bf-6645-422c-bf3e-67edb9bf374a": {
           "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "disabled": true,
           "settings": {
             "primary_color": "#000000",
             "secondary_color": "#000000",
