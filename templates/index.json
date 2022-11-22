@@ -144,6 +144,7 @@
     },
     "1664852512044a49e9": {
       "type": "featured-collection_custom",
+      "disabled": true,
       "settings": {
         "title": "<p>A Simple <\/p><p>Routine With <\/p><p>Big Changes<\/p>",
         "mobile_title": "<p>A simple routine <\/p><p>with big changes<\/p>",
