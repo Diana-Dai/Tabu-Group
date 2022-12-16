@@ -21,7 +21,7 @@
     window.BOLD.subscriptions.config.checkoutType = 'shopify';
     window.BOLD.subscriptions.config.currencyFormat = "$\u0026#123;\u0026#123;amount}}";
     window.BOLD.subscriptions.config.shopCurrencies = [{"id":2069,"currency":"USD","currency_format":"$\u0026#123;\u0026#123;amount}}","created_at":"2021-03-31 21:05:15","updated_at":"2021-03-31 21:05:15"}];
-    window.BOLD.subscriptions.config.shopSettings = {"allow_msp_cancellation":true,"allow_msp_prepaid_renewal":true,"customer_can_pause_subscription":true,"customer_can_change_next_order_date":true,"customer_can_change_order_frequency":true,"customer_can_create_an_additional_order":false,"show_currency_code":true,"stored_payment_method_policy":"required"};
+    window.BOLD.subscriptions.config.shopSettings = {"allow_msp_cancellation":true,"allow_msp_prepaid_renewal":true,"customer_can_pause_subscription":true,"customer_can_change_next_order_date":true,"customer_can_change_order_frequency":true,"customer_can_create_an_additional_order":false,"customer_can_add_products_to_existing_subscriptions":false,"show_currency_code":true,"stored_payment_method_policy":"required"};
 
     // TODO: Remove the isset with BS2-4659_improve_large_group_selection
             window.BOLD.subscriptions.config.cashierPluginOnlyMode = window.BOLD.subscriptions.config.cashierPluginOnlyMode || false;
@@ -39,7 +39,7 @@
     window.BOLD.subscriptions.config.lineItemNameSelectors = window.BOLD.subscriptions.config.lineItemNameSelectors || [];
     window.BOLD.subscriptions.config.checkoutButtonSelectors = window.BOLD.subscriptions.config.checkoutButtonSelectors || [];
 
-    window.BOLD.subscriptions.config.featureFlags = window.BOLD.subscriptions.config.featureFlags || ["SUB-1179-update-all-future-orders-fix","BS2-4293-skip-tx-fee-eq-zero","SUB-308-update-order-date-processing-time","SUB-1208_Patch_LineItems_ErrorHandle","SUB-1345-fixed-shipping-requirements"];
+    window.BOLD.subscriptions.config.featureFlags = window.BOLD.subscriptions.config.featureFlags || ["BS2-4293-skip-tx-fee-eq-zero","SUB-1621-timeout-login-banner","SUB-1661_Add_sub_summary_to_customers_endpoint"];
     window.BOLD.subscriptions.config.subscriptionProcessingFrequency = '60';
     window.BOLD.subscriptions.config.requireMSPInitialLoadingMessage = true;
     window.BOLD.subscriptions.data = window.BOLD.subscriptions.data || {};
