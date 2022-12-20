@@ -303,11 +303,10 @@
         "settings": {
         }
       },
-      "10605408327587305396": {
-        "type": "shopify:\/\/apps\/easygift-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+      "6544724514127332554": {
+        "type": "shopify:\/\/apps\/go-gift-cards\/blocks\/app-embed\/3676fc08-8fa0-4857-baf6-8c6e28f899dc",
         "disabled": false,
         "settings": {
-          "version": "v3"
         }
       }
     }
@@ -476,6 +475,14 @@
             "enable": true,
             "collection_image_enable": true,
             "parallax": true
+          }
+        }
+      },
+      "blocks": {
+        "6544724514127332554": {
+          "type": "shopify:\/\/apps\/go-gift-cards\/blocks\/app-embed\/3676fc08-8fa0-4857-baf6-8c6e28f899dc",
+          "disabled": false,
+          "settings": {
           }
         }
       }
@@ -712,6 +719,14 @@
             "image_size": "wide"
           }
         }
+      },
+      "blocks": {
+        "6544724514127332554": {
+          "type": "shopify:\/\/apps\/go-gift-cards\/blocks\/app-embed\/3676fc08-8fa0-4857-baf6-8c6e28f899dc",
+          "disabled": false,
+          "settings": {
+          }
+        }
       }
     },
     "Bold": {
@@ -869,6 +884,14 @@
             "enable": true,
             "collection_image_enable": false,
             "parallax": false
+          }
+        }
+      },
+      "blocks": {
+        "6544724514127332554": {
+          "type": "shopify:\/\/apps\/go-gift-cards\/blocks\/app-embed\/3676fc08-8fa0-4857-baf6-8c6e28f899dc",
+          "disabled": false,
+          "settings": {
           }
         }
       }
