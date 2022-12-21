@@ -10,6 +10,7 @@
         },
         "87315ec3-7cde-4dc4-97f3-33b10030d40b": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
