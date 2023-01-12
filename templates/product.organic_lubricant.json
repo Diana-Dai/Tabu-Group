@@ -57,7 +57,7 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>Our personal lubricant is water-based and made from organic aloe vera, hyaluronic acid, and natural plant extracts. Soft, smooth, and never sticky, the formula is rich in omega-6 essential fatty acids to protect from dryness, and plant-based antioxidants to soothe and calm your most sensitive areas.<\/p><p>Developed in beautiful California, our lubricant is recommended by top GYNs and pelvic floor experts.<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}<\/p>",
             "page": ""
           }
         },
