@@ -74,7 +74,7 @@
           "type": "tab",
           "settings": {
             "title": "How To Use",
-            "content": "<p>We recommend applying the lubricant directly to your massager, fingers, or partner. Then, apply a bit more to your vulva and vagina for extra comfort. Please do not insert the dropper for safety reasons. Our lubricant is water-based and safe to use with latex and polyisoprene condoms, as well as other sexual wellness products. It is formulated to be gentle on our vaginal tissues and is safe for both internal and external use.<\/p>",
+            "content": "<p>{{ product.metafields.custom.how_to_use.value }}<\/p>",
             "page": ""
           }
         },
