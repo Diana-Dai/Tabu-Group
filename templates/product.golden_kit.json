@@ -45,7 +45,7 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p><br\/>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t lose it). <\/p>",
+            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}<\/p>",
             "page": ""
           }
         },
