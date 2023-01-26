@@ -17,7 +17,7 @@
         "b1387777-29dc-4fe4-8288-e3ba670c6f18": {
           "type": "custom",
           "settings": {
-            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Golden Hour +<\/p>\n<p>Gua Sha<\/p>\n<p>Mirror Decals<\/p>\n<\/div>"
+            "code": "<div style=\"display: flex;\n    align-items: center;\n    justify-content: space-between;border-bottom:1px solid;font-size:0.75em\">\n<p>Patent Pending<\/p>\n<p>Clinician-approved<\/p>\n<p>Washable linen<\/p>\n<\/div>"
           }
         },
         "variant_picker": {
@@ -45,12 +45,13 @@
           "type": "tab",
           "settings": {
             "title": "Description",
-            "content": "<p>One of our community members once told us that her work with The Golden Hour Kit helped her feel like a woman again. That got us thinking - how else can we help women get in touch with themselves?  <\/p><p> <\/p><p>We put together a care package with Golden Hour and some extra tools to help you take care of yourself, body and soul.<\/p>",
+            "content": "<p>{{ product.metafields.custom.product_tab_description.value }}<\/p>",
             "page": ""
           }
         },
         "a04579d3-07f9-42a3-a917-4cacd9f921d8": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Inside The Affirmation Bundle",
             "content": "<p><strong>The Golden Hour Kit<\/strong><\/p><p>Our Golden Hour Kit includes everything you need to confidently kick off and maintain your sexual wellness routine. <\/p><p>Developed in partnership with clinicians, therapists, and women like you, the Golden Hour Kit features our Nuri, a lightweight, heating massager that simulates the function of a dilator, and our Aureum personal lubricant, a moisturizing, water-based formula to soothe and calm your most sensitive areas. This classic kit is meant to be used alone or with a partner – the important thing is to use it (so you don’t <em>lose <\/em>it). <\/p><p> <\/p><p><strong>Mirror Affirmation Decals<\/strong><\/p><p>Inspired by some sweet sticky notes our founder Natalie found on her mom’s bathroom mirror, The Affirmations Kit includes two mirror decals with some loving reminders to start and end your day. They say, “today, love yourself first” and “prioritizing myself is a pleasure”.<\/p><p> <\/p><p><strong>Gua Sha<\/strong><\/p><p>Every woman should have the opportunity to indulge in simple, luxurious healing practices. Self massage with gua sha is a beautiful way to relieve tension, improve circulation, and even help address hot flashes, sleep issues, and mood changes, according to a recent study by Chinese researchers.<\/p>",
@@ -161,8 +162,8 @@
         "1660704914cf4a7f84-1": {
           "type": "text_block",
           "settings": {
-            "title": "Antioxidant Rich",
-            "text": "<p>Powerful antioxidants and omega-6 essential fatty acids protect from dryness and harmful free-radicals<\/p>",
+            "title": "Soft, yet firm",
+            "text": "<p>For just the right lift<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -170,8 +171,8 @@
         "1660704914cf4a7f84-2": {
           "type": "text_block",
           "settings": {
-            "title": "Slender Design",
-            "text": "<p>Helps to gently stretch tight muscles and maintain vaginal width, length, and tone <\/p>",
+            "title": "Dual density memory foam",
+            "text": "<p>To transform all the best angles<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -179,8 +180,8 @@
         "1660704914cf4a7f84-0": {
           "type": "text_block",
           "settings": {
-            "title": "Organic Ingredients",
-            "text": "<p>Active botanicals to soothe, calm, and heal.<\/p>",
+            "title": "Washable linen cover",
+            "text": "<p>To look as good as it feels<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -188,8 +189,8 @@
         "6ca21f17-c483-4b24-aa6d-759f06fef617": {
           "type": "text_block",
           "settings": {
-            "title": "Warming",
-            "text": "<p>Heats up to 97 degrees to help increase blood flow and promote vaginal health<\/p>",
+            "title": "Tested and loved by clinicians",
+            "text": "<p>To support in-the-moment aches and pains<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -204,14 +205,15 @@
       "settings": {
         "background": "",
         "title": "Key Features",
-        "sub-title": "An essential piece of long-term well-being, designed with your needs in mind.",
-        "image": "shopify:\/\/shop_images\/Key_Features_-_The_Kit_1080x_7ede6b7a-117f-4d42-b266-003ae8f2631b.webp",
+        "sub-title": "The only throw pillow he’ll want on the bed…",
+        "image": "shopify:\/\/shop_images\/Prim_Ecomm_Photos_-_Website_5a369066-5743-4a10-9c8f-cb5c599bf936.png",
         "align_text": "left",
         "divider": false
       }
     },
     "16607025209ce683df": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "1660702520cdd6d85f-0": {
           "type": "text_block",
