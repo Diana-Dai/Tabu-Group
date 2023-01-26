@@ -68,6 +68,7 @@
         },
         "f86dbcc7-35c3-4872-9b4b-a499a488b02c": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Materials",
             "content": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
