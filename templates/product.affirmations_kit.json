@@ -23,7 +23,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
@@ -33,8 +32,8 @@
         "4618b169-7307-4be5-b866-a115ad6307d2": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
           }
         },
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
