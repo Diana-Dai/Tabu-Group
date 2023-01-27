@@ -33,7 +33,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "surface_pickup_enable": false
+            "surface_pickup_enable": true
           }
         },
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
