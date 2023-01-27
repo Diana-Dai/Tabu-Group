@@ -32,7 +32,7 @@
         "e11930c4-cddb-4272-b019-419fad4b5e97": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": false
           }
         },
