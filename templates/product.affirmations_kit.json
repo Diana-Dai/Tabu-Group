@@ -26,7 +26,7 @@
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": true
+            "color_swatches": false
           }
         },
         "e11930c4-cddb-4272-b019-419fad4b5e97": {
