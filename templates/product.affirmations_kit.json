@@ -29,11 +29,11 @@
             "color_swatches": false
           }
         },
-        "4618b169-7307-4be5-b866-a115ad6307d2": {
+        "e11930c4-cddb-4272-b019-419fad4b5e97": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
+            "surface_pickup_enable": false
           }
         },
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88": {
@@ -82,7 +82,7 @@
         "ac27f3e8-a65c-4bd2-a91c-8b170789f1a9",
         "b1387777-29dc-4fe4-8288-e3ba670c6f18",
         "variant_picker",
-        "4618b169-7307-4be5-b866-a115ad6307d2",
+        "e11930c4-cddb-4272-b019-419fad4b5e97",
         "a8c2e808-65bf-496f-bbe8-dcf64bac8b88",
         "tab",
         "a04579d3-07f9-42a3-a917-4cacd9f921d8",
