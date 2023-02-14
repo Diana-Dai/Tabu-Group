@@ -75,6 +75,13 @@
             "text": "<p>If you believe there is an issue with your product, please contact us right away at <a href=\"mailto:support@heytabu.com\" title=\"mailto:support@heytabu.com\">support@heytabu.com<\/a>. Our manufacturers adhere to strict quality standards, and we are committed to providing the best products possible.<\/p>"
           }
         },
+        "27d3a742-418d-47fb-8bfe-8d06d0ae347c": {
+          "type": "question",
+          "settings": {
+            "title": "My account has been charged, where is my tracking information?",
+            "text": "<p>Payment must be received in full before our system will process orders. Most orders ship within 24hrs of payment. Occasionally there may be processing delays, and we will always let you know in your order confirmation email if a delay is expected. You can contact us at support@heytabu.com anytime if you have questions about your order.<\/p>"
+          }
+        },
         "b4c28ead-a4d1-4cad-8153-03d011413fd5": {
           "type": "rich-text",
           "settings": {
@@ -183,6 +190,7 @@
         "1663770263d602757d-1",
         "4f683570-6097-408f-8e61-1a24000c55e4",
         "94c154c0-1b5c-4c4d-aa7b-a8f954e41d20",
+        "27d3a742-418d-47fb-8bfe-8d06d0ae347c",
         "b4c28ead-a4d1-4cad-8153-03d011413fd5",
         "16637704720f14278f-0",
         "16637704720f14278f-1",
