@@ -166,7 +166,7 @@
           "type": "question",
           "settings": {
             "title": "How often will my subscription ship?",
-            "text": "<p>You can choose to have your subscriptions ship every 30 or 90 days. You can move your ship date sooner, push it later, or skip a shipment at any time.<\/p>"
+            "text": "<p>You can choose to have your subscriptions ship every 30, 60 or 90 days. You can move your ship date sooner, push it later, or skip a shipment at any time.<\/p>"
           }
         },
         "32dbaad2-61dc-4f8a-a401-5e6d4b63866a": {
